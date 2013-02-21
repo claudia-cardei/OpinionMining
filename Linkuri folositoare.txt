@@ -1,0 +1,5 @@
+Corpusuri:
+	- Movie review data: http://www.cs.cornell.edu/people/pabo/movie-review-data/
+	
+POS:
+	- tagger pentru romana: http://www.racai.ro/webservices/TextProcessing.aspx
