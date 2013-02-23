@@ -1,0 +1,87 @@
+@relation 'TreeWorks'
+@attribute Text string
+@attribute opinion {0,1}
+@data
+'eu i-am primit azi,sunt minunati....multemsc Cremosso si Sarbatori Fericite tuturor.',0
+'Multumesc mult pentru minunatul premiu Cremosso Romania,a venit ieri cu posta!',0
+'Multumesc mult Cremosso,azi am primit cerceii...sunt superbi.Sper ca si la urmatorul concurs sa fiu printre castigatori dar pana atunci ma rasfat cu gustoasele iaurturi de la Cremosso. O seara buna,multumesc mult.',0
+'astazi am primit si eu cercelusii ! multumesc mult Cremosso Romania ,sunt superbi !',0
+'MULTUMESC CREMOSSO ,AZI AM PRIMIT CERCEII SUNT SUPERBI.SARBATORI FERICITE LA TOATA LUMEA',0
+'Multumesc Cremosso, azi am primit cerceii.',0
+'Multumesc Cremoso pentru premiu!!! Primul cadou castigat si este minunat!!! Multumesc si va doresc Sarbatori fericite si pline de cadouri!!! Asa cum ne-ati adus si voi noua!!',0
+'Imi doresc , mult iaurt cremosso :*',0
+'Mie mi-au placut ambele cremosso... insa totul depinde de stare.Imi place cremosso tarta de lamaie cand simt nevoia sa ma incarc cu energie si am nevoie de ceva revigorant si adorrrrrr cremosso tiramisu(inclusiv seara inainte de culcare) cand simt nevoia ',0
+'Multumesc! Voi lua in excursie cu mine pe cremosso Tarta cu lamaie si bineinteles pe Tiramisu caci mi-au purtat noroc. Pozele dupa ce ne intoarcem din Cipru. :)',0
+'Draga Cremosso azi au ajuns cerceii mei! va multumesc!! va puup cu drag:*',0
+'multumesc pt premiu cremosso,sunt pe lista  de castigatoti iupiiiiii',0
+'Cremosso Romania, referitor la ce v-am scris eu ce ziceti? :(',1
+'Cremosso Romania unde mai precis gasim lista?? eu caut pe situl  l de cateva minute bune si nu gasesc nimic;((',1
+'Multumesc, Cremosso Romania! La fel va doresc si voua!',0
+'Am primit azi premiul castigat pe Facebook ! Multumesc frumos Cremosso Romania',0
+'multumesc pentru iaurt Cremosso :* domnul tarta cu Lamaie nu m-a dezamagit:D',0
+'nici acum nu a ajuns nimic, am inteles ca au fost trimise dar cat timp fac pe drum 3 saptamani? Expira pana ajung la noi! Poate ne raspunde cremosso si ne lamureste cand vor ajunge premiile la noi! P.S. Este vorba de premiul castigat la concursul de pe fa',1
+'Si eu tot la o proba a concursului de pe Facebook am castigat si pana acum nu am primit nimic...asteptam, Cremosso Romania!!!!',1
+'ah, mi-ar placea sa ne incantati de aceste sarbatori cu ceva specific. Si imi aduc aminte cu placere de Cremosso cu tarta sau prajitura (nu mai stiu exact) de mere. Era favoritul meu in perioada in care a fost.',0
+'Dragilor asa frumos am visat azi-noapte! am visat ca primisem de la Mos Nicolae fff multe iaurtele Cremosso Tiramisu si Tarta cu lamaie, care imi ajungeau cica pentru o luna de zile:))) se inseala Mosu` daca crede ca rezista la mine in frigider mai mult d',0
+'Incest publicitar. Unchiul, cu mana la slit, catre nepoata: Si acum unchiul Geo iti va da portia de Cremoso !',1
+'Multumim Cremosso Romania dar suntem nerabdatori sa savuram hmmm cremosooooo',0
+'multumesc pentru premiu cremosso romania!!!',0
+'multumim mult Cremosso Romania',0
+'Multumesc frumos pentru premiu Cremosso Romania',0
+'Va multumesc Cremosso Romania',0
+'si eu am fost contactata azi k am castigat o pereche de cerecei,multumesc Cremosso Romania.abia astept sa-i primesc,cred ca bebita mi-a purtat noroc de data asta.felicitari tuturor!!!',0
+'Si stapana mea a castigat cercelusii! Multumim pentru premiu Danone Cremosso :*',0
+'Multumesc frumos pentru premiu Danone Cremosso!pupici',0
+'Multumesc mult pentru premiu Danone Cremosso - Tiramisu! Va doresc o zi minunata!',0
+'multumesc pentru premiu Cremosso Danone !',0
+'Castigatorii vor fi publicati pe www.cremosso.ro dupa incheierea sesiunii de validare a premiilor sau pe masura ce acestia vor fi validati, insa nu mai tarziu de 15.12.2011 :)',0
+'MULTUMESC CREMOSSO PENTREU PREMIU ...ADOR IAURTUL DVS SINT IN CULMEA FERICIRII....PE LA 6 ESTE BINE SA TRIMIT DATELE .AM NISTE PROBLEME CU MESSENGERUL MOMENTAN.REZOLV SI TRIMIT DATELE MULTUMESC FRUMOS',0
+'Multumesc, Cremosso Romania! Am trimis datele acum....:)',0
+'oau!!!!!!!!multumesc Brindusa Aluculesei pt atentionare si multumesc Cremosso Romania pentru premiu!felicitari tuturor!',0
+'Multumesc Cremosso. Am trimis datele de contact, pe email.',0
+'Bun gasit. Va multumesc, Cremosso. Tocmai am trimis pe email datele mele. Daca mai trebuie ceva, va rog frumos sa-mi spuneti. Am trimis adresa si telefonul. O seara buna. Felicitari celorlalti castigatori. Felicitari Cremosso, pentru concurs. O noapte  fr',0
+'Iaurt cu aroma de tiramisu sau cu tarta de vanilie? Multa vreme nu m-am putut decide. Desi tiramisu mereu imi aminteste de casa si de perioada din liceu. Ma specializasem in a face tiramisu si nu trecea moment important in familia Duma fara ca eu sa nu im',0
+'MULTUMESC MULT CREMOSSO CA NU ATI RENUNTAT A NE ASTEPTA SI PE NOI CARE NU AM AFLAT PANA ACUMA INTAI DE LA DVS CA M-ATI MENTIONAT IN POSTARE..APOI DE LA DNA ANA-MARIA !! FELICITARI TUTUROR SI INCA O DATA MULTUMIM !!!!',0
+'Multumesc frumos Cremosso Romania  !',0
+'Apropo de #blogjuan. Daca povestile romanticilor sunt la fel ca iaurtul Cremosso cu tiramisu va zic din start ca pierdeti.',1
+'RT @emi_ba: @furtdecurent Singurul blogar care umple cearceaful de Danone Cremosso in fiecare seara =)) #manumustwin',1
+'RT @emi_ba: @furtdecurent Singurul blogar care umple cearceaful de Danone Cremosso in fiecare seara =)) #manumustwin',1
+'RT @emi_ba: @furtdecurent Singurul blogar care umple cearceaful de Danone Cremosso in fiecare seara =)) #manumustwin',1
+'@furtdecurent Singurul blogar care umple cearceaful de Danone Cremosso in fiecare seara =)) #manumustwin',1
+'Buna. Mi-a placut foarte mult iaurtul cremosso cu tiramisu.',0
+'cremosso tiramisu cel mai bun...',0
+'am incercat ambele variante de cremosso din confruntarea #blogjuan si votez tarta cu lamaie. cel putin la gust. la bloggeri ma mai gandesc',0
+'YUPPYY, multumesc Cremosso Romania am trimis datele, sper ca le-ati primit',0
+'Multumesc Cremosso Romania si fetelor',0
+'multumesc Cremosso Romania, multumesc fetele',0
+'Multumim Cremosso Romania. Daca se poate sa imi spuneti daca trimiteti premiul prin posta sau curier va rog!',0
+'e o poza frumoasa. Cel mai bun iaurt e cremosso cu tiramisu.',0
+'Am mancat un iaurt minunat cremosso cu tiramisu. A fost foarte bun.',0
+'cremoso tiramisu cel mai gustos si cel mai aventurier',0
+'cremosso tarta cu lamaie este parfumat si racoritor',0
+'cremosso tarta cu lamaie este cel mai racoritor si fin desert pe care poti sa-l savurezi alaturi de cei dragi sau intr-un moment de nostalgie, un pic de lamaie indulcita nu strica.',0
+'A o da la MARO #romantic RT @Sawrad trebuie sa vanda Cremosso,nu iaurtul de capsuni RT @furtdecurent: MARO-culoarea romantismului! #blogjuan',1
+'Nu pricep deloc conceptul reclamei la cele doua versiuni de Danone Cremosso, cu lamaie sau cu tiramisu.  Femeile sunt poftite sa aleaga intre doua iaurturi sau doi baieti? Ma pun in situatia in care reclama era cu doua femei si producatorul de branzeturi ',1
+'Nu pricep deloc conceptul reclamei la cele doua versiuni de Danone Cremosso, cu lamaie sau cu tiramisu.  Femeile sunt poftite sa aleaga intre doua iaurturi sau doi baieti? Ma pun in situatia in care reclama era cu doua femei si producatorul de branzeturi ',1
+'dupa @Midocar, a venit randul lui Danone Cremosso sa imi trimita emailuri nesolicitate. Si iaurtul e mancarea mea preferata, se stie :)',1
+'si eu  RT @LucianMindruta: Am primit spam azi de la Danone Cremosso. Dioxina inteleg ca vine separat, prin curier.',1
+'RT @MihaelaPana: #obiceiurisanatoase RT @LucianMindruta: Am primit spam azi de la Danone Cremosso. Dioxina inteleg ca vine separat, prin ...',1
+'#obiceiurisanatoase RT @LucianMindruta: Am primit spam azi de la Danone Cremosso. Dioxina inteleg ca vine separat, prin curier.',1
+'Minislane si Cremosso, un mix perfect. :) Buna dimineata!',0
+'cremosso tarta cu lamaie este unic',0
+'cremosso tiramisu m-a cucerit definitiv...',0
+'* Cutremur in Turcia. Devastator , egal ca intensitate cu cel din 1977 din Romania. Cine a trait acele vremuri stiu exact prin ce trec turcii acum. Sa speram ca pe viitor nu vom aveam in Europa cutremure de o asa magnitudine.\n* Dansez pentru tine... Argen',1
+'- Iaurturile cu fructe vandute la nivel local contin, in proportie de 85%, unul sau mai multe E-uri. Exista, totusi, si produse care nu au aditivi alimentari in lista de ingrediente.\nAsociatia Nationala pentru Protectia Consumatorilor si Promovarea Progra',0
+'Incerc sa ma dumiresc care este legatura dintre iaurul cremoso si povestea cu #blogjuan. :-??',1
+'\nAsociatia Nationala pentru Protectia Consumatorilor a studiat etichetele a 62 de sortimente , pentru a se afla care sunt aditivii si colorantii folositi in componenta produselor.  Din cele 62 de iaurturi cu fructe a caror eticheta a fost studiata, 9 nu c',0
+'Multumesc Cremosso, le-am trimis deja, astept premiul pupici la toata lumea si succes celor care nu au castigat!',0
+'Exista si iaurturi cu fructe fara E-uri. VEZI MARCILE\nAsociatia Nationala pentru Protectia Consumatorilor si Promovarea Programelor si Strategiilor din Romania (ANPCPPS) a realizat o cercetare pe etichetele sortimentelor de iaurturi cu fructe care se\nafl',0
+'4 sortimente de iaurt cu fructe sunt pline de E-uri\nAsociatia Nationala pentru Protectia Consumatorilor a studiat etichetele a 62 de sortimente , pentru a se afla care sunt aditivii si colorantii folositi in componenta produselor.\nDin cele 62 de iaurturi ',0
+'Exista si iaurturi cu fructe fara E-uri. VEZI MARCILE\nIaurturile cu fructe vandute la nivel local contin, in proportie de 85%, unul sau mai multe E-uri. Exista, totusi, si produse care nu au aditivi alimentari in lista de ingrediente.\nAsociatia Nationala ',0
+'Noi la 5 luni dupa lapte praf si am inceput cu suc de morcov 5ml prima zi si cresti cu 5 ml in fiecare zi 10 zile , apoi combinat suc de morcov si suc de mar, apoi supe din legume(tot felul dar nu toate o data), apoi mar ras pe razatoare de sticla, apoi p',0
+'cremosso tiramisu like!!!!!!!!!!!!!!!!!!!!',0
+'imi place mult cremosso cu piscoturi, e preferatul meu',0
+'Cremosso tarta cu lamaie, un deliciu!!',0
+'ce mi-e pofta de un iaurt danone cremoso....:(',1
+'Cremosso cu piscot is da best.',0
+'CREMOSSO ESTI CEL MAI TARE SI ITI MULTUMESC PENTRU VACANTA!',0

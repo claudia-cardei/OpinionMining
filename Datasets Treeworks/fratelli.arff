@@ -1,0 +1,23 @@
+@relation 'TreeWorks'
+@attribute Text string
+@attribute opinion {0,1}
+@data
+'i  3 fratelli beach & club, but it s time to get back home. see u soon http://t.co/Pmrz9Wmt',1
+'I  3 Fratelli Beach Vibes http://t.co/iuWc0BlV',1
+'Parca nu e ziua de nastere completa pana nu mananci tortul aniversar cu bezea din Fratelli, disponibil si la Sky Bar :)',0
+'i  3 Fratelli Beach Sounds http://t.co/aeD4KQz2',0
+'Looking forward to it! I  3 Fratelli cu Loredana & Agurida LIVE @ Nikki Beach/Saint Tropez. Tzukis! http://t.co/ajBNzWdD',0
+'Un weekend extraordinar. Nu ne-am mai distrat de muuuult asa!!! Thanks Fratelli for this great weekend!!!',1
+'@Fratelli with the best Dj ever!!! :) http://t.co/6XtLkaU7',0
+'Yupiiiiiiiiiiiiiiiiiiii!!!!! #beer4boris (@ Fratelli | Beach & Club w/ 37 others) http://t.co/zU7qKc0A',0
+'Rock remix of Rolling in the Deep? So not cool Fratelli',1
+'Tot in Fratelli era mai meserie muzica si trecerile :)) am evoluat',0
+'Life .... Vara nu dorm!  @ Fratelli | Beach & Club http://t.co/c7N3mGLS',0
+'RT @DJALEXMERRELL: Absolutely in love with Mamaia... Can\'t wait to DJ at Fratelli tonight!! @FratelliRo http://t.co/dYL7qE5s',1
+'ROA are piesa noua, iar Cezar Stanciulescu, binecunoscut tuturor ca Junkyard, are chef de vorba.\nCu cine/ce ai o problema acum?\nCu recesiunea care blazeaza si tine oamenii pe modul serios.\nAi stat vreodata de vorba cu un animal?\nDa. Dar nu mi-a raspuns...',1
+'I  3 Fratelli :) Loredana & Agurida Live pe 1 August la Nikki Beach/Saint Tropez :) http://t.co/U48zYPhm',0
+'@svenvaeth Doing my best to get to the beach on the 3rd of August! Can\'t forget Fratelli Studios in Bucharest! Cheers!',0
+'Gigi Becali s-a imbatat si a dansat pe mese in clubul nepotu lui sau Stiri.rol.ro\nPatronul Stelei a ajuns in iad! In cel ""lumesc"", asa cum a caracterizat el discotecile. Gigi Becali s-a distrat de minune sambata, in \', WIDTH, 270, TITLE, \'\', SHADOW, true,',0
+'RT @SylvainArmand: @FratelliRo Im glad to be back in Mamaia doing the best venue in town FRATELLI !!! Tonight will be special trust me...',0
+'RT @nebatdrums: Had a great time in Mamaia Beach at The Fratelli club , amazing crowd/ crew And Happy people  http://t.co/xDAP9Yhi',0
+'Thanks for the last Weekend in Fratelli Mamaia...See you in August!',0

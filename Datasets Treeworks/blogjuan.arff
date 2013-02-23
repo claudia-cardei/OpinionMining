@@ -1,0 +1,283 @@
+@relation 'TreeWorks'
+@attribute Text string
+@attribute opinion {0,1}
+@data
+'Mai este putin, atat de putin, pana vom afla care este destinatia #BlogJuan "" Paris sau Amsterdam. In mintea mea, speram ca vor fi mult mai multi bloggeri romantici. Speram ca de data aceasta amuzantii se vor pondera, pentru a lasa loc liber romanticilor.',0
+'Inca de cand am aflat de campania pornita de Danone in care noi, blogeritele, eram transformate in juriu si rugate sa scriem despre preferatul nostru dintre cei zece finalisti ai concursului, adica despre un #BlogJuan amuzant sau romantic, am stiut ca nu ',0
+'\n2011 a fost un an plin pentru blogosfera. O serie de branduri noi au ales sa desfasoare campanii online prin intermediul blogurilor. Asta a constituit in acelasi timp si un lucru bun, si un lucru rau. Un lucru bun , pentru ca a crescut felia pentru blogg',1
+'Să-nţeleg că eşti o fiinţă bună la suflet şi susţii handipaţii... RT @NelidaMustafa a câştigat blogjuan-ul susţinut de mine. Augustin Radu',1
+'@makavelis Zbor peste Transilvania. :)) Glumesc. Mie mi-au plăcut enorm de mult Redescoperă România, Blog Juan, Obiceiuri Sanatoase etc. :)',1
+'RT @emi_ba: Dacă lovesti un copil ai vocatie de președinte, dacă lovesti doi ai vocatie de #blogjuan',1
+'Dacă lovesti un copil ai vocatie de președinte, dacă lovesti doi ai vocatie de #blogjuan',1
+'\ndiv.img\n{\n  height:auto;  \n  width: 25%;\n  float: left;\n  text-align: center;\n}	\n\ndiv.img img\n{\n  display: inline;\n  margin: 2px;\n  height:auto;\n  width: auto;\n  border: 1px solid #ffffff;\n}\ndiv.img a:hover img {border: 1px solid #0000ff',0
+'a  pentru c   e un vis  tor profesionist.   i un antreprenor cu capul in nori. Pleac   din Yellowish in vacan     la Amsterdam cu titlul onorific de Blogjuan Amuzant. Noi r  manem cu Danone Cremosso Tiramissu.   Iuhuuu, felicitari, Augustin!!A     Invarte',0
+'Bai, sa ma cac in iaurtul vostru ca mi-ati terminat creierii cu obiceiurisanatoase si blogjuan.Iaurtul asta al vostru merge cu piscot???',1
+'Treaba asta cuA #blogjuan-ul a luat amploare zilele astea   i, de  i eu nu v  d nicio leg  tur   intre iaurt   i romantism sau amuzament, mi-am f  cut curaj   i am citit cateva din articole, dar mi se pare c   nimeni nu folosit o abordare foarte original ',1
+'RT @emilzice: mda. oricum, o păcăleală de concurs RT @mihaiteodorescu: Rad cu lacrimi de #blogjuan http://t.co/21L3MsvK',1
+'mda. oricum, o păcăleală de concurs RT @mihaiteodorescu: Rad cu lacrimi de #blogjuan http://t.co/21L3MsvK',1
+'this is hilarious. @augustinradu nu ar fi trebuit sa castige #blogjuan http://t.co/deFDEgOh',1
+'this is hilarious. @augustinradu nu ar fi trebuit sa castige #blogjuan http://t.co/Sqwl7L21',1
+'Imi place sa rad. Mult! Si apoi sa mai rad o tura. Asa ca aleg, fara sa stau pe ganduri, un amuzant pentru a castiga #BlogJuan E o strategie in alegerea tipului. Amuzantul poate fi oricand si romantic, viceversa nu prea merge in mod natural.... Ha! ha! ai',0
+'RT @mihaiteodorescu: Rad cu lacrimi de #blogjuan http://t.co/L6462PmG',1
+'Rad cu lacrimi de #blogjuan http://t.co/u3mFvAqE',1
+'Eu nu cred ca uniunea temporara dintre Amsterdam si omul de mai jos ar trebui sa aiba loc. Sau ca fetele ar fi trebuit sa voteze acest zambet cu cipilica si esarfa. De ce? Ei, dragii babei, sa va spun o istorioara amuzanta in mai putin de 10.000 de caract',1
+'Am ajuns la finalul campaniei Danone Cremosso, iar azi e o zi buna ca sa anuntam #BlogJuan-ul, castigatorul si detinatorul acestui titlu pana la urmatoarea provocare!  \nLe multumim tuturor bloggerilor, twitteristilor si utilizatorilor de Facebook care s-a',0
+'Excelent! Felicitari, Alex! RT @AlexDimaPhoto: Multumiri din suflet! Am învătat multe! #blogjuan http://t.co/2gOb2RoO',0
+'Multumiri din suflet! Am învătat multe! #blogjuan http://t.co/z19DmquN',0
+'Sa stii ca da RT @augustinradu: felicitari @aurasmihai si lui @adrianciubotaru pentru felul in care si-au pastorit concurentii la #blogjuan',0
+'Felicitări, @augustinradu; poate mâine dimineată o să fie @vasilemanu RT @ElenaCiric: #BlogJuan-ul votat de bloggeriţe… http://t.co/sjI7iV6Q',0
+'@augustinradu ma duc maine la Amsterdam, sa-ti aduc ceva? :) Felicitari #blogjuan',0
+'RT @adrianciubotaru: RT @ElenaCiric: #BlogJuan-ul votat de bloggeriţe este… http://t.co/QqzRThPc Felicitari tuturor!!',0
+'RT @adrianciubotaru: RT @ElenaCiric: #BlogJuan-ul votat de bloggeriţe este… http://t.co/QqzRThPc Felicitari tuturor!!',0
+'RT @ElenaCiric: #BlogJuan-ul votat de bloggeriţe este… http://t.co/QqzRThPc Felicitari tuturor!!',0
+'RT @augustinradu: felicitari @aurasmihai si lui @adrianciubotaru pentru felul in care si-au pastorit concurentii la #blogjuan',0
+'felicitari @aurasmihai si lui @adrianciubotaru pentru felul in care si-au pastorit concurentii la #blogjuan',0
+'RT @augustinradu: @OviSirb ca sa zic ca la fotbal: ""ai fost un adversar redutabil"":) #blogjuan a devenit un etalon de fairplay al concur ...',0
+'RT @augustinradu: @OviSirb ca sa zic ca la fotbal: ""ai fost un adversar redutabil"":) #blogjuan a devenit un etalon de fairplay al concur ...',0
+'Felicitari! :) RT @carmen_rusu: RT @ElenaCiric: #BlogJuan-ul votat de bloggeriţe este… http://t.co/wwJSBAHF Felicitari tuturor!!',0
+'RT @ElenaCiric: #BlogJuan-ul votat de bloggeriţe este… http://t.co/o3Qe3Gka Felicitari tuturor!!',0
+'@OviSirb ca sa zic ca la fotbal: ""ai fost un adversar redutabil"":) #blogjuan a devenit un etalon de fairplay al concursurilor pe bloguri',0
+'Bravo Augustin Radu #blogjuan',0
+'+1, nu fi pocait! RT @jorjh felicitari @augustinradu pentru titlul de #blogjuan! astept un colet cu ceva bun din Amsterdam :))',0
+'felicitari @augustinradu pentru titlul de #blogjuan! astept un colet cu ceva bun din Amsterdam :))',0
+'Si unde aflam si noi nr. de voturi de la #blogjuan? Sau e campanie din aia in care s-a stiut de la inceput cine castiga?',1
+'Si unde aflam si noi nr. de voturi de la #blogjuan? Sau e campanie din aia in care s-a stiut de la inceptu cine castiga?',1
+'RT @miruna_sfia: Felicitaaaari, @augustinradu! :D #blogjuan',0
+'Felicitaaaari, @augustinradu! :D #blogjuan',0
+'felicitari  @augustinradu #blogjuan',0
+'hehehe, amuzantii FTW! Felicitari @augustinradu! #blogjuan',0
+'si castiga @augustinradu :) RT @ElenaCiric: #BlogJuan-ul votat de bloggeriţe este… http://t.co/q2MyGbvE Felicitari tuturor!!',0
+'Felicitări câștigătorilor, participantilor și organizatorilor #blogjuan!! :) http://t.co/uzBCE1cn',0
+'No doubt!:)) RT @nebuloasa: RT @ElenaCiric: #BlogJuan-ul votat de bloggeriţe este… http://t.co/4mCYIvuI Felicitari tuturor!!',0
+'@augustinradu sa cresti mare!!!!! RT @ElenaCiric: #BlogJuan-ul votat de bloggeriţe este… bit.ly/ti50gU Felicitari tuturor!!',0
+'Tadaaa! RT @aurasmihai: Aplauze! RT @ElenaCiric: #BlogJuan-ul votat de bloggeriţe este… http://t.co/OuKagB68 Felicitari tuturor!!',0
+'RT @ElenaCiric: #BlogJuan-ul votat de bloggeriţe este… http://t.co/26nONAh4 Felicitari tuturor!!',0
+'RT @ElenaCiric: #BlogJuan-ul votat de bloggeriţe este… http://t.co/cxL6sned Felicitari tuturor!!',0
+'Aplauze! RT @ElenaCiric: #BlogJuan-ul votat de bloggeriţe este… http://t.co/xPDA4Wkq Felicitari tuturor!!',0
+'#BlogJuan-ul votat de bloggeriţe este… http://t.co/26nONAh4 Felicitari tuturor!!',0
+'#BlogJuan-ul votat de bloggeriţe este… http://t.co/BKWIXqLD Felicitari tuturor!!',0
+'http://andreeaburlacu.ro/2011/11/14/blogjuan.html',0
+'la #blogjuan, ce credeati? Pentru ca fac parte din juriul campaniei Danone Cremosso, votul meu de incredere merge catre un barbat deosebit  Augustin Radu. De ce e Augustin alesul? Pentru ca el nu mi-a spus povesti, el m-a facut sa le traiesc. El este ales',0
+'Cum spuneam, sustin @AlexDimaPhoto la #blogjuan http://t.co/uVzQaP5a',0
+'El este alesul meu! #blogjuan http://t.co/SCqIM9zH',0
+'Iaurt cu aroma de tiramisu sau cu tarta de vanilie? Multa vreme nu m-am putut decide. Desi tiramisu mereu imi aminteste de casa si de perioada din liceu. Ma specializasem in a face tiramisu si nu trecea moment important in familia Duma fara ca eu sa nu im',0
+'Pe scurt: sunt in juriul care va alege un blogger. Unul romantic sau unul amuzant. Iar unul din ei (cel mai amuzant sau cel mai romantic) va pleca la Amsterdam sau la Paris, intr-o mini-excursie fantastica. Veti gasi aici: http://www.blogjuan.ro/ povestil',0
+'Votul meu la #blogjuan merge la... http://t.co/mIAiBYZe :D',0
+'Înainte de a se afla orice rezultat, vreau să vă multumesc!  #blogjuan http://t.co/ykteNnxy',0
+'N-am sa mai particip vreodata in viata mea la un concurs care se bazeaza pe voturi si nu pe creativitate ca #blogjuan asta',1
+'Efectele surprinzatoare ale unei campanii\nDe cand a inceput campania BlogJuanam vrut sa scriu despre ea, fiindca mi se pare ca a reusit sa faca un lucru la care nu ma asteptam: sa puna in vazul lumii sensibilitatea cu care sunt inzestrati unii\ndintre blo',0
+'De cand a inceput campania BlogJuan am vrut sa scriu despre ea, fiindca mi se pare ca a reusit sa faca un lucru la care nu ma asteptam: sa puna ... \n http://www.andrazaharia.ro/efectele-surprinzatoare-ale-unei-campanii/ \nEfectele surprinzatoare ale unei c',0
+'Am ales pe cine sustin la #blogjuan. A fost greu, dar am razbit! http://t.co/GJPqGsVn',0
+'O-ntrebare care s-a pus întotdeauna pe #furtdecurent: Suptul pulii. Romantic sau hrănitor? #BlogJuan',1
+'Sunt multi oameni din online pe care ii urmaresc. Pe cei mai multi ii citesc pentru resurse utile in plan profesional. Rar citesc bloguri personale, iar cand se intampla, e fie pentru ca sunt oameni apropiati, fie fiindc-am nimerit din intamplare acolo. C',0
+'e simplu,un amuzant :p rt @ElenaCiric: BlogJuan, #BlogJuan, mor de curiozitate sa aflu cine e BlogJuan! http://t.co/BvbyweIL',0
+'RT @ElenaCiric: BlogJuan, #BlogJuan, mor de curiozitate sa aflu cine e BlogJuan! http://t.co/HDQAXK6g',0
+'\n			\n				\n			\n		\nAm citit deja peste 120 de articole despre amuzanti si romantici, am absorbit din emotiile romanticilor si m-am distrat cu povestile amuzantilor. Cu toate acestea, este clar ca BlogJuan-ul meu se afla in categoria amuzantilor, din cel put',0
+'RT @AlexDimaPhoto Campania care-mi face ziua mai frumoasă. Vă mulţumesc tuturor, în special bloggeriţelor #blogjuan http://t.co/Prz95hq7',0
+'Campania care-mi face ziua mai frumoasă. Vă mulţumesc tuturor, în special bloggeriţelor #blogjuan http://t.co/ykteNnxy',0
+'Este ora doua tarziu in noapte iar eu citesc blog-uri.\n\nMa stiu romantica. Asa imi place sa spun despre mine. Ma impresioneaza baietii care imi aduc flori si spun poezii, mai mult decat cei care imi cumpara parfumuri \n\nDrept urmare, am fost convinsa d',0
+'RT @OviSirb: Mai am un vot la #blogjuan :D http://t.co/tcsJVJZ9',0
+'Dupa nenumarate zile de gandire profuuunda, de analizat si rasanalizat (stiu ca asta nu e un cuvant, dar daca il folosesc eu - este! ) am ajuns la o concluzie, un rezultat aproape palpabil  - prin natura a insasi persoanei pe care am ales-o.Inainte de a n',0
+'""Salut tuturor (la microfon). Vreau sa va spun ca astazi am primit multe scrisori de la admiratori, corespondenta zilnica aducandu-mi  spovedanii, cereri de autografe....Cosul si soba sunt unicul lor destin :)) Dar printre plicuri se strecura si o frumoas',0
+'Iar sustinerea mea pentru #blogjuan merge catre...http://ow.ly/7uBJg',0
+'Iar sustinerea mea pentru #blogjuan merge catre...http://ow.ly/7uBJg',0
+'vasile? RT @rocsanaB: Eu am votat un romantic la #blogjuan http://t.co/y2oRZ35u #peblog',0
+'Eu am votat un romantic la #blogjuan http://t.co/Y3XrbBHN #peblog',0
+'M-am tot gandit ce si cum, cine merita sa plece, cine merita incurajat pentru pornirile funny sau romantice pe care le are si de ce. Ca nu e usor sa alegi din zece domni care nu ne-am facut, noua, juratelor de la Blogjuan by Cremosso, viata mai usoara. To',0
+'@nina_costea RT @bogdanfechita: Hai că totuşi m-a menţionat şi pe mine cineva la #blogjuan http://t.co/dd26NYYN Mulţumiri autoarei! :)',0
+'nina_costea RT @bogdanfechita: Hai că totuşi m-a menţionat şi pe mine cineva la #blogjuan http://t.co/dd26NYYN  Mulţumiri autoarei! :)',0
+'poa\' sa scrie mare cat blogul ca il cheama SIRB, io tot SARB am scris. #blogjuan iese @OviSirb, va spun http://t.co/WY0HSh6n',0
+'Era cat pe aici sa ma influenteze prietena Daniela Petrescu in alegere. Noroc (sau nu) ca-s integra, mai ales ca ma aflu  in perioada in care nu ma impresioneaza partea cu ""romance""; si prefer oricand un ras sanatos Piticul negru care mananca Danone Cremo',0
+'chiar dacă auras şi ciubotaru or fi primit ceva, danone tot şi-a făcut ditai reclama în blogosferă pe bani mărunţi. #blogjuan.',1
+'am votat si eu un #blogjuan. pe @AlexDimaPhoto. aici am scris de ce http://t.co/8SEQVbdK',0
+'@emilzice deci, a fost o campanie reusita #blogjuan',0
+'Sunt pe ultima suta de metri cu o favoare pe care am promis-o demult. Am fost rugata sa votez si eu un blogger in campania Blogjuan. Urmariti pe twitter discutiile despre asta cu hashtag-ul ""#blogjuan"". 10 bloggeri se lupta pentru a castiga marele titlu (',0
+'si io aveam impresia ca-s doua. haha RT @emilzice: deci se va cîştiga O SINGURĂ excursie la #blogjuan? asta ar fi de foarte mare căcat.',1
+'deci se va cîştiga O SINGURĂ excursie la #blogjuan? asta ar fi de foarte mare căcat.',1
+'Sa zicem ca e bine sa mergi cu primul instinct, dar de obicei eu stau si cantaresc situatiile si imi place sa ofer ocazii celor din jur. Aici nu eram hotarata daca sa aleg un Juan amuzant sau unul romantic.\n\nMi-au placut ambele povesti foarte mult si im',0
+'multumesc! :D RT @pietricel: #blogjuan sa fie @OviSirb. prefer sa rad decat sa ma intep in spinii unui trandafir:) http://t.co/N1p42uq4',0
+'#blogjuan sa fie @OviSirb. acolo merge votul meu. prefer sa rad decat sa ma intep in spinii unui trandafir:) http://t.co/WY0HSh6n',0
+'Mi-am inceput si eu ziua de munca astazi cu probleme serioase ... am de votat un blogger romantic sau amuzant, dintr-o lista destul de \'aglomerata\'. Treaba destul de complicata la prima vedere, desi este clar spre care categorie voi inclina: AMUZANT.\n\nA',0
+'Votul meu la #blogjuan merge la @AlexDimaPhoto http://t.co/VXYQ5D90',0
+':D RT @dianaoancea: Gata! decizie luata http://t.co/nrllYmHa go, go, go @OviSirb #blogjuan',0
+'In sfarsit mi-am ales un #blogjuan  http://t.co/2EhH27mL',0
+':D RT @ralucaduta: Nimic nu e greu, nimic nu e usor, asa ca azi am ales si eu #blogjuan-ul :) http://t.co/3QTpxkCK',0
+'Nimic nu e greu, nimic nu e usor, asa ca azi am ales si eu #blogjuan-ul :)http://t.co/1EY1vL2a',0
+'Mai am un vot la #blogjuan :D http://t.co/tcsJVJZ9',0
+'Fara nici un oftat, nici o migreana de post lung, nici un lesin - votul meu merge la...http://bit.ly/sdSZRM #blogjuan',0
+'Gata, am ajuns in sfarsit acasa! Usa s-a inchis in urma mea, punandu-ma la adapost de vantul si gerul de afara. Mi-au luat obrajii foc de cat de cald e in casa si ce-o fi cu intunericul asta??\n\n"" Honey, i\'m hooome! S-a ars becul pe hol?\n\nStai, ca e un',0
+' Mie-mi plac siroposeniile.   i povestile de dragoste eterna sau fulgeratoare care vine si iti poarta picioarele si sufletul acolo unde poate credeai ca n-o sa ajungi vreodata.  Imi plac istoriile despre oameni si intalnirile lor aranjate de suflete cu mu',0
+'Va spuneam zilele trecute ca fac parte din juriul concursului BlogJuan organizat de Danone, Cremosso. Iata ca a venit momentul sa aleg bloggerul pe care vreau sa il sustin. In primul rand, va reamintesc mecanismul campaniei: Fiecare participant si-a ales ',0
+'#peblog: Se cauta un BlogJuan http://t.co/xrmhXSLt  #blogjuan',0
+'multumesc prosopel:) RT @sabinacornovac: BlogJuan-ul ales de mine este .... http://t.co/HmWlpTs3 #blogjuan',0
+'BlogJuan-ul ales de mine este .... http://t.co/XOHLfIWD #blogjuan',0
+'Creativitatea vine din experiente #peblog #blogjuan http://t.co/Y5yCukeu Am votat cu...',0
+'E clar ca nu ne nastem mai creativi sau mai putin. Creativitatea ne vine din diverse surse si sunt masura experientelor prin care am trecut, a lucrurilor pe care le-am invatat si a receptivitatii noastre.\nCei mai creativi oameni pe care ii cunosc experime',0
+'Si iata ca a venit momentul sa ma aflu in postura de jurat intr-un concurs destinat barbatilor. Amuzant as putea spune. Chiar foarte amuzant sa aleg intre cei 10 doritori de titlu de Don Juan al blogosferei.\nMai complicat este sa aleg intre prajituri, pen',0
+'RT @andreea_burlacu: Astazi imi prezint si eu favoritul in cursa #blogjuan. El este....http://bit.ly/sxAnbJ',0
+'RT @andreea_burlacu: Astazi imi prezint si eu favoritul in cursa #blogjuan. El este....http://bit.ly/sxAnbJ',0
+'Astazi imi prezint si eu favoritul in cursa #blogjuan. El este....http://bit.ly/sxAnbJ',0
+'Gata, l-am ales pe #blogjuan! http://t.co/JkrtNfG1 :)',0
+'M-am decis, l-am ales pe Ion Creangă http://t.co/9vOPtqtO #blogjuan',0
+'RT @blogatu: @danielapetrescu Ca mi-a placut foarte mult articolul si ca @vasilemanu e, din punctul meu de vedere, un adevarat #blogjuan',0
+'RT @blogatu: @danielapetrescu Ca mi-a placut foarte mult articolul si ca @vasilemanu e, din punctul meu de vedere, un adevarat #blogjuan',0
+'@danielapetrescu Ca mi-a placut foarte mult articolul si ca @vasilemanu e, din punctul meu de vedere, un adevarat #blogjuan',0
+'RT @Ruuxie: Un #BlogJuan romantic: Alex Dima http://t.co/tElMZ807',0
+'Cu ceva timp in urma va spuneam ca se cauta #blogjuanii blogosferei amuzanti sau romantici! Acum a venit momentul ca 65 de bloggerite sa jurizeze si sa aleaga un blogger pe care sa il sustina la ele pe blog In primul rand, vreau sa felicit organizatorii p',0
+'Un #BlogJuan romantic: Alex Dima http://t.co/8NbYLB0H cc @AlexDimaPhoto',0
+'Dupa cum va spuneam acum vreo 2 saptamani, sunt blogerita juriu aspru, dar sever in concursul initiat de Danone, BlogJuan. Finalisti au iesit 5 romantici si 5 amuzanti. Scriu asa de tarziu pentru ca am facut un efort urias de a citi nu doar textele cu car',0
+'RT @FatadinPort: Si votul meu, in competitia #blogjuan , merge laaaaaaaa .... @psaico !!! http://t.co/SH7F421r',0
+'Intre romantici si amuzanti. Trebuie sa invatati unii de la altii!!    *hint*hint*.\nMai fetelor, stim cu toate ca nu e de ajuns ca barbatul sa fie amuzant. Adica, e foarte fain cand te face sa razi si cand te face sa te simti in largul tau, dar sunt anumi',0
+'Si votul meu, in competitia #blogjuan , merge laaaaaaaa .... @psaico !!! http://t.co/SH7F421r',0
+'De cateva zile s-a incheiat votarea pentru concurentii de la concursul ""Esti un BlogJuan amuzant sau romantic?"" de pe blogjuan . Au ramas 10 finalisti , cate 5 din fiecare categorie. In articolul de  aici va spuneam ce inseamna pentru mine partea romantic',0
+'Pai la ce sa te astepti de la un concurs care porneste de la ideea aia cu sleampatul ala numit domnul tarta(cuta) cu lamaie si domnul tiramisu(it in copac)?\nEu am spus si voi spune intotdeauna fara menajamente ceea ce cred. Blogjuan asta tinde sa fie mai',1
+'@monicaolte Articolul tău m-a emoţionat foarte tare! Mulţumesc! Fotografii cu poveste :) #blogjuan http://t.co/jYnfTMME',0
+'M-am hotarat!!\n\nDupa ce am ras zilele trecute cat n-am ras tot anul dupa ce am citit articolul asta, m-am convins ca Augustin e cel mai amuzant blogger pe care l-am citit.\n\nPe bune, aveti rabdare cu postul lui Augustin, e lung, dar va promit ca n-o sa',0
+'@AlexDimaPhoto Cu mare placere, Alex. Sper sa castigi. Iti tin pumnii stransi. #blogJuan',0
+'@AnaMusat Mulţumesc din suflet! Un articol foarte frumos! http://t.co/Zx5pfC2G #blogjuan',0
+'Sustin un #BlogJuan romantic: Alex Dima\nDaca initial eram hotarata sa merg cu tabara amuzanti, Alex Dima cu si de bine argumentat si motivat m-a convins sa-l aleg pe el, un copil romantic aflat la inceput de drum, un fotograf exceptional\ncu vise marete s',0
+'Daca initial eram hotarata sa merg cu tabara blogJuanilor amuzanti, Alex Dima cu articolul lui atat de sincer si de bine argumentat si motivat m-a convins sa-l aleg pe el, un copil romantic aflat la inceput de drum, un fotograf exceptional cu vise marete ',0
+'Sustin AlexDimaPhoto la #blogjuan - Nu ştiu câţi dintre cititorii mei au auzit de competiţia #blogjuan. Despre ce es... http://t.co/GSO9NRXM',0
+'RT @KorinaMS: Amuzant, cu A de la @augustinradu #blogjuan http://t.co/uqtv8yM2',0
+'Nu stiu cati dintre cititorii mei au auzit de competitia #blogjuan. Despre ce este vorba? Ei bine, Danone Cremosso i-a provocat pe barbatii blogosferei la un concurs, pentru titlul de Romantici si Amuzanti.\n\nAsa ca vreme de cateva saptamani, bloggerii s',0
+'RT @KorinaMS: Amuzant, cu A de la @augustinradu #blogjuan http://t.co/5vJC5Jsw',0
+'Am ales să îl susţin pe Alex Dima în finala #blogjuan, secţiunea Romantici. :) http://t.co/rxdPIbmY',0
+'Sustin AlexDimaPhoto la #blogjuan http://t.co/uKgNqHSx',0
+'Sustin AlexDimaPhoto la #blogjuan http://t.co/uVzQaP5a',0
+'Azi m-am hotarat sa vorbesc despre EL - acest povestitor despre care multi stiu insa putini cunosc; acest om care cum te prinde cum te ia la o discutie in care numai el vorbeste; rar spre deloc intalnit prin blogosfera autohtona, caruia cuvantul ii este f',0
+'Altfel decat cum am fost deja cucerita, evident. Daca as fi regizorul propriei mele cuceriri, as fi asa subtila ca nici nu mi-as da seama cand m-as indragosti de mine pana peste cap. E un moment foarte sensibil de cand m-as analiza si pana as declara ca a',0
+'Citesc articolele pentru #blogjuan.... cred că am standardele prea ridicate. și la romantism și la simtul umorului.',1
+'Un articol foarte frumos! Mulţumesc pentru susţinere la #blogjuan şi aprecieri! cc @MihaelaAnghel http://t.co/mPsk8fpb',0
+'Am ales un #blogjuan, unul romantic, care face poze tare faine: http://t.co/qne8tyrM',0
+'Și... cum ziceam, am ales un #blogjuan pentru Paris: http://t.co/YImMIc4T',0
+'Vedem și noi? :) RT @cristina_tm: ce organizat a lucrat @corinasaftescu in monitorizarea #blogjuan. felicitari, dear!',0
+'ce organizat a lucrat @corinasaftescu in monitorizarea #blogjuan. felicitari, dear!',0
+'A fost destul de greu sa ma hotarasc pe cine sa sustin la #blogjuan, atat de greu ca am stiut din secunda 1 cui sa ii dau votul meu.\nA contat foarte mult si articolul cu care a participat la #blogjuan, dar si ""istoria"" lui in ale amuzamentului.  A si fapt',0
+'Poate ati auzit pana acum de concursul BlogJuan - se cauta barbatii romantici sau amuzanti ai blogosferei. Fac si eu parte din juriu, alaturi de alte 62 de bloggerite, iar acum, aproape de final, a trebuit sa-mi aleg preferatul din cei 10 finalisti: 5 rom',0
+'Yes, you are! :) RT @OviSirb I\'m on fire, baby! :D RT @adizzy15: #blogjuan? cine sa fie? http://t.co/SAvAlJ2a',0
+'Ma uitam zilele acestea peste un simpatic infografic despre relatiile romantice in era social media. Inca de la inceput am simtit ca acesta vorbeste despre romante de care eu sunt straina. Ma refer la partea cu ce cauta fiecare intr-un potential partener.',0
+'RT @OviSirb: I\'m on fire, baby! :D RT @adizzy15: #blogjuan? cine sa fie? http://t.co/eCW3WVM2',0
+'I\'m on fire, baby! :D RT @adizzy15: #blogjuan? cine sa fie? http://t.co/eCW3WVM2',0
+'#blogjuan ? cine sa fie?: A fost destul de greu sa ma hotarasc pe cine sa sustin la #blogjuan, atat de greu ca a... http://t.co/9pNXWt3h',0
+'E oficial! Au ramas doar 5 amuzanti si tot atatia romantici aspiranti la BlogJuan. Toate cele 63 de bloggerite trebuie sa-si sustina preferatul. Eram sigura ca-mi va fi mult mai greu sa aleg pe cineva, deoarece, trebuie sa recunosc faptul ca, nu-i citesc ',0
+'Greu task mi-am atribuit la #blogjuan http://t.co/YImMIc4T',0
+'Pe la inceputul lunii trecute, cei de la Danone si-au propus sa faca niste valuri in blogosfera romaneasca si odata cu lansarea a 2 noi sortimente de iaurt Cremosso au lansat o provocare: care sunt cei mai romantici si mai amuzanti bloggeri romani? Cine m',0
+'... (drumroll)... cu suspans: #blogjuan-ii sa se pregateasca. Toti cei 5, adica. Ei bine, am sa va povestesc cateva dintre motivele pentru care l-am ales:\n1. Inca de cand l-am cunoscut, m-a facut sa rad cu lacrimi, cu povestioare si-ntamplari la care n-am',0
+'\n			\n				\n			\n		\nBlogjuan a fost o provocare mai altfel, un exercitiu online interesant, o experienta noua in postura de...blogger. Va multumesc tuturor celor care ati votat in cele 4 zile si m-ati dus pe locul 1 in Top. Articolul inscris a fost acesta. A',0
+'@andreipalatkas ""de ce crezi ca oamenii care faceau misto de tine s-au decis sa te aduca in top la #blogjuan ?"" cc @vasilemanu',1
+'Dragii babei, s-a terminat cu fericirea, m-am bagat in juriu la BlogJuan. De fapt nu m-am bagat eu chiar singura, dar am acceptat sa intru, ceea ce e aproape acelasi lucru.  i aici vine taskul - 28 de candidati s-au ... Continue reading',0
+'RT @OviSirb: Încă unul pentru mine, + câteva cuvinte frumoase :) http://t.co/EBZAjsHP #blogjuan',0
+'Încă unul pentru mine, + câteva cuvinte frumoase :) http://t.co/EBZAjsHP #blogjuan',0
+'RT @IoanaStef: Gata, m-am decis: amuzantul zilei va fi... :) http://t.co/3XeFi3py #blogjuan',0
+':D RT @IoanaStef: Gata, m-am decis: amuzantul zilei va fi... :) http://t.co/j6WbLBSv #blogjuan',0
+'Gata, m-am decis: amuzantul zilei va fi... :) http://t.co/BJaitMrl #blogjuan',0
+'Duminica seara ni s-a stricat ceva la panoul electric. Prizele merg, dar becurile nu, asa ca am concluzionat la nivel de familie ca ""s-o stricat ceva ce nu stim repara"";, ca nu e de la sigurante.\nIeri am ajuns tarziu acasa, deci n-am avut cand sa chemam u',0
+'Idei frumoase :) RT @augustinradu: un #blogjuan amuzant poate fi si serios cand vine vorba de un interviu http://t.co/EHkiE7VF',0
+'RT @nebuloasa: daca va mai intrebati de ce am votat cu @augustinradu la #blogjuan. uite, de asta: http://t.co/VEy5mQvZ',0
+'RT @ClaudiaTocila: :)) cam da RT @augustinradu: un #blogjuan amuzant poate fi si serios cand vine vorba de un interviu http://t.co/uVajtdkf',0
+'RT @aurasmihai: muhaha RT @augustinradu: un #blogjuan amuzant poate fi si serios cand vine vorba de un interviu http://t.co/wcUnsEHV',0
+'RT @nebuloasa: daca va mai intrebati de ce am votat cu @augustinradu la #blogjuan. uite, de asta: http://t.co/VEy5mQvZ',0
+'muhaha RT @augustinradu: un #blogjuan amuzant poate fi si serios cand vine vorba de un interviu http://t.co/wcUnsEHV',0
+':)) cam da RT @augustinradu: un #blogjuan amuzant poate fi si serios cand vine vorba de un interviu http://t.co/uVajtdkf',0
+'adica tu?! :) RT @augustinradu: un #blogjuan amuzant poate fi si serios cand vine vorba de un interviu http://t.co/qgH91my3',0
+'Awwwww! RT @augustinradu: un #blogjuan amuzant poate fi si serios cand vine vorba de un interviu http://t.co/0zUXfzWs…',0
+'dragi colege de juriu #blogjuan. daca nu v-ati hotarit pe cine sa alegeti am eu o sugestie... cu argumente http://t.co/yGXtqjY0',0
+'cam asta i-am comentat eu lui Augustin Radu la #blogjuan... http://t.co/mUAGG1Hb',1
+'sustin unul dintre cei 5 romantici  #blogjuan http://t.co/ttPrW4rB',0
+'Cred ca doamnele si domnisoarele din juriul #blogjuan ar trebui sa citeasca asta :  Vasile, the MAN U need. Cu de toate http://t.co/OAJi3vFy',1
+'Mie intotdeauna mi-au placut mai mult barbatii cu simtul umorului, ca de la prea mult romantism risc sa fac o isterie de...ras. Si as avea vreo cateva povesti despre pataniile mele cu barbati romantici, dar nu vi le zic azi, fiindca am altceva in ""program',0
+'Dupa cum va povesteam, mi s-a propus sa aleg si sa sustin unul dintre cei 10 finalisti ai concursului #BlogJuan.\nEu sunt o femeie romantica din fire, ador un barbat care stie sa surprinda o femeie, sau sa ii faca un cadou fara vreun motiv anume. Inca de c',0
+'Sunt o adevarata ultrasa a romantismului, protectoarea barbatilor romantici pe Pamant, regina neincoronata a barbatilor care le au pe toate. O iubitoare feroce a celor care stiu ca romantismul n-a murit odata cu Orfeu.\n\nAdmiratoare infocata a celui care i',0
+'RT @flaviagiurgiu: RT @cristinabazavan gata, mi-am scris pledoaria pentru preferatul meu la #blogjuan http://t.co/09sItME3',0
+'RT @cristinabazavan gata, mi-am scris pledoaria pentru preferatul meu la #blogjuan http://t.co/09sItME3',0
+'RT @OviSirb: :) RT @nebuloasa: #BlogJuan si decizii, decizii… « Nebuloasa http://t.co/Z4UUMvkV',0
+'Suspans. Actiune. Lapte batut. #blogjuan',0
+'RT @nebuloasa: #BlogJuan si decizii, decizii… « Nebuloasa http://t.co/rKcZcckm',0
+'Şi Vasile? :( RT @nebuloasa: #BlogJuan si decizii, decizii… « Nebuloasa http://t.co/klKN7pwC',0
+'RT @nebuloasa: #BlogJuan si decizii, decizii… « Nebuloasa http://t.co/tXjCPxSf',0
+':) RT @nebuloasa: #BlogJuan si decizii, decizii… « Nebuloasa http://t.co/Z4UUMvkV',0
+'#BlogJuan si decizii, decizii… « Nebuloasa http://t.co/rKcZcckm',0
+'am mai spus-o si o repet: romantismul e bun si frumos, dar daca nu exista umor intr-o relatie, pe termen lung esti pierdut(a)...\nasa ca, in competitia blog juan aleg fara sa stau pe ginduri categoria ""amuzanti"";...\npreferatul meu e Vlad Cucu pe care cu on',0
+'gata, mi-am scris pledoaria pentru preferatul meu la #blogjuan http://t.co/yGXtqjY0',0
+'RT @AlePalconi: BLOG: Mie-mi plac amuzanții! Așa, ca @OviSirb! #BlogJuan http://t.co/B7ICV1Ks',0
+'RT @AlePalconi: BLOG: Mie-mi plac amuzanții! Așa, ca @OviSirb! #BlogJuan http://t.co/B7ICV1Ks',0
+'RT @AlePalconi: BLOG: Mie-mi plac amuzanții! Așa, ca @OviSirb! #BlogJuan http://t.co/2q2ypQZc',0
+':D sarutmanutele RT @AlePalconi: BLOG: Mie-mi plac amuzanții! Așa, ca @OviSirb! #BlogJuan http://t.co/aoLWUXDF',0
+'BLOG: Mie-mi plac amuzanții! Așa, ca @OviSirb! #BlogJuan http://t.co/B7ICV1Ks',0
+'Un #blogjuan cu î din i http://t.co/4FkKWPLF via @corinasaftescu',0
+'Un #blogjuan cu î din i http://t.co/VOWJzeiQ via @corinasaftescu',0
+'Mi-am ales bloggerul la #blogjuan. Să vedem, să vedem ce-o să iasă: http://t.co/e2XffR1z',0
+'Inca de mica mi-au placut baietii povestitori. Primul meu prieten, din clasa a cincea, luase media 10 la limba si literatura romana, pentru ca citea multe carti si avea un vocabular mult mai bogat decat se astepta cineva de la un baiat de varsta lui, de l',0
+'RT @OviSirb: Alegeri http://t.co/C6QopUsO #blogjuan',0
+'RT @OanaBratila: Mi s-a inscris romanticul la #blogjuan. Votati, votati, votati ca merita! :) http://t.co/Cc7QuKyf',0
+'@OviSirb foarte drăguţ articolul tău de înscriere la #blogjuan',0
+'Parca se vota pana pe 6 Noiembrie 23:59 la #blogjuan. FAIL!',1
+'@RaduAugustin  ti-am citit povestea http://t.co/viR0ITRS am ras grozav=))) drept urmare te-am si votat:) #blogjuan',0
+'Ce poveste draguta pentru #blogjuan romantic :) Amuzant sau romantic? Aș spune îndrăgostit. - http://t.co/D3WOlQRr',0
+'RT @AlexandruAnca: “@OanaBratila: Mi s-a inscris romanticul la #blogjuan. Votati, votati, votati ca merita! :) http://t.co/Y7reVv0k�?',0
+'“@OanaBratila: Mi s-a inscris romanticul la #blogjuan. Votati, votati, votati ca merita! :) http://t.co/Y7reVv0k�?',0
+'@AndreiErnest Dacă e a ta, chinul abia începe. Operaţiunea #blogjuan e ceva mai chin decât nunta. Nici o pierdere.',1
+'bai, dar vasile nu vede cat misto se face de el pe twitter? Adica omul ar trebui sa se duca la culare. for real. #BlogJuan #ManuMustWin',1
+'RT @OanaBratila: Mi s-a inscris romanticul la #blogjuan. Votati, votati, votati ca merita! :) http://t.co/Cc7QuKyf',0
+'RT @OanaBratila: Mi s-a inscris romanticul la #blogjuan. Votati, votati, votati ca merita! :) http://t.co/uiy7Ux38',0
+'Cu hashtag #blogjuan. Doar 20 voturi vreau. Gasesc? RT @ValentinBosioc: #PeBlog: Ce-i asta? O frunza?! http://t.co/CaO5Flm0',0
+'Pe ultima suta de metri RT @OanaBratila: Mi s-a inscris romanticul la #blogjuan. Votati, votati, votati ca merita! :) http://t.co/zfBRFJ5i',0
+'RT @OanaBratila: Mi s-a inscris romanticul la #blogjuan. Votati, votati, votati ca merita! :) http://t.co/Cc7QuKyf',0
+'daca nu ar fi trebuit sa ma asociez cu imaginea unui iaurt m-as fi inscris la #blogjuan cu articolul asta :) http://t.co/RFvTpltJ',1
+'Cu un asa articol, cum sa nu-l votez si pe @bogdanantohe la #blogjuan? http://www.bogdanantohe.ro/2011/11/03/sunt-romantic/',0
+'Cu un asa articol, cum sa nu-l votez si pe @bogdanantohe la #blogjuan? http://t.co/UWKvMRDz',0
+'Mi s-a inscris romanticul la #blogjuan. Votati, votati, votati ca merita! :) http://t.co/Cc7QuKyf',0
+'AnaMusat: La top amuzanti merg pe mana lui @AugustinRadu  eternul #blogjuan care mixeaza in cea mai prolifica maniera amuzamentul cu romantismul.',0
+'RT @Petreanu: Mă râd cu lacrimi la povestea lui @augustinradu http://t.co/GijPx6gv - trebuie votat la #blogjuan :)))',0
+'@augustinradu merită să câștige la categoria Amuzanți de la #BlogJuan fie și numai pentru aventura asta: http://t.co/TEIyvt8z Genial omul!',0
+'RT @Petreanu: Mă râd cu lacrimi la povestea lui @augustinradu http://t.co/GijPx6gv - trebuie votat la #blogjuan :)))',0
+'Mă râd cu lacrimi la povestea lui @augustinradu http://t.co/GijPx6gv - trebuie votat la #blogjuan :)))',0
+'@AugustinRadu vine in forta cu un articol de un romantism debordant #blogjuan Luati de va molipsiti: http://t.co/KPHp70zG',0
+'Angajez oameni care sa ma voteze la #blogjuan Vad ca se poarta :)',1
+'Colegu @augustinradu, ce tare-i povestea ta de #blogjuan Unde le gasesti pe-astea, doamne?! :))',0
+'de 15 minute rad in hohote si mi-am facut curiosi si colegii #dinbirou sa citeasca povestea lui @augustinradu de la #blogjuan :-D',0
+'am scris si eu despre #blogjuan dar pe blogul lui @Ellunes http://t.co/n7w3fpMZ',1
+'RT @augustinradu: daca si in fotbalul romanesc as vedea fairplay ca la @galben_ro in concursul #blogjuan m-as incumeta sa merg pe stadion',0
+'Rboy a vorbit despre asta acum cateva zile. E un nou curent in blogging care nu l-am observat pana nu am inceput sa fiu activ pe Twitter. Pe celebra retea de microblogging toti bloggerii promoveaza ceva eveniment, ceva concurs, ceva produs. Agentiile de p',1
+'@aurasmihai l-am votat pe @CucuVlad ca e super fain si m-am distrat tare cu el la TIFF (in direct la RTV a fo genial :)) ) #blogjuan',0
+'@needitat Danone sunt cei mai buni! Nu degeaba au lansat #blogjuan!',0
+'RT @aiurea: ca #blogjuan romantic nu trebuie sa sti sa scri?',1
+'pe langa scri, sti, mai este asta cu ""vi"" RT @aiurea: ca #blogjuan romantic nu trebuie sa sti sa scri?',1
+'nu. trebuie doar sa stii sa ceri voturi RT @aiurea: ca #blogjuan romantic nu trebuie sa sti sa scri?',1
+'cand soptesti romantisme la ureche nu trebuie sa zici unde se pune cratima RT @aiurea: ca #blogjuan romantic nu trebuie sa sti sa scri?',1
+'ca #blogjuan romantic nu trebuie sa sti sa scri?',1
+'m-am prapadit de ras cand am citit de caprele amarate de la Yellowish ce nu erau in stare sa dea o cada de lapte, ma @augustinradu #blogjuan',0
+'ElenaCiric: RT @OanaOprescu: Eu ma astept sa citesc povesti care sa-mi capteze atentia si voi juriza la cutit :D http://t.co/UKlVPPsa #BlogJuan',0
+'ce plm e aia #blogjuan?',1
+'Pai se poate? Mai rar asa #blogjuan amuzant, hai cu voturile! RT @gaben_ro oficial sunt si eu in cursa http://t.co/bVNC90rw am un vot :)',0
+'Cum de-o fi prins @ArielCo top 10 la #blogjuan.i amuzanţi? Sau sunt 10 cu totul?',1
+'dupa #pepsirefreshromania si #blogjuan are un sistem idiot de votare. @vasilemanu tre sa povestim ceva :))',1
+'@aurasmihai da tu chiar nu faci nimic sa ii imbarbatezi pe amuzantii de la #blogjuan? ca eu unul... http://t.co/b5uE67Sd',1
+'Decat un alister la Paris, mai bine un @vasilemanu cu Danone in gura #BlogJuan',1
+'RT @ovisirb: Cine votează cu @ArielCo la #blogjuan, mă-sa-i grasă!',1
+'Se ştie! :D RT @OviSirb: Cine votează cu @ArielCo la #blogjuan, mă-sa-i grasă!',1
+'RT @OviSirb: Cine votează cu @ArielCo la #blogjuan, mă-sa-i grasă!',1
+'Cine votează cu @ArielCo la #blogjuan, mă-sa-i grasă!',1
+'RT @Alex_Tikitaka: Băăăăă, ce căcat e #blogjuan ?',1
+'Cum plua mea să faci #blogjuan in loc de #blogheorghe ?',1
+'Băăăăă, ce căcat e #blogjuan ?',1
+'RT @serbanpaun: Bai, chiar nu are nimeni de gand sa faca site-ul #BlogJuan astfel incat sa fie functional pe tablete/mobil? Nu se vede t ...',1
+'Bai, chiar nu are nimeni de gand sa faca site-ul #BlogJuan astfel incat sa fie functional pe tablete/mobil? Nu se vede tot topul. No scroll!',1
+'Interfata #BlogJuan nu este functionala pe mobil #doaroidee',1
+'Cu iaurtul RT @daimonz: ce pula mea e un #BlogJuan ? unu\' care fute cu blogul? cu ţeava de net? cu graficul de trafic sculat?',1
+'ce pula mea e un #BlogJuan ? unu\' care fute cu blogul? cu ţeava de net? cu graficul de trafic sculat?',1
+'Haideti :) Cine se mai inscrie la #blogjuan?',1
+'Blogger din Brasov - ""Dumnezeu are umor. Altfel nu l-ar fi facut pe om.""; Acesta este sloganul lui Daniel Urda, blogger din Brasov si prieten, care participa la concursul BlogJuan. Sustin inisiativele bloggerilor brasoveni si cum pot mai scriu o vorba des',0
+'#blogjuan se transforma in cersit de voturi pe twitter',1
+'Blogger din Brasov - ""Dumnezeu are umor. Altfel nu l-ar fi facut pe om."" Acesta este sloganul lui Daniel Urda, blogger din Brasov si prieten, care participa la concursul BlogJuan. Sustin inisiativele bloggerilor brasoveni si cum pot mai scriu o vorba desp',0
+'BlogJuan nu este BlogJuan fără Daniel Urda via @manuelcheta - obisnuit.eu http://t.co/8Q2vTbLd',0
+'Mi s-a sugerat ideea de a ma inscrie la #blogjuan dar ce am descoperit mi-a lasat un ""gust"" aiurea rau ...',1
+'L-am votat şi pe @psaico la #blogjuan Nu m-am putut abţine după aşa poveste.',0
+'RT @Runceanu: De depart cel mai funny articol la #blogjuan &gt; http://t.co/eh7yka6A :)))',0
+'thanks, mate! ce-ti aduc din Amster\'? RT @Runceanu: De depart cel mai funny articol la #blogjuan &gt; http://t.co/eh7yka6A :)))',0
+'De depart cel mai funny articol la #blogjuan &gt; http://t.co/agnoWBc7 :)))',0
+'@ArielCo toată baza! :) Yo momma is so fat that you can rely on her. Like, for real :) Like li-te-ra-lly #blogjuan :))',0
+'N-as fi zis ca @psaico e om insurat! RT @dianaoancea: Fetelor avem un romantic desavarsit http://t.co/ZRG1n7g6 #blogjuan',0
+'Fetelor avem un romantic desavarsit http://t.co/Y94EHlc6 #blogjuan',0
+'@Danses vor să le dea personalitate produselor... cam #blogjuan #fail =))',1
+'@alexursa ups, I did it...nu am stiut ca nu ai blog. Acum stiu. E un joc frumos #blogjuan si de asta te intrebasem :D',0
