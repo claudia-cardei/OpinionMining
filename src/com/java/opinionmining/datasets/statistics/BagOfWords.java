@@ -27,29 +27,29 @@ public class BagOfWords {
 		Map<String, MutableInt> model = new HashMap<String, MutableInt>();
 		
 		for (String word : words) {
-			MutableInt frequency = model.get(word);
-			if (frequency == null) {
+			MutableInt count = model.get(word);
+			if (count == null) {
 				model.put(word, new MutableInt(1));
 			}
 			else {
-				frequency.increment();
+				count.increment();
 			}
 		}
 		
 		return model;
 	}
 	
-	public SortedSet<Map.Entry<String, MutableInt>> constructModelWithWordsOrderedByFrequency() {
+	public SortedSet<Map.Entry<String, MutableInt>> constructModelWithWordsOrderedByCount() {
 		Map<String, MutableInt> model = constructModel();
 		SortedSet<Map.Entry<String, MutableInt>> sortedWords =
-				new TreeSet<Map.Entry<String, MutableInt>>(new ComparatorByFrequency()); 
+				new TreeSet<Map.Entry<String, MutableInt>>(new ComparatorByCount()); 
 		
 		sortedWords.addAll(model.entrySet());
 		
 		return sortedWords;
 	}
 	
-	class ComparatorByFrequency implements Comparator<Map.Entry<String, MutableInt>> {
+	class ComparatorByCount implements Comparator<Map.Entry<String, MutableInt>> {
 
 		@Override
 		public int compare(Map.Entry<String, MutableInt> arg0, Map.Entry<String, MutableInt> arg1) {
