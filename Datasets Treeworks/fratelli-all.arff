@@ -1,0 +1,543 @@
+@relation 'TreeWorks'
+@attribute Text string
+@attribute opinion {0,1}
+@data
+'@mirceams plus ca la preturi similare cu Fratelli beach, serviciul e, politicos spus, indiferent.',0
+'Noble Securities este partener pentru promovarea si sustinerea licitatiei Artmark de masini de colectie, sports memorabilia, sampanii si vinuri de colectie. Licitatia este unicat in Romania: 21 de masini, plus obiecte ale unor sportivi de talie mondiala s',0
+'Vinerea trecuta, Shantel si Bucovina Club Orkestar au fost invitati speciali la o super-petrecere organizata de Fratelli Beach & Club Mamaia si Peroni Italy. Petrecerile legendare din Fratelli sunt arhicunoscute, dar bunul gust si elegantul stil italian s',0
+'This Friday we present a unique event in Fratelli Beach & Club Mamaia!\n Pimp my Converse  is a fresh design show... http://t.co/v76GR4b0',0
+'Dear Friends, This Friday, the 24th of August, we present a unique event in Fratelli Beach & Club Mamaia! ""Pimp my Converse"" \n http://www.fratelli.ro/events/fratelli-beachclub/pimp-my-converse-in-fratelli-beach-club-mamaia/ \nPIMP MY CONVERSE in FRATELLI B',0
+'Saturday at 11:30pm at Fratelli Beach & Club \n http://www.facebook.com/events/396038683783651/ \nLet\'s Mykonos! \nLet\'s Mykonoooooos this Saturday, the 25th of August, in Fratelli Beach & Club Mamaia! Our friend, Dj Pete is back for another amazing party pr',0
+'Acasa Stiri calde Este scos la licitatie tricoul cu autograful lui Cristi Chivu\nEste scos la licitatie tricoul cu autograful lui Cristi Chivu\nhttp://www.ziuaconstanta.ro/stiri-calde/stiri-calde/este-scos-la-licitatie-tricoul-cu-autograful-lui-cristi-chivu',0
+'Se intampla duminica aceasta in Clubul Fratelli din Mamaia:\nhttp://www.artmark.ro/2012/08/pivnita-restaurantului-heritage-alaturi-de-obiectele-marilor-campioni-in-licitatia-sports-memorabilia-si-licitatia-de-sampanii-si-vinuri-de-colectie/',0
+'Timp de patru zile, Artmark incinge ringul clubului Fratelli din Mamaia la turatie maxima: 2000 de cai putere vor atrage VIP-urile si publicul cu ocazia primei licitatii romanesti de Masini de Colectie. \n http://www.forbes.ro/Artmark-organizeaza-la-mamaia',0
+'Good morning! Our chefs from Flavours Food Design are always ready to offer you a healthy lunch! Visit daily our restaurant in Fratelli Beach & Club Mamaia!',0
+'Dear Friends,\nLet s Mykonos this Saturday , the 25th of August , in Fratelli Beach & Club Mamaia !\nWith so many grand names to choose from, it was hard to decide who will be the star of this amazing party!\nWe wanted someone with style to guide our feet on',0
+'Dear Friends,\nLet s Mykonos this Saturday, the 25th of August, in Fratelli Beach & Club Mamaia!\nWith so many grand names to choose from, it was hard to decide who will be the star of this amazing party!\nWe wanted someone with style to guide our feet on th',0
+'Dear Friends,\nLet s Mykonos this Saturday, the 25th of August, in Fratelli Beach & Club Mamaia!\nWith so many grand names to choose from, it was hard to decide who will be the star of this amazing party!\nWe wanted someone with style to guide our feet on th',0
+'Dear Friends,\nLet s Mykonos this Saturday, the 25th of August, in Fratelli Beach & Club Mamaia!\nWith so many grand names to choose from, it was hard to decide who will be the star of this amazing party!\nWe wanted someone with style to guide our feet on th',0
+'Timp de patru zile, Artmark duce la turatie maxima atmosfera clubului Fratelli din Mamaia: 2000 de cai putere vor atrage VIP-urile si publicul pasionat de masini cu ocazia primei licitatii romanesti de Masini de Colectie care va avea loc duminica,...',0
+'Timp de patru zile, Artmark incinge ringul clubului Fratelli din Mamaia la turatie maxima: 2000 de cai putere vor atrage VIP-urile si publicul cu ocazia primei licitatii romanesti de Masini de Colectie. \n http://bit.ly/TSKodB \nArtmark organizeaza la Mamai',0
+'Masina Regelui Mihai I, scoasa la licitatie\nPrima licitatie romaneasca de masini de colectie va avea loc in Mamaia, duminica, 26 august. Ca preambul al ineditei licitatii, pe covorul rosu vor pasi, in seara de 23 august, primarul Constantei,\nRadu Mazare,',0
+'Prima licitatie romaneasca de masini de colectie se va organiza in cea mai mondena statiune de pe litoral, Mamaia, la Fratelli Beach Club. In cele patru zile ale evenimentului, 2000 de... cai putere vor atrage VIP-urile si pasionatii de automobile ca un m',0
+'Timp de patru zile, Artmark incinge ringul clubului Fratelli din Mamaia la turatie maxima: 2000 de cai putere vor atrage VIP-urile si publicul cu ocazia primei licitatii romanesti de Masini de Colectie.',0
+'VIP-urile si cei pasionati de automobile sunt asteptati duminica la prima licitatie romaneasca de Masini de Colectie, la Clubul Fratelli din Mamaia. Primarul Constantei, Radu Mazare, va pasi pe covorul rosu maine seara, la cocktailul privat, unde se vor t',0
+'VIP-urile si cei pasionati de automobile sunt asteptati duminica la prima licitatie romaneasca de Masini de Colectie, la Clubul Fratelli din Mamaia. Primarul Constantei, Radu Mazare, va pasi pe covorul rosu maine seara, la cocktailul privat, unde se vor t',0
+'a   Fratelli Beach & Club Mamaia - 18 August 2012 \nOne of the best nights of the summer in Fratelli Beach & Club Mamaia!',0
+'One of the best nights of the summer in Fratelli Beach & Club Mamaia! Luca Valentin shared his own album: a   Fratelli Beach & Club Mamaia - 18 August 2012. \n a   Fratelli Beach & Club Mamaia - 18 August 2012',0
+'The Londoners @ Fratelli - Sylvain Armand -credits Silviu Craciun \nThank you Dj Johnny DaMix & MC Silviu Andrei for one of the best nights of the summer in Fratelli Beach & Club Mamaia! Here is last Saturday\'s second album!',0
+'Dear Friends,\nYou don\'t have to go to London to taste an amazing party, just like the British do it!\nThis Friday, the 10th of August, we have the pleasure to welcome Yuri Omneari to Fratelli Beach & Club Mamaia!\nYuri Omneari is without doubt one of the mo',0
+'Dear Friends,\nYou don\'t have to go to London to taste an amazing party, just like the British do it!\nThis Friday, the 10th of August, we have the pleasure to welcome Yuri Omneari to Fratelli Beach & Club Mamaia!\nYuri Omneari is without doubt one of the mo',0
+'Good morning! Still thinking about last weekend in Fratelli!? :) http://t.co/muqvA4Xi',0
+'Good morning! Still thinking about last weekend in Fratelli!? :)',0
+'Thank you Nikki Beach Saint Tropez for last\'s week amazing event - I   Fratelli @ Nikki Beach! Thank you Loredana... http://t.co/T8sfEd6b',0
+'I a   Fratelli @ Nikki Beach St.Tropez - credits Bogdan Gheorghita \nThank you Nikki Beach Saint Tropez for last\'s week amazing event - I a   Fratelli @ Nikki Beach! Thank you Loredana Groza, Finlandia Explore Midnight, Dj Johnny DaMix, Sylvain Armand & MC',0
+'@oshlobanul la fratelli!',0
+'i  3 fratelli beach & club, but it s time to get back home. see u soon http://t.co/Pmrz9Wmt',1
+'Enjoy your fresh limonade at Fratelli Terrazza! http://t.co/wwk8RFL1',0
+'Enjoy your fresh limonade at Fratelli Terrazza!',0
+'The Londoners @ Fratelli - DJ JSebK - credits Alex Tunschi \nLast Friday DJ JSebK, Dj Johnny DaMix & MC Silviu Andrei hosted The Londoners @ Fratelli in Mamaia! Thank you all for coming!',0
+'Last Friday\'s photos from Fratelli Social Club can be found right here! http://t.co/iLb8axzX',0
+'Boyz n da Hood - credits Marius Stoianov \nLast Friday\'s photos from Fratelli Social Club can be found right here!',0
+'The Londoners @ Fratelli - DJ JSebK - credits BiLoo Tza \nEnjoy the first set of photos from Friday night in Fratelli Beach & Club Mamaia!',0
+'I  3 Fratelli Beach Vibes http://t.co/iuWc0BlV',1
+'Fratelli Beach 2012 - Mamaia \n2010-2012 biLoo. All Rights Reserved. http://facebook.com/fotobiloo',0
+'Parca nu e ziua de nastere completa pana nu mananci tortul aniversar cu bezea din Fratelli, disponibil si la Sky Bar :)',1
+'Spend the night with us, along with your best friends and enjoy a drink prepared for your own taste at Fratelli... http://t.co/6hWXCeFL',0
+'Spend the night with us, along with your best friends and enjoy a drink prepared for your own taste at Fratelli Terrazza!',0
+'Photos \nWe found a photo in a bottle from our brave captains Dj Johnny DaMix & MC Silviu Andrei! Thank you all for coming in Fratelli Beach & Club Mamaia!',0
+'Thank you DJ JSebK, Ruky DeeJay & PeeJay Vincent Music for last night in Fratelli Bucharest! Thank you all for... http://t.co/yxbjsiBe',0
+'Photos \nThank you DJ JSebK, Ruky DeeJay & PeeJay Vincent Music for last night in Fratelli Bucharest! Thank you all for coming!',0
+'Brunch in Fratelli Beach & Club Mamaia is always a great idea! http://t.co/mqv7KaTk',0
+'Brunch in Fratelli Beach & Club Mamaia is always a great idea!',0
+'Fratelli Beach is waiting for you! Just let go and join us for a swim !',0
+'I\'m at Fratelli | Beach & Club (Mamaia, Constanta) w/ 29 others http://t.co/AnjPdmNE',0
+'Am plecat si eu in weekend ca tot omu\' la mare. Pentru ca n-am stare am zis sa va spun cateceva despre ce se intampla pe la Mamaia anul acesta. Fitza de fitza... suntem in criza, insa nu as spune acest lucru cand vad ce se intampla pe aici.\nAm stat azi to',0
+'i  3 Fratelli Beach Sounds http://t.co/aeD4KQz2',1
+'Photos \nSailors, adventure awaits! Come meet the Pirates of the Black Sea Dj Johnny DaMix & MC Silviu Andrei in Fratelli Beach & Club Mamaia a.k.a. ""The White Pearl""! :)',0
+'Tonight our guest DJ JSebK is in charge of dancing in Fratelli Social Club, ""Encore une fois!""! http://t.co/KgM33BQ8',0
+'Photos \nTonight our guest DJ JSebK is in charge of dancing in Fratelli Social Club, ""Encore une fois!""!',0
+'It\'s been a hard week! Spend the weekend with your friends, have fun and relax at Fratelli Terrazza! http://t.co/3nNqrpnG',0
+'Photos \nIt\'s been a hard week! Spend the weekend with your friends, have fun and relax at Fratelli Terrazza!',0
+'Photos \nThe wonderful performance by Loredana Groza at Nikki Beach St.Tropez still echos in our hearts! This goes down in history as a ""Fratelli classic""!',0
+'Brunch in Fratelli Beach & Club Mamaia is always a great idea!',0
+'Chers amis,\nAn amazing party is coming our way, ""Encore une fois"", this Saturday in Fratelli Social Club!\nHe was our guest for the first time this summer and now he is back for more! On the 4th of August, DJ JSebK will fill our hearts again with his Frenc',0
+'Dear Friends,\nLet s embark on a epic journey in Fratelli Beach & Club Mamaia! Our ship is ready to set sail on the most treacherous waters, in an adventure that will be written on this summer s history!\nThe Pirates of the Black Sea, our residents, DJ John',0
+'Thank you Ruky DeeJay & PeeJay Vincent Music for your show last night in Fratelli Social Club Bucharest! http://t.co/TIlKtURT',0
+'Photos \nThank you Ruky DeeJay & PeeJay Vincent Music for your show last night in Fratelli Social Club Bucharest!',0
+'Photos \nLast night DJ JSebK rocked Fratelli Beach & Club Mamaia, together with our residents Dj Johnny DaMix & MC Silviu Andrei!',0
+'Good morning! Fratelli Beach is waiting for you! Just let go and join us for a swim ! http://t.co/d8vbvsWI',0
+'Good morning! Fratelli Beach is waiting for you! Just let go and join us for a swim !',0
+'We are still thinking about the magic party in St Tropez! Thank you Loredana Groza, Finlandia Vodka, Dj Johnny DaMix & MC Silviu Andrei for a classic Fratelli party!',0
+'Instagram Photos \nBuna dimineata Bucuresti, direct din Fratelli! http://instagr.am/p/N5HISQn1ie/',0
+'Photos \nJoin us tonight with a new guest and plenty of surprises for a night of music, dance and happiness: The Londoners @ Fratelli!',0
+'Photos \nSee you tonight in Fratelli Social Club! Drop it like it\'s hot, guys!',0
+'Ceciu Bogdan are 27 de ani si a inceput sa cocheteze cu meseria de DJ din anul 2000. Prietenii apropiati ii spun \n http://www.fratelli.ro/blog/interviuri/dj-zoom-rezidentul-din-fratelli-timisoara/ \nDJ ZOOM - Rezidentul din Fratelli Timisoara \nDj Zoom is w',0
+'Unde sunt pozele de sambata 28 iulie din Fratelli Mamaia?',0
+'Casa de licitatii Artmark anunta ""cel mai viril eveniment al verii"": Licitatia de Masini de Colectie, Sports Memorabilia, Sampanii si Vinuri de Colectie. Evenimentul va avea loc duminica, 26 august, in Club Fratelli din Mamaia. Cele 21 masini de colectie ',0
+'Marcheaza datele de 11 si 12 august in calendarul tau. In acest weekend toti iubitorii muzicii indie se vor muta in spatiul verde si racoros al Domeniului Stirbey pentru festivalul Summer Well.   Daca anul trecut i-ati putut vedea pe Interpol, Plan B, Noi',0
+'Chers amis, An amazing party is coming our way, ""Encore une fois"", this Saturday in Fratelli Social Club! He was our guest \n http://www.fratelli.ro/events/fratelli-social-club/encore-une-fois-dj-jsebk-in-fratelli-social-club/ \nEncore une fois! DJ JSebK in',0
+'Dear Friends, Let\'s embark on a epic journey in Fratelli Beach & Club Mamaia! Our ship is ready to set sail on \n http://www.fratelli.ro/events/fratelli-beachclub/pirates-of-the-black-sea/ \nPirates of the Black Sea! \nThe Pirates of the Black Sea, our resid',0
+'Artmark este o casa  de licitatii de arta infiintata in 2008 care selecteaza, evalueaza si pune in circuitul pietei de arta opere cu autenticitate garantata, sustinand in paralel activitatea Centrului Cultural ArtSociety, care organizeaza expozitii de art',0
+'Casa de licitatii Artmark anunta ""cel mai viril eveniment al verii"": Licitatia de Masini de Colectie, Sports Memorabilia, Sampanii si Vinuri de Colectie. Evenimentul va avea loc duminica, 26 august, in Club Fratelli din Mamaia. Cele 21 masini de colectie ',0
+'Casa de licitatii Artmark anunta ""cel mai viril eveniment al verii"": Licitatia de Masini de Colectie, Sports Memorabilia, Sampanii si Vinuri de Colectie. Evenimentul va avea loc duminica, 26 august, in Club Fratelli din Mamaia. Cele 21 masini de colectie ',0
+'fratelli timisoara - fratelli mamaia.. 9hrs',0
+'Exercitiu de patriotism la cheful miliardarilor romani din statiunea Saint Tropez, unde Remus Truica a fost sufletul petrecerii. El a dansat pe mese cu tricolorul la gat, iar in acordurile imnului national a facut jonglerii cu cuburile de gheata.\n\nSampa',0
+'Good morning! Loredana Groza & Agurida Band & Dj Johnny DaMix & MC Silviu Andrei rocked Nikki Beach St. Tropez in a one of a kind Fratelli party!',0
+'Good morning! We had an amazing party in St. Tropez! Thank you Loredana Groza & Finlandia Explore Midnight & Dj Johnny DaMix & MC Silviu Andrei for a classic Fratelli party!',0
+'Peste 100 de romani pusi pe distractie au incins o hora, ieri, la Saint Tropez, pe exclusivista plaja Nikki Beach. Printre cei care au jucat mandri pe muzica romaneasca s-au numarat milionarul Remus Truica, un personaj obisnuit al resorturilor de pe nisip',0
+'Boyz\'N da Hood in Fratelli Social Club\nDear Friends, This Friday, the 3rd of August, we turn to the streets for an urban experience! Let\'s get down and dirty in Fratelli Social Club Bucharest with our residents Ruky DeeJay &amp; PeeJay\nVincent as they co',0
+'Cu toate ca petrecaretii, in frunte cu Remus Truica si cu Loredana, au jucat hore traditionale romanesti, petrecerea nu a fost animata de vis rosu sau de palinca, asa cum obisnuiesc romanii, ci de valuri de sampanie din cea mai scumpa, dupa moda milionari',0
+'A delicious cocktail for a delicious evening at Fratelli Terrazza! http://t.co/d1WtoqDi',0
+'Photos \nA delicious cocktail for a delicious evening at Fratelli Terrazza!',0
+'Tomorrow night Ruky DeeJay & PeeJay Vincent Music are performing as Boyz n da Hood in Fratelli Social Club! http://t.co/iB5Psd8X',0
+'Dear Friends, This Friday, the 3rd of August, we turn to the streets for an urban experience! Let\'s get down and dirty \n http://www.fratelli.ro/events/fratelli-social-club/boyz-n-da-hood/ \nBoyz n da Hood! \nTomorrow night Ruky DeeJay & PeeJay Vincent Music',0
+'Dear Friends, Let\'s embark on a epic journey in Fratelli Beach & Club Mamaia! Our ship is ready to set sail on \n http://www.fratelli-constanta.ro/events/fratelli-beachclub/pirates-of-the-black-sea/ \nPirates of the Black Sea! \nThis Saturday let\'s embark on',0
+'Chers amis,\nAn amazing party is coming our way, ""Encore une fois"", this Saturday in Fratelli Social Club!\nHe was our guest for the first time this summer and now he is back for more! On the 4th of August, DJ JSebK will fill our hearts again with his Frenc',0
+'Dear Friends, You don\'t have to go to London to taste an amazing party, just like the British do it! This Friday, \n http://www.fratelli-constanta.ro/events/fratelli-beachclub/the-londoners-fratelli-beach-club-mamaia-nord-2/ \nThe Londoners @Fratelli Beach ',0
+'Saturday at 11:30pm at Fratelli Social Club \n http://www.facebook.com/events/182645218534089/ \nEncore une fois! \nAn amazing party is coming our way, ""Encore une fois"", this Saturday in Fratelli Social Club Bucharest! On the 4th of August, DJ JSebK, Ruky D',0
+'If you are going to the seaside, you are going to meet the Pirates of the Black Sea in Fratelli Beach & Club Mamaia! http://t.co/RRxxh3bG',0
+'Photos \nIf you are going to the seaside, you are going to meet the Pirates of the Black Sea in Fratelli Beach & Club Mamaia!',0
+'Viteza vantului : 14.48 km/h, NNE Soarele rasare la : 5:48 am Soarele apune la : 8:38 pm Umiditate : 40 % Vizibilitate : 9.99 km\nJandarmii au intrerupt show-ul Loredanei din Saint Tropez! - VIDEO\nLoredana Groza , care s-a dezlantuit, in stilu-i caracteris',0
+'Ia-ti mireasa ziua buna / De la Fratelli, de la muma http://t.co/pmHvPEp4',0
+'Loredana se afla acum in St. Tropez, unde are concert alaturi de trupa ei Agurida.\nCantareata a postat ieri pe contul ei de Facebook o poza foarte indrazneata, cu ea imbracata intr-o rochita scurta, pe sub care nu purta sutien. \nPentru Loredana, timpul ',0
+'Pentru ea, timpul pare ca sta in loc. La fel de bine imbracata atat pe scena, cat si in particular, artista arata exceptional si fiecare aparitie de-a ei este de-a dreptul spectaculoasa. \n\nLoredana se afla acum in St. Tropez, unde are concert alaturi de',0
+'Loredana i-a incalzit pe francezi la maximum la St Tropez.\n\nDupa cum stim, Loredana a invatat ce inseamna sa faci show si nu numai romanii, dar si francezii sunt innebuniti dupa spectacolele ei.\nNon-conformista cum ne-a obisnuit, romanca a urcat dezinv',0
+'Bucate fine, invitati alesi pe spranceana, spectacol de senzatie si, bineinteles, un loc select, in St. Tropez, destinatia preferata a milionarilor. Acestea au fost ingredientele petrecerii incinse ieri, in resortul Nikki Beach, de peste 100 de romani. To',0
+'Petrecere de pomina, ieri, in Saint-Tropez! Peste o suta de afaceristi si vedete de la noi s-au distrat romaneste, pe exclusivista plaja de la Nikki Beach, destinatia preferata a miliardarilor din toata lumea.\n\n\nSampania fina, bucatele alese si show-ul',0
+'Are 42 de ani si n-are nici o jena sa se imbrace sexy, cu rochite sau bluzite transparente. Loredana Groza stie sa-si puna in evidenta silueta, iar cand vine vorba despre vestimentatiile pregatite pentru show, isi lasa fanii cu gura cascata. \nZilele trec',0
+'Loredana Groza, care s-a dezlantuit, in stilu-i caracteristic, intr-un show cum n-a vazut Riviera Franceza! De altfel, dupa primul program al artistei, au intervenit jandarmii pentru a intrerupe spectacolul, la solicitarea unui vecin deranjat de zgomot, s',0
+'Loredana Groza, care s-a dezlantuit, in stilu-i caracteristic, intr-un show cum n-a vazut Riviera Franceza! \n\nFratelli',0
+'I\'m at Fratelli Terazza (Timisoara, Timis) http://t.co/IeJVrnwD',0
+'If you are going at the seaside, here\'s how you should start the weekend in Fratelli Beach& Club Mamaia! http://t.co/jjgBHeV9',0
+'Dear Friends, You don\'t have to go to London to taste an amazing party, just like the British do it! This Friday, \n http://www.fratelli.ro/events/fratelli-beachclub/the-londoners-fratelli-beach-club-mamaia-nord-2/ \nThe Londoners @Fratelli Beach & Club Mam',0
+'Ready for something good? Enjoy it at Fratelli Terrazza! http://t.co/Q2VgrPDt',0
+'Photos \nReady for something good? Enjoy it at Fratelli Terrazza!',0
+'Saturday at 11:30pm at Fratelli Beach & Club \n http://www.facebook.com/events/444278438951005/ \nPirates of the Black Sea! \nThis Saturday, the 4th of August , let\'s embark on a epic journey in Fratelli Beach & Club Mamaia! The Pirates of the Black Sea, our',0
+'Surpriza......!!!! Vineri  noapte (27 iulie) am performat pe scena din Fratelli Mamaia alaturi de Damian Draghici& Brothers, intr-un concert caritabil susutinut  in folosul proiectului  Salvati muzica, salvati arta ! . A fost un show incediar, cu muzica a',0
+'It\'s time to play monopoly and party together tonight at Fratelli Terrazza! http://t.co/S0kGYsSt',0
+'Photos \nIt\'s time to play monopoly and party together tonight at Fratelli Terrazza!',0
+'Refill your Happiness Party@ Ponton Casa Baraj! , Pop &amp; Dance, Resita , eveniment, concerte in, evenimente\nLuna august se deschide cu un party de proportii! Cei mai buni DJ rezidenti din vestul tarii isi dau intalnire sambata 04.08, la cel mai mare pa',0
+'Dear Friends,\nLet s embark on a epic journey in Fratelli Beach & Club Mamaia! Our ship is ready to set sail on the most treacherous waters, in an adventure that will be written on this summer s history!\nThe Pirates of the Black Sea, our residents, DJ John',0
+'This Friday, the 3rd of August, we turn to the streets for an urban experience in Fratelli Social Club! http://t.co/fVP8yrjs',0
+'Dear Friends, This Friday, the 3rd of August, we turn to the streets for an urban experience! Let\'s get down and dirty \n http://www.fratelli.ro/events/fratelli-social-club/boyz-n-da-hood/ \nBoyz n da Hood! \nThis Friday, the 3rd of August, we turn to the st',0
+'Vineri  noapte (27 iulie) am performat pe scena din Fratelli Mamaia alaturi de Damian Draghici& Brothers, intr-un concert caritabil susutinut  in folosul proiectului ""Salvati muzica, salvati arta""! . A fost un show incediar, cu muzica antrenanta si cu mul',0
+'Dear Friends,\nLet s embark on a epic journey in Fratelli Beach & Club Mamaia! Our ship is ready to set sail on the most treacherous waters, in an adventure that will be written on this summer s history!\nThe Pirates of the Black Sea, our residents, DJ John',0
+'Photos \nIf you are looking for a delicious lunch in Mamaia, Fratelli Beach & Club\'s restaurant is the perfect solution! Our highly appreciated chefs from Flavours Food Design are in charge of the delightful menu!',0
+'Looking forward to it! I  3 Fratelli cu Loredana & Agurida LIVE @ Nikki Beach/Saint Tropez. Tzukis! http://t.co/ajBNzWdD',1
+'Teaser I a   Fratelli @ Nikki Beach St.Tropez \nLooking forward to it! I <3 Fratelli cu Loredana & Agurida LIVE @ Nikki Beach/Saint Tropez. Tzukis!',0
+'Dear Friends,\nLet s embark on a epic journey in Fratelli Beach & Club Mamaia! Our ship is ready to set sail on the most treacherous waters, in an adventure that will be written on this summer s history!\nThe Pirates of the Black Sea, our residents, DJ John',0
+'Romanii sunt ""stapanii"" distractiei, in aceasta dupa-amiaza, la Nikki Beach, in cunoscuta statiune St. Tropez.\nUPDATE 20.00\n\n""Inarmata"" cu o toba, Loredana a urcat pe scena si a pornit spectacolul! Artista nu s-a lasat pana cand nu a convins cativa fra',0
+'DJ ROM1 from Nikki Beach St Tropez - credits Marius Stoianov \nTake a look at last Saturday\'s unforgettable moments in Fratelli Beach & Club Mamaia! Perfect night with DJ ROM1 (ST.TROPEZ) Dj Johnny DaMix & MC Silviu Andrei!',0
+'DJ ROM1 from Nikki Beach St.Tropez - credits Silviu Craciun \nThank you Dj Johnny DaMix & MC Silviu Andrei for one of the best parties in Fratelli Mamaia! Thank you all for sharing your love!',0
+'rticol de Anca Pantus publicat in data de 2012-07-31\nPeroni Nas',0
+'Right next to a quality movie, works better a great drink at Fratelli Terrazza! http://t.co/m92C5TPR',0
+'Right next to a quality movie, works better a great drink at Fratelli Terrazza!',0
+'DJ ROM1 from Nikki Beach St Tropez - credits Marius Stoianov \nLast Saturday Nikki Beach St. Tropez\'s resident DJ ROM1 (ST.TROPEZ) rocked Fratelli Beach & Club Mamaia!',0
+'Cool night in Fratelli Social Club! Thank you all for coming last Saturday! Thank you Ruky DeeJay & Nikki McCoy! http://t.co/g5nUclqh',0
+'Modern heroes - credits Bogdan Gheorghita \nCool night in Fratelli Social Club! Thank you all for coming last Saturday! Thank you Ruky DeeJay & Nikki McCoy!',0
+'Cena di Peroni, o serie de evenimente restranse al fresco, alaturi de prieteni\nL Estate Peroni continua sa celebreze stilul italian printr-o serie de evenimente de social dining desfasurate sub conceptul deja bine-cunoscut de al fresco. Un meniu proaspat,',0
+'The Londoners @Fratelli! ~ URBAN CONSTANTA: http://t.co/rspMWxVF',0
+'Friday at 11:30pm at Fratelli Social Club \n http://www.facebook.com/events/442013482509723/ \nBoyz n da Hood! \nThis Friday, the 3rd of August, we turn to the streets for an urban experience! Let\'s get down and dirty in Fratelli Social Club Bucharest with o',0
+'Tonight, at 10 pm, it\'s movie time at Fratelli Terrazza! Come and see with us "" City Lights"" with Charles Chaplin... http://t.co/5wrkmpvU',0
+'Tonight, at 10 pm, it\'s movie time at Fratelli Terrazza! Come and see with us "" City Lights"" with Charles Chaplin and Virginia Cherrill!',0
+'Dear Friends,\nThis Friday, the 3rd of August, we turn to the streets for an urban experience!\nLet s get down and dirty in Fratelli Social Club Bucharest with our residents Ruky DeeJay & PeeJay Vincent as they come to represent the sound of the West Coast!',0
+'Dear Friends,\nYou don\'t have to go to London to taste an amazing party, just like the British do it!\nThis Friday, the 3rd of August, we have the pleasure to introduce a new name to Fratelli Beach & Club Mamaia!\nDJ JSebK started working as a DJ in Paris an',0
+'Evenimentele Cena di Peroni continua... vineri am fost la Mamaia, in lounge-ul clubului Fratelli pentru o cina al fresco pe plaja. Nadia si Mihai Popescu si-au invitat cei mai apropiati prieteni pentru o cina relaxata, plina de povesti si voie buna. Manca',0
+'Dear Friends,\nThis Friday, the 3rd of August, we turn to the streets for an urban experience!\nLet s get down and dirty in Fratelli Social Club Bucharest with our residents Ruky DeeJay & PeeJay Vincent as they come to represent the sound of the West Coast!',0
+'Dear Friends,\nYou don\'t have to go to London to taste an amazing party, just like the British do it!\nThis Friday , the 3rd of August , we have the pleasure to introduce a new name to Fratelli Beach & Club Mamaia!\nDJ JSebK started working as a DJ in Paris ',0
+'Dear Friends, \nThis Saturday, the 28th of July, Fratelli Beach & Club Mamaia will be enlightened for the first time by the performance of great DJ and one of Europe s rising artists! After spending his last weeks in St. Tropez s Nikki Beach as a resident,',0
+'Dear Friends,\nThis Saturday it s all about your favorite Modern Heroes!\nOn the evening July 28th, we gather in Fratelli Social Club Bucharest for a friendly reunion, to show off our latest achievements in saving the world and liberating the universe!  \nCa',0
+'Dragi prieteni,\nVineri, 27 iulie 2012, avem placerea sa va invitam la un concert caritabil in folosul\nproiectului ""Salvati muzica, salvati arta""!\nFratelli Beach & Club Mamaia va fi gazda unui recital live Damian & Brothers,\no adevarata explozie de muzica ',0
+'Dear Friends,\nThis Friday, the 27th of July, we set the stage of Fratelli Social Club Bucharest for an explosive meeting between two Perfect Strangers!\nSaint Tropez s Nikki Beach sends its resident, Romain Kwiatkowski a.k.a. DJ ROM1, for a special perform',0
+'Povestea celor mai rafinate evenimente ""fusion"" din Romania incepe in anul 2005, cand Fratelli isi construia o reputatie. Ne-am propus sa oferim  intotdeauna servicii de inalta calitate, iar din acest motiv am facut echipa cu cei mai buni - Flavours Food ',0
+'Dear Friends,\nThis Saturday, 21st of July, the star of Germany is back in Fratelli Social Club Bucharest for an "" ber Cool""; show! \nDJ ESKEI83 s last performance in Bucharest was highly regarded and we can t wait for another exhilarating show! \nMore than ',0
+'Dear Friends,\nWe re halfway through summer and the hottest days are yet to come, but also the hottest nights, so we better be prepared! \nThe story of this season on the beach of Mamaia is reaching its climax and the parties are more intense than ever!\nThi',0
+'Dear Friends,\nYou don\'t have to go to London to taste an amazing party, just like the British do it!\nThis Friday, the 3rd of August, we have the pleasure to introduce a new name to Fratelli Beach & Club Mamaia!\nDJ JSebK started working as a DJ in Paris an',0
+'Friday at 11:30pm at Fratelli Beach & Club \n http://www.facebook.com/events/343057355779821/ \nThe Londoners @Fratelli! \nThis Friday, the 3rd of August, we have the pleasure to introduce you DJ JSebK for the first time in Fratelli Beach & Club Mamaia!',0
+'Teaser I a   Fratelli @ Nikki Beach St.Tropez \nPentru cine poate si isi doreste...mai este timp sa ajunga!!! :)',0
+'Dear Friends,\nYou don\'t have to go to London to taste an amazing party, just like the British do it!\nThis Friday, the 3rd of August, we have the pleasure to introduce a new name to Fratelli Beach & Club Mamaia!\nDJ JSebK started working as a DJ in Paris an',0
+'Good morning! Packing your bags for the event I   Fratelli @ Nikki Beach Saint Tropez? :) http://t.co/VOEjiMOU',0
+'Teaser I a   Fratelli @ Nikki Beach St.Tropez \nGood morning! Packing your bags for the event I a   Fratelli @ Nikki Beach Saint Tropez? :)',0
+'Damian & Brothers - credits Marius Stoianov \nDamian & Brother in Fratelli Beach & Club Mamaia! Here are the photos from last Friday party!',0
+'Damian & Brothers - credits Silviu Craciun \nImagini de la un show energic marca Damian & Brothers, vinerea trecuta in Fratelli Beach & Club Mamaia!',0
+'In order to start this week properly, a special cocktail is waiting for you tonight at Fratelli Terrazza! :) http://t.co/5pTmG1ee',0
+'Photos \nIn order to start this week properly, a special cocktail is waiting for you tonight at Fratelli Terrazza! :)',0
+'Photos from last Friday\'s ""Perfect Strangers"" party with DJ ROM1 (ST.TROPEZ) & Nikki McCoy in Fratelli Social... http://t.co/surzeFAu',0
+'Perfect strangers - credits Bogdan Gheorghita \nPhotos from last Friday\'s ""Perfect Strangers"" party with DJ ROM1 (ST.TROPEZ) & Nikki McCoy in Fratelli Social Club Bucharest!',0
+'Teaser I a   Fratelli @ Nikki Beach St.Tropez \nMultumesc celor care au ramas aseara pana tarziu in noapte pe plaja dintre Saturn si Venus. Ati fost de nota 10!!! N-a mai vazut litoralul hora in nisip la 2 noaptea in viata lui :)\nUrmeaza o alta plaja, cea ',0
+'Teaser I a   Fratelli @ Nikki Beach St.Tropez \nMultumesc celor care au ramas aseara pana tarziu in noapte pe plaja dintre Saturn si Venus. Ati fost de nota 10!!! N-a mai vazut litoralul hora in nisip la 2 noaptea in viata lui :)\nUrmeaza o alta plaja, cea ',0
+'Asociatia Mondiala a Loviturilor de Stat a decis sa excluda Romania din randul tarilor membre. \n\nAsta dupa ce a constatat ca masinile blocate pe Bucuresti-Constanta si fotografiate din satelit nu erau convoaie de refugiati.\n\n""Romania dovedeste inca o ',0
+'Un weekend extraordinar. Nu ne-am mai distrat de muuuult asa!!! Thanks Fratelli for this great weekend!!!',1
+'Teaser I   Fratelli @ Nikki Beach St.Tropez http://t.co/vH8q6ZeX',0
+'Teaser I a   Fratelli @ Nikki Beach St.Tropez \nDear friends, we & Finlandia Explore Midnight are proud to present an unique event that will take place on the 1st of August 2012: ""I a   Fratelli @ Nikki Beach- St.Tropez"" ! Loredana Groza and Agurida band w',0
+'Teaser I a   Fratelli @ Nikki Beach St.Tropez \nDear friends, we & Finlandia Explore Midnight are proud to present an unique event that will take place on the 1st of August 2012: ""I a   Fratelli @ Nikki Beach- St.Tropez"" ! Loredana Groza and Agurida band w',0
+'Photos \nSometimes is better to end a day with a glass of wine in the company of your friends! Compliments from Fratelli Terrazza! :)',0
+'Thank you DJ ROM1 (ST.TROPEZ), Dj Johnny DaMix & MC Silviu Andrei for last night\'s party in Fratelli Beach & Club Mamaia!',0
+'Thank you Ruky DeeJay and Nikki McCoy for being our Modern Heroes last night in Fratelli Social Club! http://t.co/ob2gLdum',0
+'Photos \nThank you Ruky DeeJay and Nikki McCoy for being our Modern Heroes last night in Fratelli Social Club!',0
+'De cand sunt la Fratelli pe plaja am numarat doar 5 tate ok. Protv, sper ca esti fericit acum!',0
+'RT @nashu: Pe plaja la Fratelli, o baba e suparata pe fie-sa ca si-a comandat frigider de pe internet: ""pai asa am ajuns, sa ne spargem...',0
+'#pebaniimei RT @suspaharu: @nashu aI bani de fratelli !?',0
+'@nashu aI bani de fratelli !?',0
+'Pe plaja la Fratelli, o baba e suparata pe fie-sa ca si-a comandat frigider de pe internet: ""pai asa am ajuns, sa ne spargem in figuri?""',0
+'Good morning! To the Fratelli Beach, right? :) http://t.co/YZJPHWmE',0
+'Good morning! To the Fratelli Beach, right? :)',0
+'Beach, brunch or lunch?! Choose your favorite in Fratelli Beach & Club Mamaia!',0
+'Sa votam! Votez pentru un mojito. (@ Fratelli | Beach & Club w/ 2 others) http://t.co/na1FUUyA',0
+'wtf cum ma sa fie coada la intrat in club (fratelli/ego/office) OMFG',0
+'Numai saracii au ramas in Bucuresti. Sunt in Fratelli cu inca 100 de oameni, poate s-or mai strange.',0
+'Tonight join us in Fratelli Beach & Club Mamaia for a show created by DJ ROM1 (ST.TROPEZ) - Nikki Beach St. Tropez\'s resident !',0
+'Spend you evening with plenty of good mood and good music at Fratelli Terrazza! http://t.co/HLuzFNOE',0
+'Photos \nSpend you evening with plenty of good mood and good music at Fratelli Terrazza!',0
+'Tonight pick your knight in shining armor and dance the night away in Fratelli Social Club Bucharest! http://t.co/zvO4qrRJ',0
+'Photos \nTonight pick your knight in shining armor and dance the night away in Fratelli Social Club Bucharest!',0
+'Dear Friends, \nThis Saturday, the 28th of July, Fratelli Beach & Club Mamaia will be enlightened for the first time by the performance of great DJ and one of Europe s rising artists! After spending his last weeks in St. Tropez s Nikki Beach as a resident,',0
+'@Edvigia langa Fratelli Beach',0
+'Povestea celor mai rafinate evenimente ""fusion"" din Romania incepe in anul 2005, cand Fratelli isi construia o reputatie. Ne-am propus sa oferim \n http://www.fratelli.ro/blog/interviuri/fratelli-flavours-minuni-in-farfurie/ \nFratelli & Flavours - Minuni i',0
+'Brunching in Fratelli Beach & Club Mamaia - simply amazing! http://t.co/EPA3KSL7',0
+'Brunching in Fratelli Beach & Club Mamaia - simply amazing!',0
+'Protv minte, nu sunt pizde pe plaja la Fratelli',0
+'Dear Friends,\nThis Saturday it s all about your favorite Modern Heroes!\nOn the evening July 28th, we gather in Fratelli Social Club Bucharest for a friendly reunion, to show off our latest achievements in saving the world and liberating the universe!  \nCa',0
+'O show exploziv marca Damian & Brothers, aseara in Fratelli Beach & Club Mamaia!',0
+'Good morning! Here\'s a memory from last night in Fratelli Social Club!',0
+'#instacollage #fratelli http://t.co/FsrMZLX8',0
+'Tonight join us in Fratelli Social Club Bucharest for a show created by two Perfect Strangers - DJ ROM1... http://t.co/x4LDIgCL',0
+'Photos \nTonight join us in Fratelli Social Club Bucharest for a show created by two Perfect Strangers - DJ ROM1 (ST.TROPEZ) & Ms. Nikki McCoy!',0
+'Dragi prieteni,\nVineri, 27 iulie 2012, avem placerea sa va invitam la un concert caritabil in folosul\nproiectului ""Salvati muzica, salvati arta""!\nFratelli Beach & Club Mamaia va fi gazda unui recital live Damian & Brothers,\no adevarata explozie de muzica ',0
+'Spoil yourself, ladies, this evening with a good Martini at Fratelli Terrazza! http://t.co/ORTxhGez',0
+'Photos \nSpoil yourself, ladies, this evening with a good Martini at Fratelli Terrazza!',0
+'Photos \nIn aceasta seara Damian & Brothers vor concerta in Fratelli Beach & Club Mamaia intr-un eveniment unic!',0
+'Rehearsals 4 tonight! Cu Damian Draghici& Brothers @ Fratelli Mamaia',0
+'Dear Friends, This Saturday, the 28th of July, Fratelli Beach & Club Mamaia will be enlightened for the first time by the \n http://www.fratelli-constanta.ro/events/fratelli-beachclub/emporio-armani-presents-dj-rom1-from-nikki-beach-st-tropez-in-fratelli-b',0
+'Puteti afla mai multe despre povestea Fratelli & Flavours Food Design si a celor mai rafinate evenimente ""fusion""... http://t.co/0htIPl0m',0
+'Povestea celor mai rafinate evenimente ""fusion"" din Romania incepe in anul 2005, cand Fratelli isi construia o reputatie. Ne-am propus sa oferim \n http://www.fratelli.ro/blog/interviuri/fratelli-flavours-minuni-in-farfurie/ \nFratelli & Flavours - Minuni i',0
+'Dear Friends,\nThis Friday, the 27th of July, we set the stage of Fratelli Social Club Bucharest for an explosive meeting between two Perfect Strangers!\nSaint Tropez s Nikki Beach sends its resident, Romain Kwiatkowski a.k.a. DJ ROM1, for a special perform',0
+'Povestea celor mai rafinate evenimente ""fusion"" din Romania incepe in anul 2005, cand Fratelli isi construia o reputatie. Ne-am propus sa oferim  intotdeauna servicii de inalta calitate, iar din acest motiv am facut echipa cu cei mai buni - Flavours Food ',0
+'Good morning!  See you at Fratelli Beach!',0
+'Good morning! Any plans for this weekend? If you are going at the seaside, see you at Fratelli Beach & Club... http://t.co/6R6E5vbS',0
+'Good morning! Any plans for this weekend? If you are going at the seaside, see you at Fratelli Beach & Club Mamaia! :)',0
+'Good morning! Have a delicious breakfast at Fratelli Terrazza! http://t.co/xaaO8IDl',0
+'Good morning! Have a delicious breakfast at Fratelli Terrazza!',0
+'Romain Kwiatkowski a.k.a DJ ROM1 Nikki McCoy\nDear Friends, This Friday, the 27th of July, we set the stage of Fratelli Social Club Bucharest for an explosive meeting between two Perfect Strangers""! Saint Tropez\'s Nikki Beach sends its resident,\nRomain Kw',0
+'Dear Friends, This Saturday, the 28th of July, Fratelli Beach & Club Mamaia will be enlightened for the first time by the \n http://www.fratelli-constanta.ro/events/fratelli-beachclub/emporio-armani-presents-dj-rom1-from-nikki-beach-st-tropez-in-fratelli-b',0
+'Saturday at 11:30pm at Fratelli Beach & Club \n http://www.facebook.com/events/273013419465437/ \nI a   Nikki Beach St. Tropez \nDJ ROM1 (ST.TROPEZ), the resident DJ at Nikki Beach St.Tropez, is our guest this Saturday night in Fratelli Beach & Club Mamaia !',0
+'We recommend you today to try something light and tasty at Fratelli Terrazza!',0
+'See you at Fratelli Beach!',0
+'This Saturday it\'s all about your favorite Modern Heroes in Fratelli Social Club Bucharest! http://t.co/JT4zUTz5',0
+'Saturday at 11:30pm at Fratelli Social Club \n http://www.facebook.com/events/170603933064597/ \nModern Heroes \nThis Saturday it\'s all about your favorite Modern Heroes in Fratelli Social Club Bucharest!',0
+'@Fratelli with the best Dj ever!!! :) http://t.co/6XtLkaU7',1
+'Damian & Brothers in Fratelli Beach & Club Mamaia! ~ URBAN CONSTANTA: http://t.co/J4B3jDpp',0
+'Saturday at 11:30pm at Fratelli Beach & Club \n http://www.facebook.com/events/273013419465437/ \nI a   Nikki Beach St. Tropez \nThis Saturday, the 28th of July, Emporio Armani presents DJ ROM1 (ST.TROPEZ) from Nikki Beach St. Tropez for the first time in Fr',0
+'Dear Friends, This Friday, the 27th of July, we set the stage of Fratelli Social Club Bucharest for an explosive meeting between \n http://www.fratelli.ro/events/fratelli-social-club/romain-kwiatkowski-a-k-a-dj-rom1-nikki-mccoy-in-fratelli-social-club/ \nRo',0
+'Let\'s play some games this evening at Fratelli Terrazza! http://t.co/dCEHHnuD',0
+'Photos \nLet\'s play some games this evening at Fratelli Terrazza!',0
+'Dear Friends, \nThis Saturday, the 28th of July, Fratelli Beach & Club Mamaia will be enlightened for the first time by the performance of great DJ and one of Europe s rising artists! After spending his last weeks in St. Tropez s Nikki Beach as a resident,',0
+'Dear Friends, \nThis Saturday, the 28th of July, Fratelli Beach & Club Mamaia will be enlightened for the first time by the performance of great DJ and one of Europe s rising artists! After spending his last weeks in St. Tropez s Nikki Beach as a resident,',0
+'Dragi prieteni, Vineri, 27 iulie 2012, avem placerea sa va invitam la un concert caritabil in folosul proiectului ""Salvati muzica, salvati arta""! \n http://www.fratelli.ro/events/fratelli-beachclub/damian-brothers-in-fratelli-beach-club-mamaia/ \nDamian & B',0
+'Photos \nSearching for miracles on a plate? Try our selection of fusion food, daily in Fratelli Beach & Club Mamaia!',0
+'Dragi prieteni, Vineri, 27 iulie 2012, avem placerea sa va invitam la un concert caritabil in folosul proiectului ""Salvati muzica, salvati arta""! \n http://www.fratelli-timisoara.ro/news/damian-brothers-in-fratelli-beach-club-mamaia/ \nDamian & Brothers in ',0
+'I a   Fratelli - credits Bogdan Gheorghita \nAmazing Saturday night at the seaside in Fratelli Beach & Club Mamaia! Thank you Dj Johnny DaMix & MC Silviu Andrei for a great show!',0
+'I a   Fratelli - credits Bogdan Gheorghita \nDj Johnny DaMix & MC Silviu Andrei took us trough an amazing night last Saturday! Thank you all for coming to Fratelli Mamaia!',0
+'I a   Fratelli - credits Silviu Craciun \nThank you for showing your love in Fratelli Beach & Club Mamaia last Saturday!',0
+'In the mood for something sweet? See you at Fratelli Terrazza! http://t.co/UC6gsYcN',0
+'Photos \nIn the mood for something sweet? See you at Fratelli Terrazza!',0
+'It\'s been an uber cool Saturday night in Fratelli Social Club  Bucharest with DJ ESKEI83 & Ruky DeeJay! Here are... http://t.co/j7f7ZwLV',0
+'DJ ESKEI83 - credits Marius Stoianov \nIt\'s been an uber cool Saturday night in Fratelli Social Club  Bucharest with DJ ESKEI83 & Ruky DeeJay! Here are the photos!',0
+'Photos \nAfter a busy day, you can enjoy with your friends a classic comedy with Stan Laurel and Oliver Hardy!"" Bonnie Scotland"" is starting at 10 pm, at Fratelli Terrazza!',0
+'Dragi prieteni, Vineri, 27 iulie 2012, avem placerea sa va invitam la un concert caritabil in folosul proiectului ""Salvati muzica, salvati arta""! \n http://www.fratelli-constanta.ro/events/fratelli-beachclub/damian-brothers-in-fratelli-beach-club-mamaia/ \n',0
+'This Friday, the 27th of July, we set the stage of Fratelli Social Club Bucharest for an explosive meeting... http://t.co/w7bNf77h',0
+'Friday at 11:30pm at Fratelli Social Club \n http://www.facebook.com/events/127378737405121/ \nPerfect Strangers \nThis Friday, the 27th of July, we set the stage of Fratelli Social Club Bucharest for an explosive meeting between Romain Kwiatkowski a.k.a. DJ',0
+'Damian & Brothers in Fratelli Beach & Club Mamaia- Vineri- 27 iulie 2012 mmmm....',0
+'Good morning, ladies! With compliments from Fratelli & Flavours Food Design!',0
+'Dragi prieteni,\nVineri, 27 iulie 2012, avem placerea sa va invitam la un concert caritabil in folosul\nproiectului ""Salvati muzica, salvati arta""!\nFratelli Beach & Club Mamaia va fi gazda unui recital live Damian & Brothers,\no adevarata explozie de muzica ',0
+'DJ ESKEI83 - credits Bogdan Gheorghita \nA German experience for the first time in Fratelli Beach & Club Mamaia last Friday! Here are the photos!',0
+'Dragi prieteni,\nVineri, 27 iulie 2012, avem placerea sa va invitam la un concert caritabil in folosul\nproiectului ""Salvati muzica, salvati arta""!\nFratelli Beach & Club Mamaia va fi gazda unui recital live Damian & Brothers,\no adevarata explozie de muzica ',0
+'Friday, July 27 at 11:30pm at Fratelli Beach & Club \n http://www.facebook.com/events/109869895825784/ \nDamian & Brothers in Fratelli Beach & Club Mamaia \nFratelli Beach & Club Mamaia va fi gazda unui recital live Damian & Brothers, o adevarata explozie de',0
+'DJ ESKEI83 - credits Bogdan Gheorghita \nTag yourself in the photos from Friday night party with DJ ESKEI83, Dj Johnny DaMix & MC Silviu Andrei in Fratelli Beach & Club Mamaia!',0
+'It\'s time for a cocktail that will thrill your senses at Fratelli Terrazza! http://t.co/OliXOtlf',0
+'Photos \nIt\'s time for a cocktail that will thrill your senses at Fratelli Terrazza!',0
+'Thank you for showing your love last Friday in Fratelli Social Club Bucharest! Here are the photos ! http://t.co/U90N80DK',0
+'I a   Fratelli - credits Marius Stoianov \nThank you for showing your love last Friday in Fratelli Social Club Bucharest! Here are the photos !',0
+'Good morning from Fratelli Beach! :)',0
+'Relax, Take It Easy @ Fratelli Terrazza! http://t.co/eq3ZVhnm',0
+'Photos \nRelax, Take It Easy @ Fratelli Terrazza!',0
+'RT @RFboris: In Fratelli era o tipa careia i se vedea sutienul rosu, iar cind am intrebat-o ce culoare sunt bikini, mi-a aratat ca sunt  ...',0
+'Azi noapte am aprins flacara democratiei in Fratelli. Continea tequilla, triple-sec si inca un alcool. Era usor violeta...',0
+'Photos \nLovely day at the beach! Let\'s go to Fratelli Mamaia!',0
+'Thank you DJ ESKEI83 for a great party last night in Fratelli Social Club! http://t.co/DHQ1gEO4',0
+'Photos \nThank you DJ ESKEI83 for a great party last night in Fratelli Social Club!',0
+'In Fratelli era o tipa careia i se vedea sutienul rosu, iar cind am intrebat-o ce culoare sunt bikini, mi-a aratat ca sunt negri.',0
+'In Fratelli era o tipa careia i se vedea sutienul rosu, iar cind am intrebat-o ce culoate sunt bikini, mi-a aratat ca sunt negri.',0
+'Apropos si de comentariul tau de mai devreme. Poate n-ar strica sa facem glume macabre si sa ii ironizam. Asa n-ar mai fi mari vedete ca au masini puternice. Individul a plecat de la clubul de langa fratelli si office (daca stii mamaia) iar ce ziceam de 1',0
+'I survived Vegas many times, I\'m gonna survive Fratelli Mamaia! 10 days left and counting ;)',0
+'We wrote history in an amazing party, last night in Fratelli Mamaia! Thank you all for sharing your love!',0
+'Let s brunch today with the magic team from Flavours Food Design in Fratelli Beach & Club Mamaia! http://t.co/XNmk6CS9',0
+'Let\'s brunch today with the magic team from Flavours Food Design in Fratelli Beach & Club Mamaia!',0
+'Yupiiiiiiiiiiiiiiiiiiii!!!!! #beer4boris (@ Fratelli | Beach & Club w/ 37 others) http://t.co/zU7qKc0A',1
+'Rock remix of Rolling in the Deep? So not cool Fratelli',1
+'Tot in Fratelli era mai meserie muzica si trecerile :)) am evoluat',1
+'Tonight we are ready for a   ber Cool   night in Fratelli Social Club Bucharest! http://t.co/yifIm51a',0
+'Photos \nTonight we are ready for a "" ber Cool "" night in Fratelli Social Club Bucharest!',0
+'Photos \nFratelli Beach & Club is the host of a classic night with our residents! See you tonight!',0
+'It s Saturday night! Let s party with Dj Zoom at Fratelli Terrazza! http://t.co/nxBo7dGx',0
+'Photos \nIt\'s Saturday night! Let\'s party with Dj Zoom at Fratelli Terrazza!',0
+'I\'m at Fratelli | Beach & Club (Mamaia, Constanta) w/ 5 others http://t.co/JZGUWbTA',0
+'Spend a lovely weekend at Fratelli Beach & Club Mamaia! http://t.co/TutuchpH',0
+'Photos \nSpend a lovely weekend at Fratelli Beach & Club Mamaia!',0
+'Brunch time @ Fratelli Beach & Club!',0
+'Fie ca esti turist si vrei sa petreci la malul marii, fie ca esti constantean, acest week-end te invita la distractie mondena in statiunile romanesti. Pentru ca viata culturala a luat o pauza pe timp de vara, au mai ramas doar cluburile si petrecerile cu ',0
+'Dear Friends,\nThis Saturday, 21st of July, the star of Germany is back in Fratelli Social Club Bucharest for an "" ber Cool""; show! \nDJ ESKEI83 s last performance in Bucharest was highly regarded and we can t wait for another exhilarating show! \nMore than ',0
+'Dear Friends,\nWe re halfway through summer and the hottest days are yet to come, but also the hottest nights, so we better be prepared! \nThe story of this season on the beach of Mamaia is reaching its climax and the parties are more intense than ever!\nThi',0
+'Thank you guys for a classic Fratelli party last night! http://t.co/ZoMdxYiY',0
+'Thank you guys for a classic Fratelli party last night!',0
+'Good morning! It\'s been a cool night with DJ ESKEI83, Dj Johnny DaMix & MC Silviu Andrei in Fratelli Beach & Club!',0
+'Fire...  @ Fratelli | Beach & Club http://t.co/s1AjGAYR',0
+'Life .... Vara nu dorm!  @ Fratelli | Beach & Club http://t.co/c7N3mGLS',1
+'Fratelli! http://t.co/5hk7q5OJ',0
+'Fratelli? Office Mamaia? ... Ego?',0
+'Fratelli Social ClubDear Friends,\n\nThis Saturday, 21st of July, the star of Germany is back in Fratelli Social Club Bucharest for an "" ber Cool"" show! :)\nDJ ESKEI83\'s last performance in Bucharest was highly regarded and we can\'t wait for another exhil',0
+'Tonight we can make magic happen with Ruky DeeJay & PeeJay Vincent Music in Fratelli Social Club! http://t.co/dZbVL8SL',0
+'Tonight we can make magic happen with Ruky DeeJay & PeeJay Vincent Music in Fratelli Social Club!',0
+'Is dinner time at Fratelli Terrazza!  Enjoy it! :) http://t.co/a2cceLt7',0
+'Is dinner time at Fratelli Terrazza!  Enjoy it! :)',0
+'Sa aveti un weekend asa cum va doriti!!.. iar cine e pe litoral in seara asta ma gaseste la barul din Fratelli!! Lets flip some bottles and make everybody smile!! ;)',0
+'Tomorrow night our guest DJ ESKEI83 from Germany is back in Fratelli Social Club Bucharest for another... http://t.co/DV1lhlGp',0
+'Dear Friends, This Saturday, 21st of July, the star of Germany is back in Fratelli Social Club Bucharest for an "" ber Cool"" \n http://www.fratelli.ro/events/fratelli-social-club/uber-cool-party-with-dj-eskei83-from-germany/ \nber Cool Party with DJ ESKEI83 ',0
+'Dear Friends, We\'re halfway through summer and the hottest days are yet to come, but also the hottest nights, so we better \n http://www.fratelli-constanta.ro/events/fratelli-beachclub/i-love-fratelli/ \nI a   Fratelli \nTomorrow night we can make magic happ',0
+'Good morning! A day at the beach never looked better! Let\'s go to Fratelli Beach & Club!',0
+'Fratelli Social ClubDear Friends,\n\nWe\'re halfway through summer and the hottest days are yet to come, but also the hottest nights, so we better be prepared! :)\nThis Friday, July 20th , we take a break from the city sun and we surrender to the residents',0
+'Dear Friends, We\'re halfway through summer and the hottest days are yet to come, but also the hottest nights, so we better \n http://www.fratelli-constanta.ro/events/fratelli-beachclub/i-love-fratelli/ \nI a   Fratelli \nSee you on Saturday night in Mamaia N',0
+'Saturday at 11:30pm at Fratelli Social Club \n http://www.facebook.com/events/324937644262709/ \nber Cool! \nThis Saturday, 21st of July, DJ ESKEI83 from Germany is back in Fratelli Social Club Bucharest for an "" ber Cool"" show!',0
+'Enjoying a good and fresh cocktail at Fratelli Terrazza! :) http://t.co/rPUr89Zm',0
+'Photos \nEnjoying a good and fresh cocktail at Fratelli Terrazza! :)',0
+'It\'s a place on a wild beach we\'ve been meaning to show you... In the summer, Fratelli brings all its toys to \n http://www.fratelli.ro/clubs/fratelli-beach-club/ \nFratelli Beach&Club Mamaia Nord \nThis weekend i will be back in Romania! Catch me on Friday ',0
+'Dear Friends, Fratelli and Johnnie Walker Black Label proudly presents a new guest for the first time in Fratelli Beach & Club \n http://www.fratelli-constanta.ro/events/fratelli-beachclub/dj-eskei83-from-germany-in-fratelli-beach-club-mamaia/ \nDJ ESKEI83 ',0
+'If you are going at the seaside this weekend, see you at Fratelli Beach Mamaia Nord! http://t.co/BQr9HWgV',0
+'Spoil yourselves on holidays! Enjoy a delicious meal in our restaurant on the beach! See you in Fratelli Mamaia! http://t.co/vT61ciTT',0
+'Photos \nIf you are going at the seaside this weekend, see you at Fratelli Beach Mamaia Nord!',0
+'Photos \nSpoil yourselves on holidays! Enjoy a delicious meal in our restaurant on the beach! See you in Fratelli Mamaia!',0
+'Dear Friends, On the 1st of August 2012, Fratelli joins forces with Nikki Beach for a party like never before in St. \n http://www.fratelli.ro/events/fratelli-social-club/i-♥-fratelli-nikki-beach-st-tropez/ \nI a   Fratelli @ Nikki Beach St.Tropez \nDear f',0
+'Dear Friends,\nWe re halfway through summer and the hottest days are yet to come, but also the hottest nights, so we better be prepared! \nThe story of this season on the beach of Mamaia is reaching its climax and the parties are more intense than ever!\nThi',0
+'Dear Friends, We\'re halfway through summer and the hottest days are yet to come, but also the hottest nights, so we better \n http://www.fratelli.ro/events/fratelli-social-club/i-♥-fratelli-2/ \nI a   Fratelli \nA casual classic Fratelli party is coming ou',0
+'Saturday at 11:30pm at Fratelli Beach & Club \n http://www.facebook.com/events/320850394676651/ \nI a   Fratelli! \nThis Saturday, July 21st, we take a break from the sun and we surrender to the residents of Fratelli Beach & Club, Dj Johnny DaMix and MC Silv',0
+'Dear Friends,\nWe re halfway through summer and the hottest days are yet to come, but also the hottest nights, so we better be prepared! \nThe story of this season on the beach of Mamaia is reaching its climax and the parties are more intense than ever!\nThi',0
+'It\'s time to play foosball and get party together at Fratelli Terrazza! http://t.co/ulY26kCQ',0
+'It\'s time to play foosball and party together at Fratelli Terrazza!',0
+'This Friday night, Fratelli Beach & Club Mamaia proudly presents DJ Eskei83 from Germany! http://t.co/W802rpHq',0
+'Dear Friends, Fratelli and Johnnie Walker Black Label proudly presents a new guest for the first time in Fratelli Beach & Club \n http://www.fratelli-timisoara.ro/news/dj-eskei83-from-germany-in-fratelli-beach-club-mamaia/ \nDJ ESKEI83 from Germany in Frate',0
+'In the mood for a fresh desert? Our restaurant in Fratelli Beach & Club Mamaia in opened daily from 11am to 11pm!',0
+'This Friday night, Fratelli Beach & Club Mamaia proudly presents DJ ESKEI83 from Germany! http://t.co/lfH2cD0Q',0
+'Friday at 11:30pm at Fratelli Beach & Club \n http://www.facebook.com/events/346991698712531/ \nMade in Germany! \nThis Friday night, Fratelli Beach & Club Mamaia proudly presents DJ ESKEI83 from Germany!',0
+'Good morning! Leave everything behind and head out to the beach!  Fratelli Beach Mamaia!',0
+'DJ PETE - credits Marius Stoianov \nWe won\'t forget last Saturday night in Mamaia! What a night in Fratelli Beach & Club! Thank you Dj Pete, Dj Johnny DaMix & MC Silviu Andrei!',0
+'DJ PETE - credits Marius Stoianov \nThank you all for coming to a wonderful show last Saturday in Fratelli Beach & Club Mamaia! Here is the second album!',0
+'L.A.Confidential - credits Bogdan Gheorghita \nHere are some Confidential photos from last Saturday night with DJ Alex Merrell, Ruky DeeJay & PeeJay Vincent Music in Fratelli Social Club Bucharest!',0
+'DJ PETE - credits Silviu Craciun \nWe won\'t forget last Saturday in Mamaia! What a night in Fratelli Beach & Club! Thank you Dj Pete, Dj Johnny DaMix & MC Silviu Andrei!',0
+'Dear Friends,\nFratelli and Johnnie Walker Black Label proudly presents a new guest for the first time in Fratelli Beach & Club Mamaia!\nThis Friday, the 20th of July, is the perfect opportunity to meet DJ ESKEI83 and to get familiar with the new style of m',0
+'Tonight, it\'s movie time at Fratelli Terrazza! Come and see "" The Seven Year Itch"" , a comedy with Marilyn Monroe... http://t.co/gYL4flAS',0
+'Tonight, it\'s movie time at Fratelli Terrazza! Come and see "" The Seven Year Itch"" , a comedy with Marilyn Monroe and Tom Ewell.  See you at 10 pm!',0
+'Friday at 11:30pm at Fratelli Beach & Club \n http://www.facebook.com/events/346991698712531/ \nMade in Germany! \nThis Friday, the 20th of July, we proudly present  DJ ESKEI83 from Germany for the first time in Fratelli Beach & Club Mamaia!',0
+'Friday at 11:30pm at Fratelli Social Club \n http://www.facebook.com/events/422161421168033/ \nI a   Fratelli! \nThis Friday, 16th of July, we dance with Fratelli\'s residents Ruky DeeJay & PeeJay Vincent Music in Fratelli Social Club Bucharest!',0
+'Dear Friends,\nFratelli and Johnnie Walker Black Label proudly presents a new guest for the first time in Fratelli Beach & Club Mamaia!\nThis Friday, the 20th of July, is the perfect opportunity to meet DJ ESKEI83 and to get familiar with the new style of m',0
+'California Dreamin - credits Alex Tunschi \nThank you for living a Californian Dream last Friday in Fratelli Beach & Club!',0
+'California Dreamin\' - credits Marius Stoianov \nHere are the photos from Fratelli Mamaia! Last Friday was HOT with DJ Alex Merrell, Dj Johnny DaMix &  MC Silviu Andrei!',0
+'California Dreamin\' - credits Marius Stoianov \nTag yourself in Friday\'s night photos from Fratelli Mamaia with DJ Alex Merrell, Dj Johnny DaMix & MC Silviu Andrei!',0
+'Tag yourself in Friday\'s night photos from Fratelli Social Club with Dj Pete & Ruky DeeJay ! http://t.co/ztmqj6tN',0
+'DJ PETE - credits Bogdan Gheorghita \nTag yourself in Friday\'s night photos from Fratelli Social Club with Dj Pete & Ruky DeeJay !',0
+'After a hot day, cool yourself down at Fratelli Terrazza! :) http://t.co/N2EWtBTr',0
+'After a hot day, cool yourself down at Fratelli Terrazza! :)',0
+'FOTO Gigi s-a suit pe masina si la Mamaia!\nPentru al doilea weekend la rand, patronul Stelei a facut-o lata intr-un club de pe litoral. Duminica, la ora 3 dimineata, Gigi s-a apucat sa dirijeze circulatia in Mamaia, cocotat pe Mercedesul sau,\nchiar in pa',0
+'Becali a facut ordine de pe masina in parcarea clubului Stiri.rol.ro\nViata mea e \', WIDTH, 270, TITLE, \'\', SHADOW, true, FADEIN, 200, FADEOUT, 200, STICKY, 1, CLOSEBTN, true, CLICKCLOSE, false)"" onmouseout=""UnTip()"">clubul! Acesta pare sa fie noul slogan ',0
+'Just posted a photo  @ Fratelli Lounge & Club http://t.co/ImsQPrXk',0
+'In the mood for a tasty bruschetta? :)  Enjoy it at Fratelli Terrazza! http://t.co/0xrWUxYi',0
+'In the mood for a tasty bruschetta? :)  Enjoy it at Fratelli Terrazza!',0
+'Dear Friends, On the 1st of August 2012, Fratelli joins forces with Nikki Beach for a party like never before in St. \n http://www.fratelli.ro/events/fratelli-social-club/i-♥-fratelli-nikki-beach-st-tropez/ \nI a   Fratelli @ Nikki Beach St.Tropez \nDear f',0
+'Need a break!? Just relax @ Fratelli Beach Mamaia! :) http://t.co/K4dNsimJ',0
+'Need a break!? Just relax @ Fratelli Beach Mamaia! :)',0
+'Totally worth it! RT @FratelliRo Need a break!? Just relax @ Fratelli Beach Mamaia! :) http://t.co/Um6xYhQQ',0
+'Need a break!? Just relax @ Fratelli Beach Mamaia! :) http://t.co/3T03wYDj',0
+'Here\'s the proof of a crazy night and a everlasting memory! Thank you Dj Pete, Dj Johnny DaMix & MC Silviu Andrei for your show in Fratelli Beach & Club!',0
+'Just posted a photo  @ Fratelli Lounge & Club http://t.co/ud64JhsA',0
+'DJ Alex Merrell, Ruky DeeJay & PeeJay Vincent Music rocked Fratelli Social Club last night! http://t.co/jxiN4kry',0
+'DJ Alex Merrell, Ruky DeeJay & PeeJay Vincent Music rocked Fratelli Social Club last night!',0
+'DJ Alex Merrell, Ruky DeeJay & PeeJay Vincent Music rocked Fratelli Social Club last night! http://t.co/bKRXY458',0
+'Can\'t get enough of Fratelli Beach! :)',0
+'It\'s the start of another crazy Saturday night in Fratelli Beach & Club with the amazing DJ Pete, Dj Johnny DaMix and MC Silviu Andrei!',0
+'See you tonight with the beautiful DJ Alex Merrell from Los Angeles in Fratelli Social Club Bucharest! http://t.co/KEitkdPt',0
+'Photos \nSee you tonight with the beautiful DJ Alex Merrell from Los Angeles in Fratelli Social Club Bucharest!',0
+'I\'m at Fratelli Terazza (Timisoara, Timis) http://t.co/MZ65RUyZ',0
+'Dj Zoom is waiting for you this evening at Fratelli Terrazza! http://t.co/6jkZfeD1',0
+'Dj Zoom is waiting for you this evening at Fratelli Terrazza!',0
+'LIVE @ Brunch in Fratelli Beach & Club Mamaia!',0
+'If you are at the seaside this weekend, we suggest you to taste a lovely brunch on Saturday & Sunday in Fratelli... http://t.co/yG3jO4eU',0
+'If you are at the seaside this weekend, we suggest you to taste a lovely brunch on Saturday & Sunday in Fratelli Beach & Club Mamaia, with compliments from Flavours Food Design!',0
+'DJ Alex Merrell & Dj Johnny DaMix & MC Silviu Andrei, thank you for last night party in Fratelli Beach & Club Mamaia!',0
+'Thank you Dj Pete & Ruky DeeJay for last night in Fratelli Social Club! http://t.co/ELMxU8Zn',0
+'Thank you Dj Pete & Ruky DeeJay for last night in Fratelli Social Club!',0
+'It\'s the start of another crazy Friday night in Fratelli Social Club Bucharest! Dj Pete is back! :) http://t.co/J2qsfxQ7',0
+'Photos \nIt\'s the start of another crazy Friday night in Fratelli Social Club Bucharest! Dj Pete is back! :)',0
+'Photos \nSee you tonight with the beautiful DJ Alex Merrell from Los Angeles to dream the Californian Dream in Fratelli Beach & Club Mamaia!',0
+'RT @DJALEXMERRELL: Absolutely in love with Mamaia... Can\'t wait to DJ at Fratelli tonight!! @FratelliRo http://t.co/dYL7qE5s',1
+'We are ready for the weekend with special cocktails and good music at Fratelli Terrazza! See you! http://t.co/S9DWO7Zs',0
+'Photos \nWe are ready for the weekend with special cocktails and good music at Fratelli Terrazza! See you!',0
+'Dear Friends, The show will go on this Saturday in Fratelli Beach & Club Mamaia! With so many grand names to chose \n http://www.fratelli-constanta.ro/events/fratelli-beachclub/show-must-go-on/ \nSHOW MUST GO ON! \nTomorrow night the show goes on in Fratelli',0
+'If you are at the seaside this weekend, we suggest you to taste a lovely brunch on Saturday & Sunday in Fratelli... http://t.co/LPPXPhR0',0
+'Photos \nIf you are at the seaside this weekend, we suggest you to taste a lovely brunch on Saturday & Sunday in Fratelli Beach & Club Mamaia, with compliments from Flavours Food Design!',0
+'ROA are piesa noua, iar Cezar Stanciulescu, binecunoscut tuturor ca Junkyard, are chef de vorba.\nCu cine/ce ai o problema acum?\nCu recesiunea care blazeaza si tine oamenii pe modul serios.\nAi stat vreodata de vorba cu un animal?\nDa. Dar nu mi-a raspuns...',1
+'Good morning! Spend this weekend with the ones you love on our private beach in Fratelli Mamaia!',0
+'Take their example, fall in love this weekend in Fratelli Beach & Club Mamaia! :) http://t.co/ZCMFvwQu',0
+'Take their example, fall in love this weekend in Fratelli Beach & Club Mamaia! :)',0
+'Take their example, fall in love this weekend in Fratelli Beach & Club Mamaia! :) http://t.co/2mWjdGOG',0
+'Fratelli Social ClubAI I   I   I I    I II I ,\n\nThis Friday 13th of July, we have a special party for you - ""Agapi Einai Esy"" in Fratelli Social Club Bucharest!\nIn order to spend a great night, all you have to do is come and dance \'till Saturday mornin',0
+'Tomorrow night we have a date with Dj Pete in Fratelli Social Club Bucuresti! http://t.co/IJED5IG6',0
+'""SHOW MUST GO ON"" with DJ PETE in Fratelli Studios! \nTomorrow night we have a date with Dj Pete in Fratelli Social Club Bucuresti!',0
+'DJ Alex Merrell in Fratelli Lounge & Club Constanta \nTalent & beauty under one name: DJ Alex Merrell! Join our guest this Friday in Fratelli Beach & Club!',0
+'Join us for a special evening with DJ Zoom at Fratelli Terrazza! http://t.co/xlDEI32Y',0
+'Photos \nJoin us for a special evening with DJ Zoom at Fratelli Terrazza!',0
+'a€‹VIDEO Macy Gray revine in toamna in Capitala\nMacy Gray in Fratelli Studios\nFoto: Events Cristian Mitrea\na€‹Producatoare, actrita si cantareata de r b si soul, celebra pentru vocea sa guturala, Macy Gray revine in Romania pe 22 noiembrie, la Sal',0
+'We want to let you in on a little secret! This Saturday we are throwing a party in Fratelli Social Club with Los... http://t.co/VaPLqWKN',0
+'Saturday at 11:30pm at Fratelli Social Club \n http://www.facebook.com/events/235521743234498/ \nL.A. Confidential with DJ Alex Merrell \nWe want to let you in on a little secret! This Saturday we are throwing a party in Fratelli Social Club with Los Angeles',0
+'""SHOW MUST GO ON"" with DJ PETE in Fratelli Studios! \nThe show will go on as we are preparing for an amazing party with Dj Pete, on Saturday night in Fratelli Beach & Club Mamaia!',0
+'I  3 Fratelli :) Loredana & Agurida Live pe 1 August la Nikki Beach/Saint Tropez :) http://t.co/U48zYPhm',1
+'I Fratelli :) Loredana & Agurida Live pe 1 August la Nikki Beach/Saint Tropez :)',0
+'I Fratelli :) Loredana & Agurida Live pe 1 August la Nikki Beach/Saint Tropez :)',0
+'Costea, scos iar din minti de Crudu! I-a spart telefonul dupa ce si-a desfacut picioarele la piscina! Stiri.rol.ro\nDegeaba tipa si urla Gigi Becali ca isi baga fotbalistii la puscarie daca isi mai ard cu tigara iubitele! Gelozia lui Mihai Costea nu are li',0
+'On Friday our friend Dj Pete from Mykonos will rock Fratelli Social Club Bucharest! http://t.co/geW67ZnM',0
+'AI I   I   I I    I II I , This Friday 13th of July, we have a special party for you - ""Agapi Einai Esy"" in Fratelli Social Club \n http://www.fratelli.ro/events/fratelli-social-club/agapi-einai-esy-in-fratelli-social-club-bucharest/ \nAgapi Einai Esy in Fr',0
+'Dear friends, This Friday, the 13th of July, we are proud to present the beautiful and talented Alex Merrell, the Official US \n http://www.fratelli-constanta.ro/events/fratelli-beachclub/california-dreaming-with-miss-alex-merrell-the-official-us-dj-of-tai',0
+'On Friday our friend Dj Pete from Mykonos will rock Fratelli Social Club Bucharest! http://t.co/VYA7NwG5',0
+'This Friday, we dream a Californian Dream in Fratelli Beach & Club Mamaia with the beautiful DJ Alex Merrell! http://t.co/qqKdsYIl',0
+'Dear friends, This Friday, the 13th of July, we are proud to present the beautiful and talented Alex Merrell, the Official US \n http://www.fratelli-timisoara.ro/news/california-dreaming-with-miss-alex-merrell-the-official-us-dj-of-taio-cruz-in-fratelli-be',0
+'Dear Friends,\nThe show will go on this Saturday in Fratelli Beach & Club Mamaia!\nWith so many grand names to chose from, it was hard to decide who will be the star of this amazing party!\nWe wanted someone with style to guide our feet on the dance floor un',0
+'This Friday, we dream a Californian Dream in Fratelli Beach & Club Mamaia with the beautiful DJ Alex Merrell! http://t.co/KU32cVx1',0
+'Friday at 11:30pm at Fratelli Beach & Club \n http://www.facebook.com/events/101652286648337/ \nCalifornia Dreaming \nThis Friday, we dream a Californian Dream in Fratelli Beach & Club Mamaia with the beautiful DJ Alex Merrell!',0
+'Saturday at 11:30pm at Fratelli Beach & Club \n http://www.facebook.com/events/342571952490172/ \nSHOW MUST GO ON! \nThe show will go on this Saturday in Fratelli Beach & Club Mamaia with Dj Pete!',0
+'Mai jos aveti cateva poze de la concertul lui Melanie Fiona din Fratelli.',0
+'Floraria Cristina shared their own album: Fratelli. \n Fratelli',0
+'Dear Friends,\nThe show will go on this Saturday in Fratelli Beach & Club Mamaia!\nWith so many grand names to chose from, it was hard to decide who will be the star of this amazing party!\nWe wanted someone with style to guide our feet on the dance floor un',0
+'Photos \nStarting this week, every Wednesday, we are waiting for you with a lots of cool games at Fratelli Terrazza!  Let\'s play!',0
+'This Friday ""California Dreaming"" in Fratelli Beach & Club Mamaia ~ URBAN CONSTANTA: http://t.co/V7eikWin',0
+'Photos \nBreakfast is the most important meal of the day, but Lunch in Fratelli Mamaia is truly a culinary delight! With compliments from our chefs from Flavours Food Design!',0
+'See you every day from sunrise to sunset at Fratelli Beach Mamaia! http://t.co/HGhyGL3m',0
+'Photos \nSee you every day from sunrise to sunset at Fratelli Beach Mamaia!',0
+'Dear Friends,\nOn the 1st of August 2012, Fratelli joins forces with Nikki Beach for a party like never before in St. Tropez!\nWe are the ambassadors of fun and happiness and together with our friends from Finlandia Vodka we are ready to throw an amazing pa',0
+'AI I   I   I I    I II I ,\nThis Friday 13th of July, we have a special party for you - ""Agapi Einai Esy""; in Fratelli Social Club Bucharest!\nIn order to spend a great night, all you have to do is come and dance \'till Saturday morning!\nOur friend DJ PETE f',0
+'Dear friends,\nThis Friday, the 13th of July, we are proud to present the beautiful and talented Alex Merrell, the Official US DJ of Taio Cruz for the first time in Fratelli Beach & Club Mamaia!\nHer previous performance turned the weekend into an amazing p',0
+'Dear Friends,\nOn the 1st of August 2012, Fratelli joins forces with Nikki Beach for a party like never before in St. Tropez!\nWe are the ambassadors of fun and happiness and together with our friends from Finlandia Vodka we are ready to throw an amazing pa',0
+'AI I   I   I I    I II I ,\nThis Friday 13th of July, we have a special party for you - ""Agapi Einai Esy""; in Fratelli Social Club Bucharest!\nIn order to spend a great night, all you have to do is come and dance \'till Saturday morning!\nOur friend DJ PETE f',0
+'DJ Sylvain Armand - credits Silviu Craciun \nThank you all for dancing in Fratelli Beach & Club Mamaia! Here is the second album from Saturday night!',0
+'DJ Sylvain Armand - credits Bogdan Gheorghita \nLast Saturday night on the seaside was amazing! Sylvain Armand, Dj Johnny DaMix & MC Silviu Andrei rocked Fratelli Beach & Club Mamaia!',0
+'DJ Sylvain Armand - credits Bogdan Gheorghita \nSimply amazing night last Saturday in Fratelli Beach & Club! Thank you Sylvain Armand, Dj Johnny DaMix and MC Silviu Andrei!',0
+'Photos from a cool Saturday night with DJ Krystal Roxx Fan Page, Nebat Drums & Ruky DeeJay in Fratelli Social... http://t.co/tQAs7BOT',0
+'The Beauty & The Beast-DJ Krysyall Roxx - credits Marius Stoianov \nPhotos from a cool Saturday night with DJ Krystal Roxx Fan Page, Nebat Drums & Ruky DeeJay in Fratelli Social Club Bucharest!',0
+'Tonight it\'s movie time at Fratelli Terrazza! Find out what is ""The \ntrouble with girls"" with Elvis Presley,... http://t.co/MO1rM0ia',0
+'Photos \nTonight it\'s movie time at Fratelli Terrazza! Find out what is ""The \ntrouble with girls"" with Elvis Presley, Vicent Price & John Carradine ! See you at 10pm!',0
+'This Friday we have a special party for you    Agapi Einai Esy  - with Dj Pete in Fratelli Social Club Bucharest! http://t.co/lzxgFgJP',0
+'Friday at 11:30pm at Fratelli Social Club \n http://www.facebook.com/events/416918788346332/ \nAgapi Einai Esy in Fratelli Social Club Bucharest! \nThis Friday we have a special party for you - ""Agapi Einai Esy"" - with Dj Pete in Fratelli Social Club Buchare',0
+'Dear friends,\nThis Friday, the 13th of July, we are proud to present the beautiful and talented Alex Merrell, the Official US DJ of Taio Cruz for the first time in Fratelli Beach & Club Mamaia!\nHer previous performance turned the weekend into an amazing p',0
+'Dear Friends,\nThis Saturday , the 7th of July, Krystal Roxx, the official UK DJ for Taio Cruz,  comes to Bucharest to amaze us once again!\nEnergetic and very ambitious, the blonde beauty is the resident DJ at Hed Kandi club in London, but she\'s well known',0
+'One of the most prestigious DJs that have played in Fratelli and one of our favourites, Sylvain Armand started his career in South of France, but now he is based in Saint Tropez. His gigs and shows take him all over the world, from the Film Festival in Ca',0
+'""This Friday ""California Dreaming"" in Fratelli Beach & Club Mamaia"" #baejnebun? baga Nemescu la platane?',0
+'Enjoy your fresh drinks at Fratelli Terrazza! http://t.co/xGMsbgQA',0
+'Photos \nEnjoy your fresh drinks at Fratelli Terrazza!',0
+'Friday at 11:30pm at Fratelli Beach & Club \n http://www.facebook.com/events/101652286648337/ \nCalifornia Dreaming \nThis Friday we are proud to present the beautiful and talented DJ Alex Merrell from Los Angeles, for the first time in Fratelli Beach & Club',0
+'Dear friends,\nThis Friday, the 13th of July, we are proud to present the beautiful and talented Alex Merrell, the Official US DJ of Taio Cruz for the first time in Fratelli Beach & Club Mamaia!\nHer previous performance turned the weekend into an amazing p',0
+'Dear friends,\nThis Friday, the 13th of July, we are proud to present the beautiful and talented Alex Merrell, the Official US DJ of Taio Cruz for the first time in Fratelli Beach & Club Mamaia!\nHer previous performance turned the weekend into an amazing p',0
+'@svenvaeth Doing my best to get to the beach on the 3rd of August! Can\'t forget Fratelli Studios in Bucharest! Cheers!',1
+'The Londoners @ Fratelli - Krystall Roxx - credits Silviu Craciun \nPhotos from last Friday party in Fratelli Beach & Club Mamaia with Krystal Roxx Fan Page & Nebat Drums!',0
+'The Londoners @ Fratelli - Krystall Roxx - credits Silviu Craciun \nThank you Dj Johnny DaMix & MC Silviu Andrei for Friday\'s night party in Fratelli Beach & Club! Here are the photos!',0
+'DJ Sylvain Armand - 06.07.2012 - credits Marius Stoianov \nHere are last Friday night photos from Fratelli Social Club Bucharest with DJ Sylvain Armand and Ruky DeeJay!',0
+'The Londoners @ Fratelli - Krystall Roxx - credits Alex Tunschi \nFirst set of photos from last Friday with DJ Krystall Roxx and Nebat Drums in Fratelli Beach & Club Mamaia!',0
+'It\'s time for something tasty and refreshing at Fratelli Terrazza! http://t.co/SqETgZ6O',0
+'Photos \nIt\'s time for something tasty and refreshing at Fratelli Terrazza!',0
+'Photos \nFrom Monday to Friday, from 11am to 11pm, our chefs from Flavours Food Design are ready to thrill your taste with an amazing selection of fusion cuisine at Fratelli Mamaia !',0
+'Photos \nIf you are at the seaside, from Monday to Friday, from 11am to 11pm, our chefs from Flavours Food Design are ready to thrill your taste with an amazing selection of fusion cuisine at Fratelli Mamaia!',0
+'Gigi Becali s-a imbatat si a dansat pe mese in clubul nepotu lui sau Stiri.rol.ro\nPatronul Stelei a ajuns in iad! In cel ""lumesc"", asa cum a caracterizat el discotecile. Gigi Becali s-a distrat de minune sambata, in \', WIDTH, 270, TITLE, \'\', SHADOW, true,',1
+'Vaya Con Dios va concerta pe 11 noiembrie , in clubul Fratelli . Ne-am gandit ca inainte de concert un scurt interviu cu Vaya Con Dios (Dani Klein)... \n http://muzica.metropotam.ro/interviuri-cu-artisti-romani-si-internationali/Interviu-Vaya-Con-Dios-art4',0
+'A good Mojito, for a good evening at Fratelli Terrazza! http://t.co/KEXNvp7N',0
+'Photos \nA good Mojito, for a good evening at Fratelli Terrazza!',0
+'I\'m at Fratelli | Beach & Club (Mamaia, Constanta) w/ 5 others http://t.co/o75pAolP',0
+'Photos \nEnjoy your Sunday at Fratelli Beach Mamaia! :)',0
+'Perfect weather at the seaside! Join us for Brunch in Fratelli Beach & Club Mamaia! http://t.co/SSHSHPnq',0
+'Photos \nPerfect weather at the seaside! Join us for Brunch in Fratelli Beach & Club Mamaia!',0
+'Cool party last night in Fratelli Social Club with Krystall Roxx and Nebat Drums! Thank you all for coming! http://t.co/cSQqaiCY',0
+'Cool party last night in Fratelli Social Club with Krystall Roxx and Nebat Drums! Thank you all for coming!',0
+'It has been a perfect Saturday night in Fratelli Beach & Club Mamaia! Thank you Sylvain Armand, Dj Johnny DaMix & MC Silviu Andrei!',0
+'Krystal Roxx Fan Page and Nebat Drums are in Fratelli Social Club Bucharest! Ready for a fabulous show?! http://t.co/imktfYUT',0
+'Photos \nKrystal Roxx Fan Page and Nebat Drums are in Fratelli Social Club Bucharest! Ready for a fabulous show?!',0
+'Photos \nSee you tonight with the star of Saint Tropez, DJ Sylvain Armand, in Fratelli Beach & Club!',0
+'@SylvainArmand : Welcome back to Fratelli Beach&Club Mamaia! :)',0
+'RT @SylvainArmand: @FratelliRo Im glad to be back in Mamaia doing the best venue in town FRATELLI !!! Tonight will be special trust me...',1
+'Enjoy your drinks at Fratelli Terrazza! What s your favorite cocktail?:) http://t.co/RfDuFBOD',0
+'Enjoy your drinks at Fratelli Terrazza! What\'s your favorite cocktail?:)',0
+'RT @nebatdrums: Had a great time in Mamaia Beach at The Fratelli club , amazing crowd/ crew And Happy people  http://t.co/xDAP9Yhi',1
+'Photos \nWe brunch in Fratelli Beach & Club! Come and explore our amazing buffet designed by Flavours Food Design!',0
+'Enjoy your Saturday at Fratelli Beach Mamaia! :) http://t.co/BhdNnKBI',0
+'Photos \nEnjoy your Saturday at Fratelli Beach Mamaia! :)',0
+'Dear Friends,\nThis Saturday, the 7th of July, Krystal Roxx, the official UK DJ for Taio Cruz, comes to Bucharest to amaze us once again!\nEnergetic and very ambitious, the blonde beauty is the resident DJ at Hed Kandi club in London, but she\'s well known i',0
+'Good morning! Our wild British party in Fratelli Beach & Club Mamaia was amazing! Thank you Krystal Roxx, Nebat Drums, Dj Johnny DaMix & Mc Silviu Andrei!',0
+'hank you Sylvain Armand and Ruky DeeJay for last night in Fratelli Social Club! http://t.co/U1qMEdSk',0
+'Thank you Sylvain Armand and Ruky DeeJay for last night in Fratelli Social Club!',0
+'Fratelli Mamaia party',0
+'See you tonight with the star of Saint Tropez, Sylvain Armand in Fratelli Social Club Bucharest! http://t.co/2MmHyyZA',0
+'See you tonight with the star of Saint Tropez, Sylvain Armand in Fratelli Social Club Bucharest!',0
+'It\'s time for a night to remember! Tonight, Krystall Roxx and Nebat Drums are in Fratelli Beach & Club!',0
+'DJ Zoom is ready to chill out your weekend at Fratelli Terrazza! http://t.co/1jK3x3Ya',0
+'DJ Zoom is ready to chill out your weekend at Fratelli Terrazza!',0
+'For the ones who are going to the seaside, see you at Fratelli Beach& Club Mamaia! http://t.co/6H7pTHlT',0
+'For the ones who are going to the seaside, see you at Fratelli Beach& Club Mamaia!',0
+'Sylvain Armand - Fratelli Mamaia Beach & Club 2012 \n Sylvain Armand - Fratelli Mamaia Beach & Club 2012 \nTomorrow night Sylvain Armand is our guest in Fratelli Beach & Club!',0
+'Good morning! The weekend starts and Fratelli Beach & Club is waiting! Are you ready? :)',0
+'Fratelli Social ClubDear Friends,\n\nThis Friday, the 6th of July, the star of Saint Tropez is back to Romania!\n\nEager for one more hot night in Fratelli Social Club Bucharest, DJ Sylvain Armand will inspire a fabulous event, designed to be one of the m',0
+'Saturday at 11:30pm at Fratelli Social Club \n http://www.facebook.com/events/295023463929595/ \nThe Beauty & The Beast! \nThis Saturday, the 7th of July, Krystal Roxx, the official UK DJ for Taio Cruz and our friend, Nebat Drums, Worldwide Drummer, come to ',0
+'If you are at the seaside, you can relax at Fratelli Beach & Club Mamaia! http://t.co/a0zOrazM',0
+'If you are at the seaside, you can relax at Fratelli Beach & Club Mamaia!',0
+'One of the most prestigious DJs that have played in Fratelli and one of our favourites, Sylvain Armand started his career in \n http://www.fratelli.ro/blog/interviuri/sylvain-armand-the-next-big-star/ \nSylvain Armand - The next big star \nThe famous Sylvain',0
+'Thanks for the last Weekend in Fratelli Mamaia...See you in August!',1
+'One of the most prestigious DJs that have played in Fratelli and one of our favourites, Sylvain Armand started his career in South of France, but now he is based in Saint Tropez. His gigs and shows take him all over the world, from the Film Festival in Ca',0
+'Krystal Roxx & Nebat Drums in Fratelli Lounge& Club \nKrystal Roxx, the official UK DJ for Taio Cruz and Nebat Drums will play tomorrow night in Fratelli Beach & Club Mamaia! Join us for a British party!',0
+'Friday night Sylvain Armand is our guest in Fratelli Social Club Bucharest! http://t.co/zEg52mID',0
+'Sylvain Armand - Fratelli Mamaia Beach & Club 2012 \n Sylvain Armand - Fratelli Mamaia Beach & Club 2012 \nFriday night Sylvain Armand is our guest in Fratelli Social Club Bucharest!',0
+'Dear friends, With great pleasure, we inform you that this summer Fratelli brings all its toys to the seaside, serving you a \n http://www.fratelli-constanta.ro/news/beach-brunch-lunch-in-fratelli-beach-club-mamaia-2/ \nBEACH, BRUNCH, LUNCH in Fratelli Beac',0
+'Cauta party-ul care ti se potriveste prin aplicatiile The Beat site si Mobile. \n https://www.thebeat.ro/?eventId=488 \nThe Beat Site \nHOLD ME , THRILL ME, KISS ME, KILL ME\n@FRATELLI SOCIAL CLUB',0
+'Dear Friends, You don\'t have to go to London to taste an amazing party, just like the British do it! This Friday, \n http://www.fratelli-constanta.ro/events/fratelli-beachclub/the-londoners-fratelli-beach-club-mamaia-nord/ \nThe Londoners @Fratelli Beach & ',0
+'Eager for one more hot night in Fratelli Social Club Bucharest, Sylvain Armand will inspire one of the most... http://t.co/2IowOoga',0
+'Dear Friends, This Friday, the 6th of July, the star of Saint Tropez is back to Romania! Eager for one more hot \n http://www.fratelli.ro/events/fratelli-social-club/dj-sylvain-armand-from-st-tropez-is-back-to-fratelli-social-club-bucharest/ \nDJ Sylvain Ar',0
+'Dear Friends,\nThis Saturday, the 7th of July, the star of Saint Tropez is back to Mamaia!\nEager for one more hot night in Fratelli Beach & Club after the amazing performance on the ""1st of May""; weekend, Sylvain Armand will inspire a fabulous event, desig',0
+'In the mood for a tasty pizza?:) Enjoy it at Fratelli Terrazza! http://t.co/yM2X6Zfv',0
+'In the mood for a tasty pizza?:) Enjoy it at Fratelli Terrazza!',0
+'Saturday at 11:30pm at Fratelli Beach & Club \n http://www.facebook.com/events/418376014868416/ \nThe star of Saint Tropez is back to Mamaia! \nThis Saturday, the 7th of July, our friend, Sylvain Armand, one of the leading club DJs, acclaimed in major events',0
+'Dear Friends,\nThis Saturday, the 7th of July, the star of Saint Tropez is back to Mamaia!\nEager for one more hot night in Fratelli Beach & Club after the amazing performance on the ""1st of May""; weekend, Sylvain Armand will inspire a fabulous event, desig',0
+'Dear Friends,\nThis Saturday, the 7th of July, the star of Saint Tropez is back to Mamaia!\nEager for one more hot night in Fratelli Beach & Club after the amazing performance on the ""1st of May""; weekend, Sylvain Armand will inspire a fabulous event, desig',0
+'@Alex: nu ma plang ca vin altii priceputi sau mai priceputi ca mine, ci ca nu mi se da ocazia sa fac ceva la calitatea la care s-ar putea face schimband doar 2-3 lucruri simple in intreaga desfasurare.\n\nDe ce? Pentru ca lansarea e intr-un club intunecat, ',0
+'Dear Friends,\nThis Saturday, the 7th of July, the star of Saint Tropez is back to Mamaia!\nEager for one more hot night in Fratelli Beach & Club after the amazing performance on the ""1st of May""; weekend, Sylvain Armand will inspire a fabulous event, desig',0
+'Find out how holidays taste like at our restaurant, opened daily in Fratelli Beach & Club Mamaia! http://t.co/JjRe9cv7',0
+'Photos \nFind out how holidays taste like at our restaurant, opened daily in Fratelli Beach & Club Mamaia!',0
+'Photos \nIf you missed brunch last weekend you can serve lunch daily at Fratelli Beach & Club Mamaia!',0
+'Dear Friends,\nThis Friday, the 6th of July, the star of Saint Tropez is back to Romania!\nEager for one more hot night in Fratelli Social Club Bucharest, Sylvain Armand will inspire a fabulous event, designed to be one of the most important parties of this',0
+'Dear Friends,\nYou don\'t have to go to London to taste an amazing party, just like the British do it!\nThis Friday, the 6th of July, we have the pleasure to introduce a new guest to Fratelli Beach & Club Mamaia!\nKrystal Roxx, the official UK DJ for Taio Cru',0
+'Sex on the beach - DJ Tiny Kid - credits Silviu Craciun \nWild, wild night on the beach last Saturday! Spot your friends in Fratelli Beach & Club\'s party with DJ TINY KID, Dj Johnny DaMix & MC Silviu Andrei!',0
+'Sex on the beach - DJ Tiny Kid - credits Silviu Craciun \nThank you all for partying last Saturday in Fratelli Beach & Club!',0
+'Starting this week, every Tuesday evening at 10 PM, it\'s the classics movie night at Fratelli Terrazza! This... http://t.co/JgJYKZKJ',0
+'Starting this week, every Tuesday evening at 10 PM, it\'s the classics movie night at Fratelli Terrazza! This evening, you can see a beautiful movie with us! ""Sunset Boulevard"" will get you into the atmosphere of the 50\'s!',0
+'Dear Friends,\nThis Friday, the 6th of July, the star of Saint Tropez is back to Romania!\nEager for one more hot night in Fratelli Social Club Bucharest, Sylvain Armand will inspire a fabulous event, designed to be one of the most important parties of this',0
+'Dear Friends,\nYou don\'t have to go to London to taste an amazing party, just like the British do it!\nThis Friday , the 6th of July , we have the pleasure to introduce a new guest to Fratelli Beach & Club Mamaia!\nKrystal Roxx, the official UK DJ for Taio C',0
+'Thank you for loving Fratelli! Here are the photos from last Saturday in Fratelli Social Club Bucharest! Thank... http://t.co/6rQY9Wzy',0
+'Keep calm & Love Fratelli - credits Marius Stoianov \nThank you for loving Fratelli! Here are the photos from last Saturday in Fratelli Social Club Bucharest! Thank you Ruky DeeJay and PeeJay Vincent Music!',0
+'Sex on the beach - DJ Tiny Kid - credits Alex Tunschi \nPhotos from a fabulous Saturday night with DJ TINY KID, Dj Johnny DaMix & MC Silviu Andrei in Fratelli Beach & Club Mamaia!',0
+'This Friday, the famous Sylvain Armand from St. Tropez will be our guest in Fratelli Social Club Bucharest! http://t.co/jMqjMNQd',0
+'Friday at 11:30pm at Fratelli Social Club \n http://www.facebook.com/events/379226688797943/ \nHold me, Thrill me, Kiss me, Kill me! \nThis Friday, the famous Sylvain Armand from St. Tropez will be our guest in Fratelli Social Club Bucharest!',0
+'Friday at 11:30pm at Fratelli Beach & Club \n http://www.facebook.com/events/332069583544465/ \nThe Londoners @ Fratelli Beach & Club Mamaia Nord! \nThis Friday, we set the stage in Fratelli Beach & Club Mamaia for Taio Cruz\'s official UK DJ, Miss Krystal Ro',0
+'Dear friends,\nWith great pleasure, we inform you that this summer Fratelli brings all its toys to the seaside, serving you a complete experience: we have the crazy weekend parties in the night, the exclusive beach and the delightful restaurant all week!\n\n',0
+'Dear Friends,\nYou don\'t have to go to London to taste an amazing party, just like the British do it!\nThis Friday, the 6th of July, we have the pleasure to introduce a new guest to Fratelli Beach & Club Mamaia!\nKrystal Roxx, the official UK DJ for Taio Cru',0
+'Dear Friends,\nYou don\'t have to go to London to taste an amazing party, just like the British do it!\nThis Friday, the 6th of July, we have the pleasure to introduce a new guest to Fratelli Beach & Club Mamaia!\nKrystal Roxx, the official UK DJ for Taio Cru',0
+'The man who walked around the world - credits Silviu Craciun \nSecond set from Friday night in Fratelli Beach & Club! Thank you DJ Johnny DaMix & MC Silviu Andrei!',0
+'The man who walked around the world - credits Alex Tunschi \nLast Friday in Mamaia was special! Here are the photos from Fratelli Beach & Club with Yuri Omneari!',0
+'Here are the photos from last Friday in Fratelli Social Club  Bucharest with Loredana Groza\'s amazing live show! http://t.co/yf1gCjI8',0
+'Loredana - credits Bogdan Gheorghita \nHere are the photos from last Friday in Fratelli Social Club  Bucharest with Loredana Groza\'s amazing live show!',0
+'Minimal Tech house shared Fratelli Constanta\'s photo. \n Wall Photos',0
+'After a busy day, girls, you can relax and enjoy a Cafe Frappe at Fratelli Terrazza! http://t.co/N285Ci0U',0
+'After a busy day, girls, you can relax and enjoy a Cafe Frappe at Fratelli Terrazza!',0
+'The man who walked around the world - credits Alex Tunschi \nFirst set of photos from last Friday! Fratelli Beach & Club Mamaia was the host of YURI OMNEARI - The man who walked around the world!',0
+'Bar \n http://www.facebook.com/pages/Fratelli-Mamaia/390072737716207 \nFratelli Mamaia \nhttp://www.facebook.com/pages/Fratelli-Mamaia/390072737716207',0
