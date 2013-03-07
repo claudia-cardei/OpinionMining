@@ -3,3 +3,7 @@ Corpusuri:
 	
 POS:
 	- tagger pentru romana: http://www.racai.ro/webservices/TextProcessing.aspx
+	
+WEKA:
+	- adauga weights la atribute: http://weka.wikispaces.com/Add+weights+to+dataset
+	- descriere in cateva cuvinte a catorva algoritmi: http://www.cs.waikato.ac.nz/~eibe/pubs/99IHW-EF-LT-MH-GH-SJC-Tools-Java.pdf
