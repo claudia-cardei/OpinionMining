@@ -1,0 +1,4 @@
+TODO:
+- filtrarea cuvintelor
+	- cuvinte care nu sunt in romana, care nu sunt in dictionar e
+	- eventual filtrare in functie de partea de vorbire
