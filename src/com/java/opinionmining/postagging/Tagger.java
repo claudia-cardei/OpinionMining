@@ -1,3 +1,5 @@
+package com.java.opinionmining.postagging;
+
 import java.rmi.RemoteException;
 
 import ro.racai.nlp.webservices.TextProcessingWebServiceStub;
