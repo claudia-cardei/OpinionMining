@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://nlp.racai.ro/WebServices" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://nlp.racai.ro/WebServices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://nlp.racai.ro/WebServices">
+      <s:element name="Process">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="input" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lang" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ProcessResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProcessResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ProcessSoapIn">
+    <wsdl:part name="parameters" element="tns:Process" />
+  </wsdl:message>
+  <wsdl:message name="ProcessSoapOut">
+    <wsdl:part name="parameters" element="tns:ProcessResponse" />
+  </wsdl:message>
+  <wsdl:portType name="TextProcessingWebServiceSoap">
+    <wsdl:operation name="Process">
+      <wsdl:input message="tns:ProcessSoapIn" />
+      <wsdl:output message="tns:ProcessSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TextProcessingWebServiceSoap" type="tns:TextProcessingWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Process">
+      <soap:operation soapAction="http://nlp.racai.ro/WebServices/Process" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="TextProcessingWebServiceSoap12" type="tns:TextProcessingWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Process">
+      <soap12:operation soapAction="http://nlp.racai.ro/WebServices/Process" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TextProcessingWebService">
+    <wsdl:port name="TextProcessingWebServiceSoap" binding="tns:TextProcessingWebServiceSoap">
+      <soap:address location="http://www.racai.ro/webservices/TextProcessing.asmx" />
+    </wsdl:port>
+    <wsdl:port name="TextProcessingWebServiceSoap12" binding="tns:TextProcessingWebServiceSoap12">
+      <soap12:address location="http://www.racai.ro/webservices/TextProcessing.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
