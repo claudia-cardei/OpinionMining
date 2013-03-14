@@ -3,6 +3,7 @@ Corpusuri:
 	
 POS:
 	- tagger pentru romana: http://www.racai.ro/webservices/TextProcessing.aspx
+	- wsdl service: http://www.gerd-riesselmann.net/scala/creating-java-classes-wsdl-file-using-apache-axis-2
 	
 WEKA:
 	- adauga weights la atribute: http://weka.wikispaces.com/Add+weights+to+dataset
