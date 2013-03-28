@@ -21,7 +21,8 @@ public enum PartOfSpeech {
 		return code;
 	}
 	
-	public static PartOfSpeech transformCodeToPartOfSpeech(char code) {
+	public static PartOfSpeech transformCodeToPartOfSpeech(String posString) {
+		char code = posString.charAt(0);
 		for (PartOfSpeech pos : PartOfSpeech.values()) {
 			if (pos.getCode() == code) {
 				return pos;

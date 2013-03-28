@@ -13,7 +13,7 @@ public class OutputParser {
 	
 	private static final int WORD_INDEX = 0;
 	private static final int LEMMA_INDEX = 1;
-	private static final int PART_OF_SPEECH_INDEX = 2;
+	private static final int PART_OF_SPEECH_INDEX = 3;
 	
 	private final String output;
 	
@@ -26,17 +26,16 @@ public class OutputParser {
 	}
 	
 	public void process() {
-		String[] words = output.split(" ");
+		String[] tokenList = output.split(" ");
 		
-		for (String word : words) {
-			System.out.println(word);
-			String[] tokens = word.split("\\|");
+		for (String token : tokenList) {
+			String[] tokens = token.split("\\|");
+			String word = tokens[WORD_INDEX].replaceAll("\n", "");
 			
-			taggedWords.add(new TaggedWord(tokens[WORD_INDEX],
-					tokens[LEMMA_INDEX],
-					PartOfSpeech.transformCodeToPartOfSpeech(
-							tokens[PART_OF_SPEECH_INDEX].charAt(0))));
-			
+			if (Utils.isWord(word)) {
+				taggedWords.add(new TaggedWord(word, tokens[LEMMA_INDEX],
+						PartOfSpeech.transformCodeToPartOfSpeech(tokens[PART_OF_SPEECH_INDEX])));
+			}
 		}
 	}
 	
