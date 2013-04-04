@@ -64,6 +64,7 @@ public class OpinionClassifier {
 			// build classifier
 			classifier.buildClassifier(trainData);
 			
+			weka.core.SerializationHelper.write("model", classifier);
 			System.out.println("Classifier built.");			
 			
 		} catch (Exception e) {
@@ -124,11 +125,13 @@ public class OpinionClassifier {
 	
 	
 	public static void main(String[] args) {
-		OpinionClassifier clasificator = new OpinionClassifier("danone.arff");
+		OpinionClassifier clasificator = new OpinionClassifier("bcr_1400.arff");
 		clasificator.applyFilter();
 		
 		clasificator.buildClassifier(new SMO(), "-C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K \"weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0\"");
 		
-		clasificator.evaluateCrossValid(10);
+		clasificator.evaluateCrossValid(3);
+		
+		
 	}
 }

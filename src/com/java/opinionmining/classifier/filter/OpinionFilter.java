@@ -1,5 +1,8 @@
 package com.java.opinionmining.classifier.filter;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -16,6 +19,7 @@ import weka.core.Instances;
 import weka.filters.SimpleBatchFilter;
 
 import com.java.opinionmining.database.DictionaryModel;
+import com.java.opinionmining.postagging.PartOfSpeech;
 import com.java.opinionmining.postagging.TaggedWord;
 import com.java.opinionmining.postagging.Tagger;
 
@@ -72,16 +76,23 @@ public class OpinionFilter extends SimpleBatchFilter {
 		int numAttributes = relevantWords.size() + 1;
 
 		Instances result = new Instances(outputFormat, 0);
+		
+		String lemma = "";
+		Instance instance = null;
+		String text = "";
+		List<TaggedWord> taggedWords = null;
+		double[] values = null;
+		
 		for (int i = 0; i < inputInstances.numInstances(); i++) {
-			Instance instance = inputInstances.instance(i);
+			instance = inputInstances.instance(i);
 			
-			String text = instance.stringValue(0);
-			List<TaggedWord> taggedWords = Tagger.getRACAITaggedWords(text);
+			text = instance.stringValue(0);
+			taggedWords = Tagger.getRACAITaggedWords(text);
 			
-			double[] values = new double[numAttributes];
+			values = new double[numAttributes];
 			for (TaggedWord taggedWord : taggedWords) {
 				// Normalize lemma 
-				String lemma = normalizeWord(taggedWord.getLemma());
+				lemma = normalizeWord(taggedWord.getLemma());
 				
 				// Dictionary check
 				if (dictionaryModel.existsWordInDictionary(lemma)) {		
@@ -125,15 +136,19 @@ public class OpinionFilter extends SimpleBatchFilter {
 		Instances input = getInputFormat();
 		Map<TaggedWord, MutableInt> relevantWordMap = new HashMap<TaggedWord, MutableInt>();
 		
+		String text = "";
+		List<TaggedWord> taggedWords = null;
+		String lemma = "";
+		
 		for (int i = 0; i < input.numInstances(); i++) {
 			
 			// Get the text attribute from each instance
-			String text = input.instance(i).stringValue(0);
-			List<TaggedWord> taggedWords = Tagger.getRACAITaggedWords(text);
+			text = input.instance(i).stringValue(0);
+			taggedWords = Tagger.getRACAITaggedWords(text);
 			
 			for (TaggedWord taggedWord : taggedWords) {
 				// Normalize lemma 
-				String lemma = normalizeWord(taggedWord.getLemma());
+				lemma = normalizeWord(taggedWord.getLemma());
 				
 				// Dictionary check
 				if (dictionaryModel.existsWordInDictionary(lemma)) { 
@@ -144,15 +159,26 @@ public class OpinionFilter extends SimpleBatchFilter {
 					else {
 						n.increment();
 					}
-				}		
+				}
 			}			
 		}
 		
 		// TODO: possibly keep only the relevant words.
 		Set<Entry<TaggedWord, MutableInt>> entrySet = relevantWordMap.entrySet();
-		Iterator<Entry<TaggedWord, MutableInt>> it = entrySet.iterator();
-		while ( it.hasNext() ) {
-			relevantWords.add(it.next().getKey());
+		 
+		try {
+			PrintWriter pw = new PrintWriter(new File("adjectives_1400.txt"));
+			
+			for (Entry<TaggedWord, MutableInt> word : entrySet) {
+				relevantWords.add(word.getKey());
+				
+				if (word.getKey().getPartOfSpeech() == PartOfSpeech.Adjective) {
+					pw.println(word);
+				}
+			}
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 }
