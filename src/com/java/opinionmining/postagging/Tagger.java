@@ -17,7 +17,7 @@ import ro.racai.nlp.webservices.TextProcessingWebServiceStub.ProcessResponse;
  */
 public class Tagger {
 	
-	public static List<TaggedWord> getRACAITaggedWords(String text) {
+	public static String getRACAIProcessResult(String text) {
 		TextProcessingWebServiceStub service;
 		try {
 			service = new TextProcessingWebServiceStub();
@@ -27,11 +27,7 @@ public class Tagger {
 			process.setLang("ro");
 			ProcessResponse response = service.process(process);
 			
-			OutputParser parser = new OutputParser(response.getProcessResult());
-			parser.process();
-			
-			return parser.getListOfTaggedWords();
-		
+			return response.getProcessResult();
 		} catch (AxisFault e) {
 			e.printStackTrace();
 		} catch (RemoteException e) {
@@ -39,6 +35,22 @@ public class Tagger {
 		}
 		
 		return null;
+	}
+	
+	public static List<TaggedWord> getRACAITaggedWordsFromOutput(String output) {
+		OutputParser parser = new OutputParser(output);
+		parser.process();
+		
+		return parser.getListOfTaggedWords();
+	}
+	
+	public static List<TaggedWord> getRACAITaggedWords(String text) {
+		String output = getRACAIProcessResult(text);
+		
+		OutputParser parser = new OutputParser(output);
+		parser.process();
+		
+		return parser.getListOfTaggedWords();
 	}
 	
 	public static void main(String[] args) throws RemoteException {

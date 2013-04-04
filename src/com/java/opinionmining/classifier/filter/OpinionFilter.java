@@ -1,5 +1,6 @@
 package com.java.opinionmining.classifier.filter;
 
+import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -16,6 +17,7 @@ import weka.core.Instances;
 import weka.filters.SimpleBatchFilter;
 
 import com.java.opinionmining.database.DictionaryModel;
+import com.java.opinionmining.database.POSModel;
 import com.java.opinionmining.postagging.TaggedWord;
 import com.java.opinionmining.postagging.Tagger;
 
@@ -37,10 +39,12 @@ public class OpinionFilter extends SimpleBatchFilter {
 	private ArrayList<TaggedWord> relevantWords;
 	private Instances outputFormat;
 	private DictionaryModel dictionaryModel;
+	private POSModel posModel;
 	
 	public OpinionFilter() {
 		relevantWords = new ArrayList<TaggedWord>();
 		dictionaryModel = new DictionaryModel();
+		posModel = new POSModel();
 	}
 
 	public String globalInfo() {
@@ -76,7 +80,19 @@ public class OpinionFilter extends SimpleBatchFilter {
 			Instance instance = inputInstances.instance(i);
 			
 			String text = instance.stringValue(0);
-			List<TaggedWord> taggedWords = Tagger.getRACAITaggedWords(text);
+			
+			// Check the database for the phrase
+			String processResult = posModel.getProcessResult(text);
+			if ( processResult == null ) {
+				// Get the process result from the RACAI web service
+				processResult = Tagger.getRACAIProcessResult(text);
+				
+				// Add the phrase and the RACAI process result to the database
+				posModel.addPhrase(text, processResult);
+			}
+			
+			// Get the tagged word list
+			List<TaggedWord> taggedWords = Tagger.getRACAITaggedWordsFromOutput(processResult);
 			
 			double[] values = new double[numAttributes];
 			for (TaggedWord taggedWord : taggedWords) {
@@ -129,7 +145,19 @@ public class OpinionFilter extends SimpleBatchFilter {
 			
 			// Get the text attribute from each instance
 			String text = input.instance(i).stringValue(0);
-			List<TaggedWord> taggedWords = Tagger.getRACAITaggedWords(text);
+			
+			// Check the database for the phrase
+			String processResult = posModel.getProcessResult(text);
+			if ( processResult == null ) {
+				// Get the process result from the RACAI web service
+				processResult = Tagger.getRACAIProcessResult(text);
+				
+				// Add the phrase and the RACAI process result to the database
+				posModel.addPhrase(text, processResult);
+			}
+			
+			// Get the tagged word list
+			List<TaggedWord> taggedWords = Tagger.getRACAITaggedWordsFromOutput(processResult);
 			
 			for (TaggedWord taggedWord : taggedWords) {
 				// Normalize lemma 
