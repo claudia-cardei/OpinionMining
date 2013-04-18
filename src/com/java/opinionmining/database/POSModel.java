@@ -6,15 +6,12 @@ import java.sql.SQLException;
 
 public class POSModel {
 
-	private static final String sqlAddPhrase =
-			"insert into pos (text, result) values (?, ?)";
-	private static final String sqlGetResult =
-			"select result from pos where text = ?";
+	private static final String sqlAddPhrase = "insert into pos (text, result) values (?, ?)";
+	private static final String sqlGetResult = "select result from pos where text = ?";
 	
 	public void addPhrase(String phrase, String processedPhrase) {
 		try {
-			PreparedStatement statement =
-					DatabaseConnection.prepareStatement(sqlAddPhrase);
+			PreparedStatement statement = DatabaseConnection.prepareStatement(sqlAddPhrase);
 			statement.setString(1, phrase);
 			statement.setString(2, processedPhrase);
 			
@@ -27,27 +24,28 @@ public class POSModel {
 	}
 	
 	public String getProcessResult(String phrase) {
+		String result = null; 
+		
 		try {
-			PreparedStatement statement = 
-					DatabaseConnection.prepareStatement(sqlGetResult);
+			PreparedStatement statement = DatabaseConnection.prepareStatement(sqlGetResult);
 			statement.setString(1, phrase);
 					
-			if ( statement.execute() == false )
-				return null;
+			if (statement.execute()) {
+				ResultSet queryResult = statement.getResultSet();
 			
-			ResultSet queryResult = statement.getResultSet();
+				if (queryResult.next()) {
+					result = queryResult.getString("result");
+				}
+				
+				queryResult.close();
+			}
 			
-			if (queryResult.next() == false) {
-				return null;
-			}
-			else {
-				return queryResult.getString("result");
-			}
+			statement.close();
 			
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
 		
-		return null;
+		return result;
 	}
 }

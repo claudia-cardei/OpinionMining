@@ -10,29 +10,28 @@ public class DictionaryModel {
 			"select * from dictionar where cuvant = ?";
 	
 	public boolean existsWordInDictionary(String word) {
+		boolean result = false;
+		
 		try {
-			PreparedStatement statement =
-					DatabaseConnection.prepareStatement(sqlQueryGetWord);
+			PreparedStatement statement = DatabaseConnection.prepareStatement(sqlQueryGetWord);
 			statement.setString(1, word);
 			
-			boolean result = statement.execute();
+			if (statement.execute()) {
+				ResultSet queryResult = statement.getResultSet();
 			
-			if (result == false) {
-				return false;
+				if (queryResult.next()) {
+					result = true;
+				}
+				
+				queryResult.close();
 			}
 			
-			ResultSet queryResult = statement.getResultSet();
-			
-			if (queryResult.next() == false) {
-				return false;
-			}
-			
-			queryResult.close();
+			statement.close();
 			 
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
 		
-		return true;
+		return result;
 	}
 }

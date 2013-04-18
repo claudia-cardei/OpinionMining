@@ -1,8 +1,6 @@
 package com.java.opinionmining.classifier.filter;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -15,11 +13,12 @@ import org.apache.commons.lang3.mutable.MutableInt;
 import weka.core.Attribute;
 import weka.core.Instance;
 import weka.core.Instances;
+import weka.core.converters.ArffSaver;
 import weka.filters.SimpleBatchFilter;
 
 import com.java.opinionmining.database.DictionaryModel;
 import com.java.opinionmining.database.POSModel;
-import com.java.opinionmining.postagging.PartOfSpeech;
+import com.java.opinionmining.database.ScoresModel;
 import com.java.opinionmining.postagging.TaggedWord;
 import com.java.opinionmining.postagging.Tagger;
 
@@ -43,10 +42,13 @@ public class OpinionFilter extends SimpleBatchFilter {
 	private DictionaryModel dictionaryModel;
 	private POSModel posModel;
 	
-	public OpinionFilter() {
+	private String outputFile;
+	
+	public OpinionFilter(String outputFile) {
 		relevantWords = new ArrayList<TaggedWord>();
 		dictionaryModel = new DictionaryModel();
 		posModel = new POSModel();
+		new ScoresModel();
 	}
 
 	public String globalInfo() {
@@ -66,8 +68,7 @@ public class OpinionFilter extends SimpleBatchFilter {
 		for (TaggedWord taggedWord : relevantWords) {
 			
 			// Add the attribute to the end of the list
-			outputFormat.insertAttributeAt(
-					new Attribute(taggedWord.getLemmaPOSTagged()),
+			outputFormat.insertAttributeAt(new Attribute(taggedWord.getLemmaPOSTagged()),
 					outputFormat.numAttributes() - 1);
 		}
 		
@@ -115,6 +116,12 @@ public class OpinionFilter extends SimpleBatchFilter {
 			
 			result.add(new Instance(1, values));
 		}
+		
+		ArffSaver saver = new ArffSaver();
+		saver.setInstances(result);
+		saver.setFile(new File(outputFile));
+		saver.writeBatch();
+		
 		return result;
 	}
 	
@@ -144,7 +151,6 @@ public class OpinionFilter extends SimpleBatchFilter {
 		Map<TaggedWord, MutableInt> relevantWordMap = new HashMap<TaggedWord, MutableInt>();
 		
 		for (int i = 0; i < input.numInstances(); i++) {
-			
 			// Get the text attribute from each instance
 			String text = input.instance(i).stringValue(0);
 			
@@ -174,26 +180,14 @@ public class OpinionFilter extends SimpleBatchFilter {
 					else {
 						n.increment();
 					}
-				}		
+				}
 			}			
 		}
 		
-		// TODO: possibly keep only the relevant words.
 		Set<Entry<TaggedWord, MutableInt>> entrySet = relevantWordMap.entrySet();
 		 
-		try {
-			PrintWriter pw = new PrintWriter(new File("adjectives_1400.txt"));
-			
-			for (Entry<TaggedWord, MutableInt> word : entrySet) {
-				relevantWords.add(word.getKey());
-				
-				if (word.getKey().getPartOfSpeech() == PartOfSpeech.Adjective) {
-					pw.println(word);
-				}
-			}
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		for (Entry<TaggedWord, MutableInt> word : entrySet) {
+			relevantWords.add(word.getKey());
 		}
 	}
 }
