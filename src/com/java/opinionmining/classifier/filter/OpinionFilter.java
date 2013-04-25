@@ -18,7 +18,6 @@ import weka.filters.SimpleBatchFilter;
 
 import com.java.opinionmining.database.DictionaryModel;
 import com.java.opinionmining.database.POSModel;
-import com.java.opinionmining.database.ScoresModel;
 import com.java.opinionmining.postagging.TaggedWord;
 import com.java.opinionmining.postagging.Tagger;
 
@@ -48,7 +47,8 @@ public class OpinionFilter extends SimpleBatchFilter {
 		relevantWords = new ArrayList<TaggedWord>();
 		dictionaryModel = new DictionaryModel();
 		posModel = new POSModel();
-		new ScoresModel();
+		
+		this.outputFile = outputFile;
 	}
 
 	public String globalInfo() {

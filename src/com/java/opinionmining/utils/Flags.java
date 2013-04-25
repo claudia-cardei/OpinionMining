@@ -11,7 +11,5 @@ import java.lang.annotation.RetentionPolicy;
  */
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Flags {
-	
-	String name();
-	
+	String name();	
 }

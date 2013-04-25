@@ -151,7 +151,6 @@ public class CorpusReader {
 	}
 	
 	public static void main(String[] args) throws RemoteException {
-		System.out.println("fff");
 		testRACAITaggerOnBrownCorpus();
 	}
 }

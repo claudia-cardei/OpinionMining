@@ -1,0 +1,51 @@
+Results for cross validation 3 on opinionated BCR corpus
+======
+
+Correctly Classified Instances        1119               79.8146 %
+Incorrectly Classified Instances       283               20.1854 %
+Kappa statistic                          0.5963
+Mean absolute error                      0.2019
+Root mean squared error                  0.4493
+Relative absolute error                 40.3708 %
+Root relative squared error             89.8563 %
+Total Number of Instances             1402  
+
+
+Results for cross validation 10 on opinionated BCR corpus
+======
+
+Correctly Classified Instances        1140               81.3124 %
+Incorrectly Classified Instances       262               18.6876 %
+Kappa statistic                          0.6262
+Mean absolute error                      0.1869
+Root mean squared error                  0.4323
+Relative absolute error                 37.3751 %
+Root relative squared error             86.4582 %
+Total Number of Instances             1402
+
+Results for cross validation 10 on opinionated BCR corpus (only adjectives)
+======
+
+Correctly Classified Instances         994               70.8987 %
+Incorrectly Classified Instances       408               29.1013 %
+Kappa statistic                          0.418 
+Mean absolute error                      0.291 
+Root mean squared error                  0.5395
+Relative absolute error                 58.2025 %
+Root relative squared error            107.8911 %
+Total Number of Instances             1402
+
+Results for cross validation 10 on opinionated BCR corpus (only adjectives + adverbs)
+======
+
+Correctly Classified Instances        1074               76.6049 %
+Incorrectly Classified Instances       328               23.3951 %
+Kappa statistic                          0.5321
+Mean absolute error                      0.234 
+Root mean squared error                  0.4837
+Relative absolute error                 46.7902 %
+Root relative squared error             96.737  %
+Total Number of Instances             1402     
+
+
+

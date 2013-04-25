@@ -1,4 +1,8 @@
 TODO:
 - filtrarea cuvintelor
-	- cuvinte care nu sunt in romana, care nu sunt in dictionar DONE
+	- cuvinte care nu sunt in romana, care nu sunt in dictionar
 	- eventual filtrare in functie de partea de vorbire
+
+
+- calcul td-idf
+- features legat de numarul de cuvinte pozitive si negative

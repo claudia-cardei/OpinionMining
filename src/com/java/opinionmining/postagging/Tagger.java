@@ -52,8 +52,4 @@ public class Tagger {
 		
 		return parser.getListOfTaggedWords();
 	}
-	
-	public static void main(String[] args) throws RemoteException {
-		System.out.println(getRACAITaggedWords("Ana are un mar si o para."));
-	}
 }
