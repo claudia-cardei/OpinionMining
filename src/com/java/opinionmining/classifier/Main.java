@@ -100,7 +100,7 @@ public class Main {
 		parseArguments(args);
 		checkFlags();
 		
-		int pos = trainingDataset.getValue().indexOf('.');
+		int pos = trainingDataset.getValue().lastIndexOf('.');
 		String modelName = trainingDataset.getValue().substring(0, pos) + "_model";
 		
 		OpinionClassifier clasificator = new OpinionClassifier(trainingDataset.getValue());
@@ -123,7 +123,7 @@ public class Main {
 		if (crossValidation.getValue()) {
 			clasificator.evaluateCrossValid(10);
 		} else {
-			int posTest = testDataset.getValue().indexOf('.');
+			int posTest = testDataset.getValue().lastIndexOf('.');
 			String outputForTestDataset = testDataset.getValue().substring(0, posTest) +
 					"_results.txt";
 			clasificator.evaluateValidFile(testDataset.getValue(), outputForTestDataset);

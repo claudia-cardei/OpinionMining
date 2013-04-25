@@ -12,8 +12,7 @@ import java.io.PrintWriter;
  * Convert an opinion CSV file to the corresponding ARFF file.
  * 
  * Usage:
- * 		inputFile (name of the input CSV file)
- * 		outputFile (name of the output ARFF file)
+ * 		file (name of the input CSV file)
  * 		hasOpinion (boolean value that is true if the input file is for training and false if it
  * 					is for testing)
  * 
@@ -24,7 +23,7 @@ public class ConvertCSVtoARFF {
 
 	BufferedReader input;
 	PrintWriter output;
-	boolean trainFile;
+	boolean hasOpinion;
 	
 	
 	/**
@@ -44,7 +43,7 @@ public class ConvertCSVtoARFF {
 			output.println("@attribute opinion {0,1}");
 			output.println("@data\n");
 			
-			this.trainFile = trainFile;
+			this.hasOpinion = trainFile;
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -71,8 +70,8 @@ public class ConvertCSVtoARFF {
 				fields = line.split("\",\"");
 				
 				// Ignore incomplete lines
-				if ( (trainFile == false && fields.length >= 1) || 
-						(trainFile == true && fields.length == 2) ) {
+				if ( (hasOpinion == false && fields.length >= 1) || 
+						(hasOpinion == true && fields.length == 2) ) {
 				
 					content = fields[0];
 					content = content.substring(1, content.length());
@@ -81,7 +80,7 @@ public class ConvertCSVtoARFF {
 					content = content.replace("'", "\\'");
 					
 					// If the input is a training file
-					if ( trainFile == true ) {
+					if ( hasOpinion == true ) {
 						opinion = fields[1];
 						opinion = opinion.substring(0, opinion.length() - 1);
 						
@@ -112,20 +111,21 @@ public class ConvertCSVtoARFF {
 	public static void main(String[] args) {
 		
 		String inputFile, outputFile;
-		boolean trainFile;
+		boolean hasOpinion;
 		
-		if ( args.length != 3 ) {
-			System.out.println("Usage: inputFile outputFile trainFile");
+		if ( args.length != 2 ) {
+			System.out.println("Usage: file hasOpinion");
 		}
 		else {
 			inputFile = args[0];
-			outputFile = args[1];
-			if ( args[2].equals("true") )
-				trainFile = true;
+			int pos = inputFile.lastIndexOf('.');
+			outputFile = inputFile.substring(0, pos) + ".arff";
+			if ( args[1].equals("true") )
+				hasOpinion = true;
 			else
-				trainFile = false;
+				hasOpinion = false;
 			
-			ConvertCSVtoARFF convertor = new ConvertCSVtoARFF(inputFile, outputFile, trainFile);
+			ConvertCSVtoARFF convertor = new ConvertCSVtoARFF(inputFile, outputFile, hasOpinion);
 			convertor.parse();
 		}					
 		
