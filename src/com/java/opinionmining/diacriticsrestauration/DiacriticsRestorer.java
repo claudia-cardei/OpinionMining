@@ -119,6 +119,22 @@ public class DiacriticsRestorer {
 	}
 	
 	
+	public boolean containsDiacritics(String text) {
+		String lowerText = text.toLowerCase();
+
+		if ( lowerText.contains("ă")
+				|| lowerText.contains("â") 
+				|| lowerText.contains("î")
+				|| lowerText.contains("ț")
+				|| lowerText.contains("ţ")
+				|| lowerText.contains("ș")
+				|| lowerText.contains("ş") )
+			return true;
+		
+		return false;
+	}
+	
+	
 	/**
 	 * Restore the diacritics to a given text.
 	 * @param text input text
@@ -126,6 +142,9 @@ public class DiacriticsRestorer {
 	 */
 	public String restore(String text) {
 		String postResponse, newText;
+		
+		if ( containsDiacritics(text) )
+			return text;
 		
 		// Make a request to the server
 		postResponse = sendPOST(text);
