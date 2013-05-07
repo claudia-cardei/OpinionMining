@@ -1,14 +1,11 @@
 package com.java.opinionmining.affectivescores;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 import com.java.opinionmining.database.ScoresModel;
-import com.java.opinionmining.diacriticsrestauration.DiacriticsRestorer;
+import com.java.opinionmining.datasets.transform.ConvertCSVtoInstances;
+import com.java.opinionmining.datasets.transform.OpinionInstance;
 import com.java.opinionmining.fdgparsing.FDGNode;
 import com.java.opinionmining.fdgparsing.FDGParser;
 
@@ -29,44 +26,20 @@ public class AffectiveScoresClassifier {
 	}
 	
 	public void computeOpinions() {
-		BufferedReader input;
-		DiacriticsRestorer restorer = new DiacriticsRestorer();
+		ConvertCSVtoInstances converter = new ConvertCSVtoInstances(file, hasOpinion);
+		ArrayList<OpinionInstance> instances = converter.parse();
 		
-		try {
-			input = new BufferedReader(new FileReader(new File(file)));
-			
-			String line;
-			while ( (line = input.readLine()) != null ) {
-				
-				while ( line.length() <= 1 || !line.contains("\",\"") ) {
-					line += "\\n" + input.readLine();
-				}
-												
-				String[] fields = line.split("\",\"");
-				
-				// Ignore incomplete lines
-				if ( (hasOpinion == false && fields.length >= 1) || 
-						(hasOpinion == true && fields.length == 2) ) {
-					
-					String content = fields[0];
-					content = content.substring(1, content.length());
-
-					content = content.replace("\\", "\\\\");
-					content = content.replace("'", "\\'");
-					
-					content = restorer.restore(content);
-					
-					computeOpinionForInstance(FDGParser.getFDGParserTree(content));
-				}
+		for (OpinionInstance instance : instances) {
+			List<FDGNode> roots = FDGParser.getFDGParserTree(instance.getText());
+			if (roots == null) {
+				System.out.println(instance.getText());
 			}
-		} catch (FileNotFoundException e) {	
 			
-		} catch (IOException e) {
-			
+			double score = computeScoreForInstance(roots);
 		}
 	}
 	
-	private void computeOpinionForInstance(List<FDGNode> roots) {
+	private double computeScoreForInstance(List<FDGNode> roots) {
 		double score = 0.0;
 		if (roots != null) {
 			for (FDGNode root : roots) {
@@ -75,11 +48,9 @@ public class AffectiveScoresClassifier {
 					score += computeScore(entityNode);
 				}
 			}
-			
-			System.out.println(score);
-		} else {
-			System.out.println("Error");
 		}
+			
+		return score;
 	}
 	
 	private FDGNode searchEntity(FDGNode node) {
@@ -96,24 +67,8 @@ public class AffectiveScoresClassifier {
 		return returnNode;
 	}
 	
-	private static String normalizeWord(String word) {
-		// Replace upper case letters
-		String newWord = word.toLowerCase();
-		
-		// Replace certain characters
-		newWord = newWord.replace("ă", "a");
-		newWord = newWord.replace("â", "a");
-		newWord = newWord.replace("î", "i");
-		newWord = newWord.replace("ț", "t");
-		newWord = newWord.replace("ţ", "t");
-		newWord = newWord.replace("ș", "s");
-		newWord = newWord.replace("ş", "s");
-		
-		return newWord;
-	}
-	
 	private double computeScore(FDGNode node) {
-		String word = normalizeWord(node.getText());
+		String word = node.getText().toLowerCase();
 		double score = scoresModel.getScores(word).getScore2();
 		
 		for (int i = 0; i < node.getNumberChildren(); i++) {

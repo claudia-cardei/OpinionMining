@@ -100,7 +100,7 @@ public class OpinionFilter extends SimpleBatchFilter {
 			double[] values = new double[numAttributes];
 			for (TaggedWord taggedWord : taggedWords) {
 				// Normalize lemma 
-				String lemma = normalizeWord(taggedWord.getLemma());
+				String lemma = taggedWord.getLemma().toLowerCase();
 				
 				// Dictionary check
 				if (dictionaryModel.existsWordInDictionary(lemma)) {		
@@ -123,27 +123,6 @@ public class OpinionFilter extends SimpleBatchFilter {
 		saver.writeBatch();
 		
 		return result;
-	}
-	
-	/**
-	 * Return the normalized form of the word
-	 * @param word
-	 * @return
-	 */
-	private String normalizeWord(String word) {
-		// Replace upper case letters
-		String newWord = word.toLowerCase();
-		
-		// Replace certain characters
-		newWord = newWord.replace("ă", "a");
-		newWord = newWord.replace("â", "a");
-		newWord = newWord.replace("î", "i");
-		newWord = newWord.replace("ț", "t");
-		newWord = newWord.replace("ţ", "t");
-		newWord = newWord.replace("ș", "s");
-		newWord = newWord.replace("ş", "s");
-		
-		return newWord;
 	}
 	
 	private void setRelevantWords() {
@@ -169,7 +148,7 @@ public class OpinionFilter extends SimpleBatchFilter {
 			
 			for (TaggedWord taggedWord : taggedWords) {
 				// Normalize lemma 
-				String lemma = normalizeWord(taggedWord.getLemma());
+				String lemma = taggedWord.getLemma().toLowerCase();
 				
 				// Dictionary check
 				if (dictionaryModel.existsWordInDictionary(lemma)) { 
