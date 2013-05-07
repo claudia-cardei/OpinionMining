@@ -7,6 +7,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import com.java.opinionmining.diacriticsrestauration.DiacriticsRestorer;
+
 
 /**
  * Converts a CSV file into a list of opinion instances.
@@ -45,6 +47,7 @@ public class ConvertCSVtoInstances {
 		int opinionType;
 		String[] fields;
 		ArrayList<OpinionInstance> opinionInstances = new ArrayList<OpinionInstance>();
+		DiacriticsRestorer diacriticsRestorer = new DiacriticsRestorer();
 		
 		try {
 			
@@ -65,6 +68,9 @@ public class ConvertCSVtoInstances {
 
 					content = content.replace("\\", "\\\\");
 					content = content.replace("'", "\\'");
+					
+					// Add diacritics to the text
+					content = diacriticsRestorer.restore(content);
 					
 					// If the input is a training file
 					if ( hasOpinion == true ) {
