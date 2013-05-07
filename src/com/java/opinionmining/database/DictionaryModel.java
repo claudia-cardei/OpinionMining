@@ -10,6 +10,8 @@ public class DictionaryModel {
 			"select * from dictionar where cuvant = ?";
 	
 	public boolean existsWordInDictionary(String word) {
+		word = word.toLowerCase();
+		
 		boolean result = false;
 		
 		try {

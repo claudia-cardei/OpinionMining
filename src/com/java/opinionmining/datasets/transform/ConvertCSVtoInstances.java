@@ -100,14 +100,5 @@ public class ConvertCSVtoInstances {
 		
 		return opinionInstances;
 	}
-	
-	
-	public static void main(String[] args) {
-		ConvertCSVtoInstances convertor = new ConvertCSVtoInstances("monitor_export_upc.csv", true);
-		
-		ArrayList<OpinionInstance> opinionInstances = convertor.parse();
-		for (OpinionInstance op:opinionInstances)
-			System.out.println(op.getText() + " " + op.getOrientation());
-	}
 }
 

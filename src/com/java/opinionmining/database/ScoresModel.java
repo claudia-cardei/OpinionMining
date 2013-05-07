@@ -14,6 +14,8 @@ public class ScoresModel {
 
 	
 	public void addWord(String word, double score1, double score2, double score3) {
+		word = word.toLowerCase();
+		
 		try {
 			PreparedStatement statement = DatabaseConnection.prepareStatement(sqlAddWord);
 			statement.setString(1, word);
@@ -30,6 +32,8 @@ public class ScoresModel {
 	}
 	
 	public AffectiveScores getScores(String word) {
+		word = word.toLowerCase();
+		
 		AffectiveScores result = new AffectiveScores(word);
 		
 		try {

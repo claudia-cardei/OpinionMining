@@ -38,7 +38,6 @@ public class FDGParser {
 			ParseTextE process = new ParseTextE();
 			process.setParseText(parseText);
 			
-			System.out.println(text);
 			ParseTextResponseE response = service.parseText(process);
 			String responseText = response.getParseTextResponse().get_return();
 			

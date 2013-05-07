@@ -100,7 +100,7 @@ public class OpinionFilter extends SimpleBatchFilter {
 			double[] values = new double[numAttributes];
 			for (TaggedWord taggedWord : taggedWords) {
 				// Normalize lemma 
-				String lemma = taggedWord.getLemma().toLowerCase();
+				String lemma = taggedWord.getLemma();
 				
 				// Dictionary check
 				if (dictionaryModel.existsWordInDictionary(lemma)) {		
@@ -148,7 +148,7 @@ public class OpinionFilter extends SimpleBatchFilter {
 			
 			for (TaggedWord taggedWord : taggedWords) {
 				// Normalize lemma 
-				String lemma = taggedWord.getLemma().toLowerCase();
+				String lemma = taggedWord.getLemma();
 				
 				// Dictionary check
 				if (dictionaryModel.existsWordInDictionary(lemma)) { 
