@@ -1,5 +1,8 @@
 package com.java.opinionmining.affectivescores;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,6 +33,7 @@ public class AffectiveScoresClassifier {
 	public void computeOpinions() {
 		ConvertCSVtoInstances converter = new ConvertCSVtoInstances(file, hasOpinion);
 		ArrayList<OpinionInstance> instances = converter.parse();
+		System.out.println("Converted to instances.");
 		
 		for (OpinionInstance instance : instances) {
 			List<FDGNode> roots = FDGParser.getFDGParserTree(instance.getText());
@@ -116,8 +120,51 @@ public class AffectiveScoresClassifier {
 		return score;
 	}
 	
+	
+	public void buildARFFfile() {
+		ConvertCSVtoInstances converter = new ConvertCSVtoInstances(file, hasOpinion);
+		ArrayList<OpinionInstance> instances = converter.parse();
+		System.out.println("Converted to instances.");
+				
+		try {
+			String outputName = file.substring(0, file.lastIndexOf('.')) + "_affective.arff";
+			PrintWriter output = new PrintWriter(new File(outputName));
+			
+			// Write ARFF header
+			output.println("@relation 'TreeWorks'");
+			output.println("@attribute childrenscore NUMERIC");
+			output.println("@attribute siblingscore NUMERIC");
+			output.println("@attribute allscore NUMERIC");
+			output.println("@attribute opinion {0,1}");
+			output.println("@data\n");
+			
+			for (OpinionInstance instance : instances) {
+				List<FDGNode> roots = FDGParser.getFDGParserTree(instance.getText());
+				
+				if (roots != null) {
+					Pair<Double, Double> score = computeScoreForInstance(roots);
+					double allScore = computeScoreForInstanceUsingAll(roots);
+					double childrenScore = score.getLeft();
+					double siblingScore = score.getRight();
+					
+					if ( childrenScore != 0 || siblingScore != 0 || allScore != 0 ) {
+						output.println(childrenScore + ", " + siblingScore + ", " + allScore + 
+								", " + instance.getOrientation());
+					}
+				}
+			}
+			
+			output.close();
+			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
 	public static void main(String[] args) {
 		AffectiveScoresClassifier classifier = new AffectiveScoresClassifier("bcr_small.csv", "bcr", true);
-		classifier.computeOpinions();
+		//classifier.computeOpinions();
+		classifier.buildARFFfile();
 	}
 }
