@@ -3,6 +3,12 @@ package com.java.opinionmining.fdgparsing;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Represents the node of a functional dependency grammar tree.
+ * 
+ * @author Claudia Cardei
+ *
+ */
 public class FDGNode {
 	
 	private final String text;

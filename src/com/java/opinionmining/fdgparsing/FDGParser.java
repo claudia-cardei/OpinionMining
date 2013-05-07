@@ -18,6 +18,12 @@ import uaic.webfdgro.FdgParserRoWSStub.ParseText;
 import uaic.webfdgro.FdgParserRoWSStub.ParseTextE;
 import uaic.webfdgro.FdgParserRoWSStub.ParseTextResponseE;
 
+/**
+ * Functional dependency grammar parser using UAIC web service.
+ * 
+ * @author Claudia Cardei
+ *
+ */
 public class FDGParser {
 	
 	public static List<FDGNode> getFDGParserTree(String text) {
@@ -32,9 +38,11 @@ public class FDGParser {
 			ParseTextE process = new ParseTextE();
 			process.setParseText(parseText);
 			
+			System.out.println(text);
 			ParseTextResponseE response = service.parseText(process);
 			String responseText = response.getParseTextResponse().get_return();
 			
+			// transformes the output into a XML document
 			DocumentBuilderFactory dbfac = DocumentBuilderFactory.newInstance();
 	        DocumentBuilder docBuilder = dbfac.newDocumentBuilder();
 	        Document doc = docBuilder.parse(new InputSource(new StringReader(responseText)));

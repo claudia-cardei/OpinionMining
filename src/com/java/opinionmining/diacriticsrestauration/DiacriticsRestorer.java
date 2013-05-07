@@ -1,8 +1,9 @@
 package com.java.opinionmining.diacriticsrestauration;
 
-import java.io.DataInputStream;
+import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -95,8 +96,9 @@ public class DiacriticsRestorer {
 			output.flush();
 			output.close();
 			
-			// Receive response			
-			DataInputStream input = new DataInputStream(urlConn.getInputStream());
+			// Receive response
+			BufferedReader input = new BufferedReader(
+					new InputStreamReader(urlConn.getInputStream()));
 			String str;
 			while (null != ((str = input.readLine()))) {
 				str = str.trim();
@@ -131,11 +133,5 @@ public class DiacriticsRestorer {
 		newText = parseResponse(postResponse);
 		
 		return newText;
-	}
-
-	
-	public static void main(String[] args) {
-		DiacriticsRestorer restorer = new DiacriticsRestorer();
-		System.out.println(restorer.restore("Si ti-am zis inca o data cand sa vii."));
 	}
 }

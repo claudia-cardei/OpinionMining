@@ -7,6 +7,12 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
+/**
+ * Builds the functional dependency grammar tree from the output of the UAIC web service.
+ * 
+ * @author Claudia Cardei
+ *
+ */
 public class FDGTreeBuilder {
 	
 	private final Document xmlDocument;
@@ -53,9 +59,6 @@ public class FDGTreeBuilder {
 			}
 		}
 		
-		for (int i = 0; i < roots.size(); i++){
-			System.out.println(roots.get(i));
-		}
 		return roots;
 	}
 }
