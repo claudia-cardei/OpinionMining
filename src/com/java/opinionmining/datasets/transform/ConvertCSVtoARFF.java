@@ -1,10 +1,8 @@
 package com.java.opinionmining.datasets.transform;
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 
 
 /**
@@ -21,7 +19,7 @@ import java.io.PrintWriter;
  */
 public class ConvertCSVtoARFF {
 
-	BufferedReader input;
+	ArrayList<OpinionInstance> opinionInstances;
 	PrintWriter output;
 	boolean hasOpinion;
 	
@@ -34,7 +32,11 @@ public class ConvertCSVtoARFF {
 	 */
 	public ConvertCSVtoARFF(String inputName, String outputName, boolean trainFile) {
 		try {
-			input = new BufferedReader(new FileReader(new File(inputName)));
+			
+			// Construct the list of opinion instances
+			ConvertCSVtoInstances convertor = new ConvertCSVtoInstances(inputName, trainFile);
+			opinionInstances = convertor.parse();
+			
 			output = new PrintWriter(new File(outputName));
 				
 			// Write ARFF header
@@ -52,67 +54,23 @@ public class ConvertCSVtoARFF {
 	
 	
 	/**
-	 * Parse the CSV file and form the ARFF file
+	 * Build the ARFF file from the list of opinion instances
 	 */
-	public void parse() {
-		String line, content, opinion;
-		int opinionType;
-		String[] fields;
+	public void buildFile() {
 		
-		try {
-						
-			while ( (line = input.readLine()) != null ) {
-				
-				while ( line.length() <= 1 || !line.contains("\",\"") ) {
-					line += "\\n" + input.readLine();
-				}
-												
-				fields = line.split("\",\"");
-				
-				// Ignore incomplete lines
-				if ( (hasOpinion == false && fields.length >= 1) || 
-						(hasOpinion == true && fields.length == 2) ) {
-				
-					content = fields[0];
-					content = content.substring(1, content.length());
-
-					content = content.replace("\\", "\\\\");
-					content = content.replace("'", "\\'");
-					
-					// If the input is a training file
-					if ( hasOpinion == true ) {
-						opinion = fields[1];
-						opinion = opinion.substring(0, opinion.length() - 1);
-						
-						// Only add texts with positive or negative opinions
-						if ( !opinion.equals("nici favorabil, nici nefavorabil") ) {
-							if ( opinion.contains("nefavorabil"))
-								opinionType = 0;
-							else
-								opinionType = 1;
-								
-							output.println("'" + content + "'," + opinionType);
-						}
-					}
-					else {
-						output.println("'" + content + "',?");
-					}
-		
-				}
+		for (OpinionInstance instance:opinionInstances) {
+				output.println("'" + instance.getText() + "'," + instance.getOrientation());
 			}
-			
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			output.close();
-		}
+		
+		output.close();			
 	}
+	
 	
 	public static void main(String[] args) {
 		
 		String inputFile, outputFile;
 		boolean hasOpinion;
-		
+				
 		if ( args.length != 2 ) {
 			System.out.println("Usage: file hasOpinion");
 		}
@@ -126,7 +84,7 @@ public class ConvertCSVtoARFF {
 				hasOpinion = false;
 			
 			ConvertCSVtoARFF convertor = new ConvertCSVtoARFF(inputFile, outputFile, hasOpinion);
-			convertor.parse();
+			convertor.buildFile();
 		}					
 		
 	}
