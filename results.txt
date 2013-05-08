@@ -48,4 +48,13 @@ Root relative squared error             96.737  %
 Total Number of Instances             1402     
 
 
+NEW Results:
+
+Using affective scores and classified if the score si < 0 or > 0 (didn't consider the instances with score = 0)
+Children score: 32.69230769230769% correct.
+Sibling score: 57.48898678414097% correct.
+Children + Sibling score: 55.375253549695735% correct.
+All score: 50.98039215686274% correct.
+
+
 

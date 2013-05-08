@@ -30,41 +30,14 @@ public class AffectiveScoresClassifier {
 		scoresModel = new ScoresModel();
 	}
 	
-	public void computeOpinions() {
-		ConvertCSVtoInstances converter = new ConvertCSVtoInstances(file, hasOpinion);
-		ArrayList<OpinionInstance> instances = converter.parse();
-		System.out.println("Converted to instances.");
-		
-		for (OpinionInstance instance : instances) {
-			List<FDGNode> roots = FDGParser.getFDGParserTree(instance.getText());
-			if (roots == null) {
-				System.out.println(instance.getText());
-			} else {
-				Pair<Double, Double> score = computeScoreForInstance(roots);
-				double allScore = computeScoreForInstanceUsingAll(roots);
-				
-				System.out.println(score);
-				System.out.println(allScore);
-			}
-		}
-	}
-	
-	public double computeScoreForInstanceUsingAll(List<FDGNode> roots) {
-		double score = 0.0;
-		if (roots != null) {
-			for (FDGNode root : roots) {
-				score += computeScoreUsingChildren(root);
-			}
-		}
-		
-		return score;
-	}
-	
-	public Pair<Double, Double> computeScoreForInstance(List<FDGNode> roots) {
+	public Pair<Double, Pair<Double, Double>> computeScoreForInstance(List<FDGNode> roots) {
 		double childrenScore = 0.0;
 		double siblingScore = 0.0;
+		double allScore = 0.0;
 		if (roots != null) {
 			for (FDGNode root : roots) {
+				allScore += computeScoreUsingChildren(root);
+				
 				Pair<FDGNode, FDGNode> entityNode = searchEntity(root);
 				
 				if (entityNode != null) {
@@ -77,7 +50,7 @@ public class AffectiveScoresClassifier {
 			}
 		}
 			
-		return Pair.of(childrenScore, siblingScore);
+		return Pair.of(allScore, Pair.of(childrenScore, siblingScore));
 	}
 	
 	private Pair<FDGNode, FDGNode> searchEntity(FDGNode node) {
@@ -120,7 +93,6 @@ public class AffectiveScoresClassifier {
 		return score;
 	}
 	
-	
 	public void buildARFFfile() {
 		ConvertCSVtoInstances converter = new ConvertCSVtoInstances(file, hasOpinion);
 		ArrayList<OpinionInstance> instances = converter.parse();
@@ -139,18 +111,16 @@ public class AffectiveScoresClassifier {
 			output.println("@data\n");
 			
 			for (OpinionInstance instance : instances) {
-				List<FDGNode> roots = FDGParser.getFDGParserTree(instance.getText());
+				Pair<Double, Pair<Double, Double>> score =
+						computeScoreForInstance(FDGParser.getFDGParserTree(instance.getText()));
 				
-				if (roots != null) {
-					Pair<Double, Double> score = computeScoreForInstance(roots);
-					double allScore = computeScoreForInstanceUsingAll(roots);
-					double childrenScore = score.getLeft();
-					double siblingScore = score.getRight();
+				double allScore = score.getLeft();
+				double childrenScore = score.getRight().getLeft();
+				double siblingScore = score.getRight().getRight();
 					
-					if ( childrenScore != 0 || siblingScore != 0 || allScore != 0 ) {
-						output.println(childrenScore + ", " + siblingScore + ", " + allScore + 
+				if ( childrenScore != 0 || siblingScore != 0 || allScore != 0 ) {
+					output.println(childrenScore + ", " + siblingScore + ", " + allScore + 
 								", " + instance.getOrientation());
-					}
 				}
 			}
 			
@@ -164,7 +134,6 @@ public class AffectiveScoresClassifier {
 	
 	public static void main(String[] args) {
 		AffectiveScoresClassifier classifier = new AffectiveScoresClassifier("bcr_small.csv", "bcr", true);
-		//classifier.computeOpinions();
 		classifier.buildARFFfile();
 	}
 }
