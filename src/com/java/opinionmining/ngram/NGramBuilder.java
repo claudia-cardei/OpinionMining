@@ -3,15 +3,13 @@ package com.java.opinionmining.ngram;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.lang3.mutable.MutableInt;
+import weka.core.Instance;
+import weka.core.Instances;
+import weka.core.converters.ConverterUtils.DataSource;
 
 import com.java.opinionmining.database.POSModel;
 import com.java.opinionmining.postagging.TaggedWord;
 import com.java.opinionmining.postagging.Tagger;
-
-import weka.core.Instance;
-import weka.core.Instances;
-import weka.core.converters.ConverterUtils.DataSource;
 
 
 /**
@@ -92,25 +90,5 @@ public class NGramBuilder {
 		}
 		
 		return nGrams;
-	}
-	
-	
-	public static void main(String[] args) {
-		try {
-			DataSource data = new DataSource("bcr.arff");
-			Instances instances = data.getDataSet();
-//			if ( instances.classIndex() == -1 )
-//				instances.setClassIndex(instances.numAttributes() - 1);
-			
-			NGramBuilder builder = new NGramBuilder(2);
-			
-			ArrayList<String> nGrams = builder.buildInstances(instances);
-			
-			for (String nGram:nGrams)
-				System.out.println(nGram);
-			
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
 	}
 }
