@@ -103,7 +103,6 @@ public class DiacriticsRestorer {
 			while (null != ((str = input.readLine()))) {
 				str = str.trim();
 				
-				System.out.println(str);
 				// Separate the relevant response line
                 if ( str.startsWith("<textarea") )
                 	response = str;
