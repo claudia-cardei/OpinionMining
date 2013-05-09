@@ -11,7 +11,7 @@ import weka.core.SerializationHelper;
 import weka.core.converters.ConverterUtils.DataSource;
 import weka.filters.Filter;
 
-import com.java.opinionmining.classifier.filter.OpinionFilter;
+import com.java.opinionmining.classifier.filter.NGramFilter;
 
 
 /**
@@ -40,7 +40,7 @@ public class OpinionClassifier {
 	
 	public void applyFilter(String outputFile) {
 		try {
-			OpinionFilter filter = new OpinionFilter(outputFile);						
+			NGramFilter filter = new NGramFilter(2, outputFile);						
 			filter.setInputFormat(trainData);
 			Instances filteredData = Filter.useFilter(trainData, filter);
 			trainData = filteredData;
