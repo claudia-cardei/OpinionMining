@@ -51,12 +51,15 @@ public class ConvertCSVtoInstances {
 		
 		try {
 			
+			// Skip first line
+			input.readLine();
+			
 			while ( (line = input.readLine()) != null ) {
 
 				while ( line.length() <= 1 || !line.contains("\",\"") ) {
 					line += "\\n" + input.readLine();
 				}
-												
+				
 				fields = line.split("\",\"");
 				
 				// Ignore incomplete lines
@@ -65,12 +68,13 @@ public class ConvertCSVtoInstances {
 				
 					content = fields[0];
 					content = content.substring(1, content.length());
-
+					
 					content = content.replace("\\", "\\\\");
 					content = content.replace("'", "\\'");
-					
+
 					// Add diacritics to the text
 					content = diacriticsRestorer.restore(content);
+					
 					
 					// If the input is a training file
 					if ( hasOpinion == true ) {
