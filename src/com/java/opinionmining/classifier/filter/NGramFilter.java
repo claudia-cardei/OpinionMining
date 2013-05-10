@@ -12,7 +12,6 @@ import weka.core.Attribute;
 import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.converters.ArffSaver;
-import weka.filters.SimpleBatchFilter;
 import com.java.opinionmining.database.POSModel;
 import com.java.opinionmining.postagging.TaggedWord;
 import com.java.opinionmining.postagging.Tagger;
@@ -25,7 +24,7 @@ import com.java.opinionmining.postagging.Tagger;
  * @author Filip Manisor
  *
  */
-public class NGramFilter extends SimpleBatchFilter {
+public class NGramFilter extends OpinionFilter {
 	
 	private static final long serialVersionUID = 7696981018501541605L;
 	
@@ -34,6 +33,7 @@ public class NGramFilter extends SimpleBatchFilter {
 	private String outputFile;
 	int n;
 	ArrayList<String> relevantNGrams;
+	boolean attributesSet;
 	
 	
 	public NGramFilter(int n, String outputFile) {
@@ -41,6 +41,7 @@ public class NGramFilter extends SimpleBatchFilter {
 		this.n = n;
 		this.outputFile = outputFile;
 		relevantNGrams = new ArrayList<String>();
+		attributesSet = false;
 	}
 
 	
@@ -51,20 +52,19 @@ public class NGramFilter extends SimpleBatchFilter {
 	
 	protected Instances determineOutputFormat(Instances inputFormat) throws Exception {
 		outputFormat = new Instances(inputFormat, 0);
-		int i = 0;
 		
 		// Set the list of relevant words
-		setNGrams();
+		if ( !attributesSet )
+			setAttributes();
 		
 		// Delete the text attribute
 		outputFormat.deleteAttributeAt(0);
 		
 		// Add a new attribute for each nGram
-		System.out.println(relevantNGrams.size());
 		for (String nGram : relevantNGrams) {
 			
 			// Add the attribute to the end of the list
-			outputFormat.insertAttributeAt(new Attribute(nGram.replace('|', '_')),
+			outputFormat.insertAttributeAt(new Attribute(nGram),
 					outputFormat.numAttributes() - 1);
 		}
 		
@@ -131,7 +131,7 @@ public class NGramFilter extends SimpleBatchFilter {
 	/**
 	 * Select the nGrams that will be used as attributes
 	 */
-	private void setNGrams() {
+	private void setAttributes() {
 		int i, j, k;
 		Instances input = getInputFormat();		
 		String nGram;
@@ -182,6 +182,27 @@ public class NGramFilter extends SimpleBatchFilter {
 			if ( word.getValue().compareTo(threshold) > 0 )
 				relevantNGrams.add(word.getKey());
 		}
+	}
+
+
+	@SuppressWarnings("unchecked")
+	public void setAttributesForValidation(Object o) {
+		attributesSet = true;
+		relevantNGrams = (ArrayList<String>) o;		
+	}
+
+
+	/**
+	 * Parse the attributes from an attribute list, according to this filter
+	 */
+	public Object parseAttributes(ArrayList<Attribute> attributes) {
+		ArrayList<String> nGrams = new ArrayList<String>();
+		
+		for (Attribute attribute:attributes) {
+			nGrams.add(attribute.name());
+		}
+		
+		return nGrams;
 	}
 }
 

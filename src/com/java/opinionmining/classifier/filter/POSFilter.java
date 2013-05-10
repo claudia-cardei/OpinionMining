@@ -7,17 +7,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
-
 import org.apache.commons.lang3.mutable.MutableInt;
-
 import weka.core.Attribute;
 import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.converters.ArffSaver;
-import weka.filters.SimpleBatchFilter;
-
 import com.java.opinionmining.database.DictionaryModel;
 import com.java.opinionmining.database.POSModel;
+import com.java.opinionmining.postagging.PartOfSpeech;
 import com.java.opinionmining.postagging.TaggedWord;
 import com.java.opinionmining.postagging.Tagger;
 
@@ -32,23 +29,23 @@ import com.java.opinionmining.postagging.Tagger;
  * @author Filip Manisor
  *
  */
-public class POSFilter extends SimpleBatchFilter {
+public class POSFilter extends OpinionFilter {
 	
 	private static final long serialVersionUID = 7696981018501541605L;
 	
 	private ArrayList<TaggedWord> relevantWords;
 	private Instances outputFormat;
 	private DictionaryModel dictionaryModel;
-	private POSModel posModel;
-	
+	private POSModel posModel;	
 	private String outputFile;
+	boolean attributesSet;
 	
 	public POSFilter(String outputFile) {
 		relevantWords = new ArrayList<TaggedWord>();
 		dictionaryModel = new DictionaryModel();
-		posModel = new POSModel();
-		
+		posModel = new POSModel();		
 		this.outputFile = outputFile;
+		attributesSet = false;
 	}
 
 	public String globalInfo() {
@@ -59,7 +56,8 @@ public class POSFilter extends SimpleBatchFilter {
 		outputFormat = new Instances(inputFormat, 0);
 		
 		// Set the list of relevant words
-		setRelevantWords();
+		if ( !attributesSet )
+			setAttributes();
 		
 		// Delete the text attribute
 		outputFormat.deleteAttributeAt(0);
@@ -125,7 +123,7 @@ public class POSFilter extends SimpleBatchFilter {
 		return result;
 	}
 	
-	private void setRelevantWords() {
+	private void setAttributes() {
 		Instances input = getInputFormat();
 		Map<TaggedWord, MutableInt> relevantWordMap = new HashMap<TaggedWord, MutableInt>();
 		
@@ -168,6 +166,40 @@ public class POSFilter extends SimpleBatchFilter {
 		for (Entry<TaggedWord, MutableInt> word : entrySet) {
 			relevantWords.add(word.getKey());
 		}
+	}
+
+	
+	@SuppressWarnings("unchecked")
+	public void setAttributesForValidation(Object o) {
+		attributesSet = true;
+		relevantWords = (ArrayList<TaggedWord>) o;
+	}
+
+	
+	/**
+	 * Parse the attributes from an attribute list, according to this filter
+	 */
+	public Object parseAttributes(ArrayList<Attribute> attributes) {
+		String[] tokens;
+		String posType, word;
+		PartOfSpeech pos;
+		TaggedWord taggedWord;
+		ArrayList<TaggedWord> taggedWords = new ArrayList<TaggedWord>();
+		
+		// Parse all the attributes
+		for (Attribute attribute:attributes) {
+			// Split the attributes into POS and word
+			tokens = attribute.name().split("_");
+			posType = tokens[0];
+			word = tokens[1];
+			
+			pos = PartOfSpeech.transformCodeToPartOfSpeech(posType);
+			// the word is actually the lemma
+			taggedWord = new TaggedWord(word, word, pos);
+			taggedWords.add(taggedWord);
+		}
+		
+		return taggedWords;
 	}
 }
 

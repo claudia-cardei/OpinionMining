@@ -22,11 +22,13 @@ public class DiacriticsRestorer {
 	
 	
 	/**
-	 * Replace diacritics codes with characters
+	 * Replace diacritics codes with characters and filter out unwanted characters
 	 * @param text
 	 * @return
 	 */
-	public static String replaceCharacters(String text) {
+	public static String normalizeText(String text) {
+		String newText = "";
+		
 		text = text.replace("&#259;", "ă");
 		text = text.replace("&#258;", "Ă");
 		text = text.replace("&acirc;", "â");
@@ -36,7 +38,15 @@ public class DiacriticsRestorer {
 		text = text.replace("&Icirc;", "Î");
 		text = text.replace("&#355;", "ț");
 		text = text.replace("&#354;", "Ț");
-		return text;
+		
+		// Remove control characters
+		for (int i = 0; i < text.length(); i++)
+			if ( text.codePointAt(i) < 32 )
+				newText += " ";
+			else
+				newText += text.charAt(i);
+		
+		return newText;
 	}
 	
 	
@@ -62,8 +72,11 @@ public class DiacriticsRestorer {
 			}
 		}
 		
-		return replaceCharacters(text);
+		return normalizeText(text);
 	}
+	
+	
+	
 
 	
 	
@@ -88,7 +101,7 @@ public class DiacriticsRestorer {
 			urlConn.connect();
 						
 			// Set content		
-			String content = "text_o=" + text.replace('&', ' ');
+			String content = "text_o=" + text.replace('&', ' ').replace('’', ' ');
 
 			// Sent POST message
 			DataOutputStream output = new DataOutputStream(urlConn.getOutputStream());
@@ -119,6 +132,11 @@ public class DiacriticsRestorer {
 	}
 	
 	
+	/**
+	 * Check if the text contains diacritics
+	 * @param text
+	 * @return
+	 */
 	public boolean containsDiacritics(String text) {
 		String lowerText = text.toLowerCase();
 
