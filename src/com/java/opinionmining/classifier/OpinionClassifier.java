@@ -2,16 +2,19 @@ package com.java.opinionmining.classifier;
 
 import java.io.File;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.Random;
-
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
+import weka.core.Attribute;
 import weka.core.Instances;
 import weka.core.SerializationHelper;
 import weka.core.converters.ConverterUtils.DataSource;
 import weka.filters.Filter;
 
 import com.java.opinionmining.classifier.filter.NGramFilter;
+import com.java.opinionmining.classifier.filter.OpinionFilter;
+import com.java.opinionmining.classifier.filter.POSFilter;
 
 
 /**
@@ -24,6 +27,7 @@ public class OpinionClassifier {
 
 	Instances trainData;
 	Classifier classifier;
+	OpinionFilter filter;
 	
 	public OpinionClassifier(String inputName) {
 		try {
@@ -40,7 +44,7 @@ public class OpinionClassifier {
 	
 	public void applyFilter(String outputFile) {
 		try {
-			NGramFilter filter = new NGramFilter(2, outputFile);						
+			filter = new NGramFilter(2, outputFile);						
 			filter.setInputFormat(trainData);
 			Instances filteredData = Filter.useFilter(trainData, filter);
 			trainData = filteredData;
@@ -98,6 +102,7 @@ public class OpinionClassifier {
 	 */
 	public void evaluateValidFile(String validInput, String outputFile) {
 		PrintWriter output;
+		OpinionFilter newFilter;
 		
 		try {
 			output = new PrintWriter(new File(outputFile));
@@ -108,10 +113,26 @@ public class OpinionClassifier {
 			if ( testData.classIndex() == -1 )
 				testData.setClassIndex(testData.numAttributes() - 1);
 			
+			
+			// Make a new filter that uses the attributes of the previous one
+			String transformedName = validInput.substring(0,validInput.lastIndexOf(".")) + "_transformed.arff";
+			newFilter = new NGramFilter(2, transformedName);				
+			newFilter.setInputFormat(testData);
+			
+			// get the attribute list from the training file
+			ArrayList<Attribute> attributes = new ArrayList<Attribute>();
+			for (int i = 0; i < trainData.numAttributes() - 1; i++)
+				attributes.add(trainData.attribute(i));
+			
+			// parse the attributes using the previous filter and use the results for the current one
+			newFilter.setAttributesForValidation(newFilter.parseAttributes(attributes));
+			Instances filteredData = Filter.useFilter(testData, newFilter);
+			
+			
 			// classify each instance
-			for (int i = 0; i < testData.numInstances(); i++) {
-				testData.instance(i).setClassMissing();
-				output.println(classifier.classifyInstance(testData.instance(i)));
+			for (int i = 0; i < filteredData.numInstances(); i++) {
+				filteredData.instance(i).setClassMissing();
+				output.println(classifier.classifyInstance(filteredData.instance(i)));
 			}
 			
 			output.close();
