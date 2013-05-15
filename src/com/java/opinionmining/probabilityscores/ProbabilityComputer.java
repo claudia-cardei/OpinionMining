@@ -17,6 +17,8 @@ import com.java.opinionmining.ngram.NGramBuilder;
 
 public class ProbabilityComputer {
 	
+	public static int NGRAMS = 2;
+	
 	private final int n;
 	private Instances instances;
 	
@@ -51,14 +53,24 @@ public class ProbabilityComputer {
 				}
 			}
 		}
-		
 		Map<String, Pair<Double, Double>> probabilities =
 				new HashMap<String, Pair<Double, Double>>();
-		for (String nGram : occurrences.keySet()) {
-			Pair<MutableInt, MutableInt> occ = occurrences.get(nGram);
-			probabilities.put(nGram, Pair.of(occ.getLeft().doubleValue() / totalNGramsPositive,
-					occ.getRight().doubleValue() / totalNGramsNegative));
+		
+		try {
+			PrintWriter out = new PrintWriter("probabilities_movie.txt");
+			
+			for (String nGram : occurrences.keySet()) {
+				Pair<MutableInt, MutableInt> occ = occurrences.get(nGram);
+				probabilities.put(nGram, Pair.of(occ.getLeft().doubleValue() / totalNGramsPositive,
+						occ.getRight().doubleValue() / totalNGramsNegative));
+				
+				out.println(nGram + " " + probabilities.get(nGram));
+			}
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
+		
 		
 		return probabilities;
 	}
@@ -66,16 +78,40 @@ public class ProbabilityComputer {
 	public static void main(String[] args) {
 		DataSource data;
 		Instances instances;
+		NGramBuilder builder;
 		try {
-			data = new DataSource("bcr_small.arff");
+			data = new DataSource("bcr_1400.arff");
 			instances = data.getDataSet();
+			builder  = new NGramBuilder(NGRAMS);
+			
 			if ( instances.classIndex() == -1 )
 				instances.setClassIndex(instances.numAttributes() - 1);
 			
-			ProbabilityComputer computer = new ProbabilityComputer(instances, 1);
+			ProbabilityComputer computer = new ProbabilityComputer(instances, NGRAMS);
 			Map<String, Pair<Double, Double>> probabilities = computer.builder();
 			
+			int correct = 0;
+			for (int i = 0; i < instances.numInstances(); i++) {
+				Instance instance = instances.instance(i);
+				ArrayList<String> nGramsForInstance = builder.buildInstance(instance);
+				double score = 0.0;
+				
+				for (String nGram : nGramsForInstance) {
+					Pair<Double, Double> prob = probabilities.get(nGram);
+					
+					score += (prob.getLeft() + prob.getRight()) / (prob.getLeft() - prob.getRight());
+				}
+				
+				if (score > 0 && instance.classValue() == 1) {
+					correct++;
+				}
+				
+				if (score < 0 && instance.classValue() == 0) {
+					correct++;
+				}
+			}
 			
+			System.out.println(correct * 100.0 / instances.numInstances());
 			
 		} catch (Exception e) {
 			e.printStackTrace();
