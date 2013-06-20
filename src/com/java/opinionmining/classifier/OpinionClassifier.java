@@ -11,7 +11,6 @@ import weka.core.Instances;
 import weka.core.SerializationHelper;
 import weka.core.converters.ConverterUtils.DataSource;
 import weka.filters.Filter;
-
 import com.java.opinionmining.classifier.filter.NGramFilter;
 import com.java.opinionmining.classifier.filter.OpinionFilter;
 import com.java.opinionmining.classifier.filter.POSFilter;
@@ -103,6 +102,8 @@ public class OpinionClassifier {
 	public void evaluateValidFile(String validInput, String outputFile) {
 		PrintWriter output;
 		OpinionFilter newFilter;
+		double classResult, classValue;
+		int correct = 0, total = 0;
 		
 		try {
 			output = new PrintWriter(new File(outputFile));
@@ -132,8 +133,23 @@ public class OpinionClassifier {
 			// classify each instance
 			for (int i = 0; i < filteredData.numInstances(); i++) {
 				filteredData.instance(i).setClassMissing();
-				output.println(classifier.classifyInstance(filteredData.instance(i)));
+				classResult = classifier.classifyInstance(filteredData.instance(i));
+				if ( classResult == 0.0 )
+					output.println(testData.instance(i).stringValue(0) + " - nefavorabil\n");
+				else
+					output.println(testData.instance(i).stringValue(0) + " - favorabil\n");
+				
+				if ( testData.instance(i).classIsMissing() == false ) {
+					classValue = testData.instance(i).classValue();
+					total++;
+					if ( classValue == classResult )
+						correct++;
+				}
 			}
+			
+			// Calculate the accuracy
+			if ( total > 0 )
+				output.println("--------------------------------------------\nResult:\n\t"+ correct * 100 / (double)total + "% correctly classified.");
 			
 			output.close();
 			
